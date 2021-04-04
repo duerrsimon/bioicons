@@ -1,6 +1,13 @@
 <template>
-  <img src="~/assets/logo.svg" />
+  <img src="~/assets/logo.svg" v-if="!darkMode" />
+  <img src="~/assets/logoDark.svg" v-else />
 </template>
+
+<script>
+export default {
+  props: ['darkMode'],
+}
+</script>
 
 <style>
 .NuxtLogo {

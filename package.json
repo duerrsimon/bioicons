@@ -15,7 +15,10 @@
     "@tailwindcss/ui": "^0.7.2",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
-    "typeface-inter": "^3.15.1"
+    "nuxt-lazy-load": "^1.2.5",
+    "typeface-inter": "^3.15.1",
+    "vt-notifications": "^0.4.1",
+    "vue-browser-detect-plugin": "^0.1.13"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",

@@ -11,7 +11,7 @@
       ></div>
     </div>
     <div
-      class="rounded-t-0 lg:rounded-t-6 shadow-2 shadow dark:shadow-none box-content bg-white dark:bg-cool-gray-900 border-b border-transparent dark:border-cool-gray-800"
+      class="rounded-t-0 lg:rounded-t-6 shadow dark:shadow-none box-content bg-white dark:bg-cool-gray-900 border-b border-transparent dark:border-cool-gray-800"
       style="height: var(--search-bar-height)"
     >
       <form class="h-full relative">
@@ -22,9 +22,9 @@
                 class="w-6 h-6 text-cool-gray-400 dark:text-cool-gray-600 transition duration-200 ease-out"
                 fill="none"
                 stroke="currentColor"
-                style=""
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
+                :class="{ 'text-green-500': fieldFocus }"
               >
                 <path
                   d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
@@ -37,28 +37,54 @@
           </div>
         </div>
         <input
+          id="searchInput"
+          ref="searchInput"
+          :value="value"
+          @input="$emit('input', $event.target.value)"
           aria-label='Search (Press "/" to Focus)'
           autocapitalize="off"
           autocomplete="off"
           autocorrect="off"
           autofocus=""
           class="block w-full h-full bg-transparent focus:outline-none px-16 text-xl placeholder-cool-gray-400 dark:placeholder-cool-gray-600 text-cool-gray-800 dark:text-cool-gray-200"
-          placeholder="Search (Press / to Focus)"
+          placeholder='Search (Press "/" to Focus)'
           spellcheck="false"
           style="padding-left: 4.5rem; padding-right: 11.5rem"
           type="text"
-          value=""
+          @focus="fieldFocus = true"
+          @blur="fieldFocus = false"
         />
         <div class="absolute right-0 inset-y-0">
           <div class="px-8 pl-4 flex flex-row h-full">
             <div class="-mr-1"></div>
             <div class="group px-1 flex flex-row items-center">
-              <button
-                aria-label="Click to Switch to Solid Icons"
-                class="focus:outline-none transition duration-200 ease-out p-2 relative text-green-500 bg-purple-500 bg-opacity-12.5 focus:bg-opacity-25 rounded-full"
-                style="color: ; background-color: "
+              <select-categories
+                v-on:category="categorySelected"
+                :categories="categories"
+              />
+              <div
+                class="cursor-pointer focus:outline-none transition duration-200 ease-out p-2 relative text-green-500 bg-green-500 bg-opacity-12.5 hover:bg-opacity-25 focus:bg-opacity-25 rounded-full"
+                :aria-label="ariaClipboardDownload"
+                @click="toggleClipboard"
+                id="clipboard"
               >
                 <svg
+                  v-if="clipboard"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="w-6 h-6 overflow-visible"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                  ></path>
+                </svg>
+
+                <svg
+                  v-else
                   class="w-6 h-6 overflow-visible"
                   fill="none"
                   stroke="currentColor"
@@ -66,57 +92,67 @@
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M12 2.94336C14.3567 5.05797 17.4561 6.15127 20.618 5.98336C20.867 6.94736 21 7.95736 21 8.99936C21 14.5914 17.176 19.2894 12 20.6214C6.824 19.2894 3 14.5904 3 8.99936C2.99918 7.98191 3.12754 6.96847 3.382 5.98336C6.5439 6.15127 9.64327 5.05797 12 2.94336Z"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
+                    d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"
                   ></path>
                 </svg>
-              </button>
-            </div>
-            <div class="group px-1 flex flex-row items-center">
-              <button
-                aria-label="Click to Enable Copy as JSX"
-                class="focus:outline-none transition duration-200 ease-out p-2 relative text-green-500 bg-purple-500 bg-opacity-12.5 focus:bg-opacity-25 rounded-full"
-                style="color: ; background-color: "
-              >
-                <svg
-                  class="w-6 h-6 overflow-visible"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
+                <div
+                  class="pt-2 absolute right-0 top-full hidden"
+                  id="clipboardMessage"
                 >
-                  <path
-                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                  ></path>
-                </svg>
-              </button>
+                  <div class="rounded-1 shadow">
+                    <div
+                      class="rounded-1 shadow-px-2 dark:shadow-2 px-3 py-2 bg-white dark:bg-cool-gray-800"
+                    >
+                      <p
+                        class="text-left text-sm whitespace-pre font-medium text-cool-gray-800 dark:text-cool-gray-100"
+                      > {{clipboard ? 'Copy icons to clipboard (chrome/Edge only)' : 'Download icons as svg on click'}} </p> <!-- eslint-disable-line -->
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="group px-1 flex flex-row items-center">
-              <button
+              <div
+                class="cursor-pointer focus:outline-none transition duration-200 ease-out p-2 relative text-green-500 bg-green-500 bg-opacity-12.5 hover:bg-opacity-25 focus:bg-opacity-25 rounded-full"
+                style="color: ; background-color: "
                 aria-label="Click to Enable Dark Mode"
-                class="focus:outline-none transition duration-200 ease-out p-2 relative text-green-500 bg-purple-500 bg-opacity-12.5 focus:bg-opacity-25 rounded-full"
-                style="color: ; background-color: "
+                @click="toggleDarkMode"
+                id="darkMode"
               >
                 <svg
-                  class="w-6 h-6 overflow-visible"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 h-6 overflow-visible"
                 >
                   <path
-                    d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
+                    d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
                   ></path>
                 </svg>
-              </button>
+                <div
+                  class="pt-2 absolute right-0 top-full hidden"
+                  id="darkModeMessage"
+                >
+                  <div class="rounded-1 shadow">
+                    <div
+                      class="rounded-1 shadow-px-2 dark:shadow-2 px-3 py-2 bg-white dark:bg-cool-gray-800"
+                    >
+                      <p
+                        class="text-left text-sm whitespace-pre font-medium text-cool-gray-800 dark:text-cool-gray-100"
+                      > Switch to {{darkMode ? 'light mode' : 'dark mode'}} </p> <!-- eslint-disable-line -->
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="-ml-1"></div>
           </div>
@@ -127,12 +163,77 @@
 </template>
 
 <script>
-export default {}
+import SelectCategories from '../components/SelectCategories.vue'
+
+export default {
+  props: ['darkMode', 'value', 'categories', 'clipboard'],
+  components: { SelectCategories },
+  data() {
+    return {
+      // search: '',
+      fieldFocus: false,
+    }
+  },
+  methods: {
+    toggleClipboard() {
+      let dm = 'File download activated'
+      if (this.clipboard) {
+        dm = 'Copy to clipboard activated (only chrome)'
+      }
+      this.$notify(
+        {
+          text: dm,
+          type: 'generic',
+        },
+        2000
+      )
+      this.$emit('toggleClipboard')
+    },
+    toggleDarkMode() {
+      let dm = 'activated'
+      if (this.darkMode) {
+        dm = 'deactivated'
+      }
+      this.$notify(
+        {
+          text: 'Dark mode ' + dm,
+          type: 'generic',
+        },
+        2000
+      )
+      this.$emit('toggleDark')
+    },
+    categorySelected(cat) {
+      this.$emit('category', cat)
+    },
+  },
+  computed: {
+    ariaClipboardDownload() {
+      if (this.clipboard) {
+        return 'Click to enable copy to clipboard as SVG'
+      }
+      return 'Click to download as SVG'
+    },
+    searchFocus() {
+      if (this.value.length > 0 || this.fieldFocus) {
+        return true
+      }
+      return false
+    },
+  },
+}
 </script>
 
 <style>
 html {
   --search-bar-height: 4.5rem;
   --search-bar-negative-margin: 6rem;
+}
+
+#darkMode:hover #darkModeMessage {
+  display: block;
+}
+#clipboard:hover #clipboardMessage {
+  display: block;
 }
 </style>

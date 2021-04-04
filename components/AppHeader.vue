@@ -6,7 +6,7 @@
       <div class="h-16"></div>
       <div class="flex flex-row justify-center">
         <div class="relative">
-          <Logo />
+          <Logo :darkMode="darkMode" />
         </div>
       </div>
       <div class="h-2"></div>
@@ -18,9 +18,9 @@
               class="inline-flex flex-row flex-wrap justify-center items-center align-top"
               ><span style="width: 0.33ch"></span
               ><span class="inline sm:hidden"
-                >CC by SA and MIT icons for your scientific figures.</span
+                >CC by SA and CC0 science icons.</span
               ><span class="hidden sm:inline"
-                >CC by SA and MIT icons for your scientific figures.</span
+                >CC by SA and CC0 icons for your scientific figures.</span
               ><span style="width: 0.33ch"></span></span
             ><span style="width: 0.33ch"></span
             ><span
@@ -47,10 +47,10 @@
             class="block"
           >
             <div
-              class="p-5 bg-green-50 bg-opacity-18.75 dark:bg-opacity-12.5 rounded-3"
+              class="p-5 bg-green-50 bg-opacity-18.75 dark:bg-opacity-12.5 rounded-3 text-green-50 hover:bg-white hover:text-gray-800"
             >
               <p
-                class="text-center sm:text-left font-medium text-lg leading-none text-green-50"
+                class="text-center sm:text-left font-medium text-lg leading-none"
               >
                 <span class="align-top inline-flex flex-row items-center"
                   ><svg
@@ -87,10 +87,10 @@
             class="block"
           >
             <div
-              class="p-5 bg-green-50 bg-opacity-18.75 dark:bg-opacity-12.5 rounded-3"
+              class="p-5 bg-green-50 bg-opacity-18.75 dark:bg-opacity-12.5 text-green-50 rounded-3 hover:bg-white hover:text-gray-800"
             >
               <p
-                class="text-center sm:text-left font-medium text-lg leading-none text-green-50"
+                class="text-center sm:text-left font-medium text-lg leading-none"
               >
                 <span class="align-top inline-flex flex-row items-center"
                   ><svg
@@ -123,6 +123,7 @@
 import Logo from './Logo.vue'
 export default {
   components: { Logo },
+  props: ['darkMode'],
 }
 </script>
 

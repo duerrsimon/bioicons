@@ -1,8 +1,9 @@
 <template>
-  <div class="container">
+  <div class="container" :class="{ dark: darkMode }">
     <section class="relative">
       <github-buttons />
-      <app-header />
+
+      <app-header :darkMode="darkMode" />
       <div class="absolute inset-x-0 top-full pointer-events-none">
         <svg
           preserveAspectRatio="none"
@@ -22,10 +23,18 @@
         style="margin-top: calc(-1 * var(--search-bar-negative-margin))"
       >
         <main class="z-10" style="width: 100%; max-width: 1152px">
-          <toolbar />
-
+          <toolbar
+            ref="toolbar"
+            @toggleDark="toggleDarkMode"
+            @toggleClipboard="toggleClipboard"
+            :darkMode="darkMode"
+            :clipboard="clipboard"
+            :categories="categories"
+            v-model="searchQuery"
+            @category="categorySelected"
+          />
           <div
-            class="shadow-2 shadow lg:shadow-2 bg-white dark:bg-cool-gray-900 overflow-hidden"
+            class="shadow lg:shadow-lg bg-white dark:bg-cool-gray-900 overflow-hidden rounded-b-xl"
             style="
               margin-top: calc(-1 * var(--search-bar-height));
               padding-top: var(--search-bar-height);
@@ -33,33 +42,77 @@
             "
           >
             <div id="app-grid">
-              <icon />
+              <icon
+                v-on:copy-clipboard="showToast"
+                v-for="icon in filteredIcons"
+                :key="icon.name"
+                :clipboard="clipboard"
+                :icon="icon"
+              />
             </div>
           </div>
         </main>
       </div>
       <div class="hidden lg:block h-24"></div>
     </section>
-    <div
-      class="px-4 sm:px-6 py-4 fixed left-0 bottom-0 opacity-0 scale-90 z-30 transition duration-300 ease-out transform"
-    >
-      <div class="rounded-1 shadow-4">
-        <div class="rounded-1 shadow-2 px-3 py-2 bg-cool-gray-800">
-          <p
-            class="font-medium text-cool-gray-100"
-            style="font-size: 0.875rem; letter-spacing: 0.0125em"
-          >
-            <span class="flex flex-row"
-              ><span
-                class="flex flex-row items-center"
-                style="height: 1.3125rem"
-              ></span
-              ><span style="width: 1ch"></span><span></span
-            ></span>
-          </p>
+    <notificationGroup>
+      <div
+        class="px-4 sm:px-6 py-4 fixed left-0 bottom-0 z-30 transition duration-300 ease-out opacity-100 transform scale-90"
+      >
+        <div class="rounded-1 shadow-4">
+          <notification v-slot="{ notifications }">
+            <div
+              class="rounded-1 shadow-2 px-3 py-2 bg-cool-gray-800 my-1"
+              v-for="notification in notifications"
+              :key="notification.id"
+            >
+              <p
+                class="font-medium text-cool-gray-100"
+                style="font-size: 0.875rem; letter-spacing: 0.0125em"
+              >
+                <span class="flex flex-row"
+                  ><span
+                    class="flex flex-row items-center"
+                    style="height: 1.3125rem"
+                    ><svg
+                      v-if="notification.type === 'copy'"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class=""
+                      style="width: 1em; height: 1em"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                    <svg
+                      v-else
+                      style="width: 1em; height: 1em"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      ></path>
+                    </svg> </span
+                  ><span style="width: 1ch"></span
+                  ><span v-if="notification.type === 'copy'"
+                    >Copied {{ notification.text }} to clipboard</span
+                  ><span v-else> {{ notification.text }} </span></span
+                >
+              </p>
+            </div>
+          </notification>
         </div>
       </div>
-    </div>
+    </notificationGroup>
   </div>
 </template>
 
@@ -68,12 +121,120 @@ import AppHeader from '../components/AppHeader.vue'
 import GithubButtons from '../components/GithubButtons.vue'
 import Icon from '../components/Icon.vue'
 import Toolbar from '../components/Toolbar.vue'
+
+const getIcons = () =>
+  import('../static/icons/icons.json').then((m) => m.default || m)
+
+const getCategories = () =>
+  import('../static/icons/categories.json').then((m) => m.default || m)
+
 export default {
-  components: { GithubButtons, AppHeader, Toolbar, Icon },
+  components: { GithubButtons, AppHeader, Toolbar, Icon }, // Toast
+  async asyncData({ req }) {
+    const icons = await getIcons()
+    const categories = await getCategories()
+    return { icons, categories }
+  },
+  data() {
+    return {
+      darkMode: false,
+      clipboard: false,
+      // iconName: '',
+      name: '',
+      searchQuery: null,
+      category: 'All_icons',
+    }
+  },
+  methods: {
+    categorySelected(val) {
+      this.category = val
+    },
+    showToast(icon) {
+      // this.iconName = icon
+      this.$notify(
+        {
+          text: icon,
+          type: 'copy',
+        },
+        2000
+      )
+    },
+    toggleDarkMode() {
+      this.darkMode = !this.darkMode
+    },
+    toggleClipboard() {
+      this.clipboard = !this.clipboard
+    },
+  },
+  computed: {
+    categorizedIcons() {
+      if (this.category !== 'All_icons') {
+        return this.icons.filter((item) => {
+          return item.category === this.category
+        })
+      } else {
+        return this.icons
+      }
+    },
+    settings() {
+      return { clipboard: this.clipboard, darkMode: this.darkMode }
+    },
+    filteredIcons() {
+      if (this.searchQuery) {
+        return this.categorizedIcons.filter((item) => {
+          return this.searchQuery
+            .toLowerCase()
+            .split(' ')
+            .every((v) => item.name.toLowerCase().includes(v))
+        })
+      } else {
+        return this.categorizedIcons
+      }
+    },
+  },
+  watch: {
+    searchQuery() {
+      this.$router.push({
+        path: this.$route.path,
+        query: { query: this.searchQuery },
+      })
+    },
+    settings() {
+      localStorage.setItem('settings', JSON.stringify(this.settings))
+    },
+  },
+  created() {
+    this.searchQuery = this.$route.query.query
+  },
+  mounted() {
+    const settings = localStorage.getItem('settings')
+    console.log(settings)
+    if (settings) {
+      this.clipboard = settings.clipboard
+      this.clipboard = settings.darkMode
+    }
+    window.addEventListener('keypress', (e) => {
+      if (e.keyCode === 47) {
+        e.preventDefault()
+        this.$nextTick(() => {
+          this.$refs.toolbar.$refs.searchInput.focus()
+        })
+      }
+    })
+  },
 }
 </script>
 
 <style>
+@import url('https://rsms.me/inter/inter.css');
+html {
+  font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
 @media (min-width: 1072px) {
   html {
     background-attachment: fixed, fixed;
@@ -103,10 +264,10 @@ export default {
 }
 
 #app-grid > * {
-  outline: 1px solid var(--cool-gray-200);
+  outline: 1px solid #eee;
 }
 
 .dark #app-grid > * {
-  outline: 1px solid var(--cool-gray-800);
+  outline: 1px solid #2d3748;
 }
 </style>

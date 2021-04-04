@@ -10,325 +10,27 @@
             class="opacity-0 group-hover:opacity-100 group-focus:opacity-100 transform scale-0 group-hover:scale-100 group-focus:scale-100 transition duration-300 ease-out w-40 h-40 bg-transparent bg-green-500 dark:bg-green-600 bg-opacity-12.5 dark:bg-opacity-100 rounded-full"
           ></div>
         </div>
-        <div class="absolute inset-0">
-          <div class="flex flex-row justify-center items-center h-full">
-            <svg
-              viewBox="0 0 271.143 322.847"
-              height="8rem"
-              id="Agitator"
-              class="w-32 h-32 text-cool-gray-800 dark:text-cool-gray-200 group-hover:text-green-600 group-focus:text-green-600 dark:group-hover:text-green-50 dark:group-focus:text-green-50"
-            >
-              <defs>
-                <clipPath clipPathUnits="userSpaceOnUse" id="agitator_svg__a">
-                  <path d="M.16-.32h270.796v323.084H.16z"></path>
-                </clipPath>
-              </defs>
-              <path
-                clip-path="url(#agitator_svg__a)"
-                d="M3.978 291.383c1.119.56 2.258 1.12 4.497 1.12H263.62c7.855 0 6.176-8.415 6.176-8.415l-12.352-164.76H14.091L1.18 284.648v1.119s-.58 3.937 2.799 5.616z"
-                fill="#4f91af"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M35.299 308.253v6.196c0 3.938 7.295 7.316 16.29 7.316 8.974 0 15.69-3.378 15.69-7.316v-6.196H35.3zm168.697 0v6.196c0 3.938 6.736 7.316 15.71 7.316 8.995 0 16.271-3.378 16.271-7.316v-6.196h-31.98z"
-                fill="#0e191e"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M36.058 149.67c0-4.498 3.358-7.876 7.855-7.876h183.789c3.918 0 7.855 3.378 7.855 7.875l5.617 90.525c0 4.498-3.358 7.856-7.296 7.856H37.738c-3.938 0-7.876-3.358-7.876-7.856l6.196-90.525z"
-                fill="#dde9ef"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M174.254 193.683c0-11.653 9.295-21.108 20.748-21.108 11.473 0 20.747 9.455 20.747 21.108 0 11.673-9.274 21.107-20.747 21.107-11.453 0-20.748-9.434-20.748-21.107"
-                fill="none"
-                stroke="#8fadc2"
-                stroke-width="4.477"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M245.131 68.558H26.484c-2.798 0-4.497 2.26-5.057 5.657l-7.316 45.113h243.373l-7.855-45.113c-.56-3.398-1.7-5.657-4.498-5.657z"
-                fill="#88b5c9"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M174.254 193.683c0-11.653 9.295-21.108 20.748-21.108 11.473 0 20.747 9.455 20.747 21.108 0 11.673-9.274 21.107-20.747 21.107-11.453 0-20.748-9.434-20.748-21.107z"
-                fill="#0e191e"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M26.364 68.478h218.648c.56 0 1.119.56 1.678.56l-34.838-31.48c-1.12-1.68-4.498-2.26-6.177-2.26H65.141c-1.68 0-5.057.58-5.617 2.26l-35.419 31.48c.58 0 1.7-.56 2.259-.56z"
-                fill="#e6f0f4"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                clip-path="url(#agitator_svg__a)"
-                d="M269.237 289.465c-1.12 1.719-2.239 2.858-5.617 2.858H8.475c-2.239 0-3.378-.58-4.497-1.14-1.12-.58-1.12-1.139-1.68-1.718l-.56 12.532s-1.138 6.256 6.737 6.256H263.62c7.855 0 6.176-8.535 6.176-8.535l-.56-10.253z"
-                fill="#187095"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M179.851 192.243h-5.597v2.32h5.597c.56 0 1.12-.58 1.12-1.16s-.56-1.16-1.12-1.16zm-75.314-4.957c0-2.798-1.68-5.036-4.478-5.036H71.397c-2.819 0-5.077 2.238-5.077 5.036v11.753c0 2.799 2.258 4.478 5.077 4.478h28.662c2.799 0 4.478-1.68 4.478-4.478v-11.753z"
-                fill="#4f91af"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M72.596 187.806H98.82V198.6H72.596z"
-                fill="none"
-                stroke="#10678d"
-                stroke-width="2.159"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M72.556 187.766v10.794H98.78v-10.794H72.556z"
-                fill="#fa0b2b"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M100.06 8.475C100.06 4.137 116.07.6 135.797.6c19.748 0 35.738 3.537 35.738 7.875 0 4.357-15.99 7.875-35.738 7.875-19.728 0-35.739-3.518-35.739-7.875z"
-                fill="#a7b7be"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M100.06 46.692c0-4.338 16.01-7.876 35.738-7.876 19.748 0 35.738 3.538 35.738 7.876 0 4.357-15.99 7.875-35.738 7.875-19.728 0-35.739-3.518-35.739-7.875z"
-                fill="#3c525c"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M124.764 57.325h11.254c19.688 0 35.998-3.338 35.998-7.235-2.799 9.454-29.802 12.232-47.252 7.235z"
-                fill="#fff"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M106.775 46.452c0-2.978 12.833-5.397 28.623-5.397 15.81 0 28.623 2.419 28.623 5.397 0 2.998-12.813 5.397-28.623 5.397-15.79 0-28.623-2.399-28.623-5.397z"
-                fill="#1f323a"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M107.815 47.851c3.378 2.299 14.65 3.998 27.583 3.998 13.512 0 24.205-1.7 27.583-3.998-3.378-2.279-14.071-3.998-27.583-3.998-12.932 0-24.205 1.72-27.583 3.998z"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M110.633 6.676c5.077-1.679 13.532-2.798 24.825-2.798 11.833 0 20.288 1.119 25.365 2.798 1.679.56 1.119 1.12.56 1.679-5.637 1.12-14.092 2.239-25.925 2.239-11.293 0-19.748-1.12-24.825-2.24-1.12-.559-2.818-1.118 0-1.678z"
-                fill="#1f323a"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M157.225 8.955c-5.037-1.08-12.333-1.64-21.867-1.64-8.955 0-16.25.56-21.307 1.64 5.057 1.099 12.352 1.639 21.307 1.639 9.534 0 16.83-.54 21.867-1.64z"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M100.06 19.128c0 4.538 15.77 7.936 35.458 7.936 19.708 0 36.018-3.398 36.018-7.936V8.355c0 4.537-16.31 7.955-36.018 7.955-19.688 0-35.459-3.418-35.459-7.955v10.773z"
-                fill="#1f323a"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M100.02 19.068c0 4.538 15.73 7.916 35.378 7.916 19.668 0 35.958-3.378 35.958-7.916l7.855 7.916c0 5.656-19.648 9.594-43.813 9.594-24.145 0-43.814-3.938-43.814-9.594l8.435-7.916z"
-                fill="#3c525c"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M20.108 103.577c1.14-14.091 3.937-24.805 4.517-27.063 0-2.259 1.12-3.958 7.296-3.958H214.71S38.117 76.514 31.92 78.772c-6.176 2.259-8.434 5.637-11.812 24.805z"
-                fill="#e6f0f4"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M46.092 54.567c9.015-8.395 14.072-13.432 15.75-15.11 2.26-1.12 2.819-1.12 8.995-1.12h26.424c-9.554 0-26.984 1.12-31.48 3.358-4.498 2.238-18.55 11.193-19.689 12.872z"
-                fill="#fff"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M61.843 115.33h189.884l-5.616-32.78c1.14 7.915-17.97 22.047-42.694 26.004-22.467 3.958-141.574 6.776-141.574 6.776z"
-                fill="#5595b2"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M8.355 228.302l9.554-105.776h209.033c-56.745.58-178.691 2.258-195.541 8.455-16.85 6.176-17.99 52.888-23.046 97.32z"
-                fill="#adccda"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M56.086 288.505h204.096c5.057 0 6.736-1.12 6.736-10.673 0-9.555-9.554-126.524-9.554-126.524 2.259 30.942 1.14 94.483-1.12 111.912-2.238 17.43-33.18 16.29-55.106 17.99-19.108 1.679-145.052 7.295-145.052 7.295z"
-                fill="#187095"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M162.502 12.353c-5.617 1.119-14.072 2.238-25.905 2.238-11.253 0-19.708-.56-24.785-2.238 7.336 0 39.436 1.678 50.69 0z"
-                fill="#fff"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M102.298 19.628v-6.796c4.517 2.279 14.651 4.537 28.703 4.537-8.435 2.26-22.507 0-24.745-.56-2.819 0-3.958 1.7-3.958 2.82z"
-                fill="#728791"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M98.92 21.867l-5.097 4.477s4.517 5.597 19.189 6.716c-5.637-.56-15.79-6.156-14.092-11.193z"
-                fill="#d0d9dd"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M155.786 65.36h82.03c1.679 0-26.964-25.504-26.964-25.504 6.736 7.375 13.492 17.57 7.296 19.848-6.176 2.258-62.362 5.656-62.362 5.656zm36.457 152.768c17.91 0 27.424-9.554 27.424-28.123 5.037 13.512-2.239 34.3-27.424 28.123zm-9.553-22.427c0-9.554 7.894-16.87 17.449-16.87h3.378c-2.799-1.678-6.177-2.818-9.555-2.818-9.574 0-17.469 7.316-17.469 16.87 0 8.435 5.637 15.19 13.512 16.87-4.497-3.358-7.316-8.435-7.316-14.052z"
-                fill="#fff"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M73.036 187.766V198h2.238v-10.234h-2.238z"
-                fill="#fba8ab"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M75.274 187.766v10.794h10.794v-10.794H75.274z"
-                fill="#cd0011"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M87.027 195.761v-6.716h10.794l-9.535 1-1.259 5.716z"
-                fill="#fff"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M267.638 291.224c-1.12.58-2.239 1.139-3.938 1.139h-5.057c-1.14 2.278-5.077 7.975-16.89 8.535-16.33.58-109.233 5.117-109.233 5.117h130.62c3.938 0 5.057 0 4.498-14.791z"
-                fill="#025273"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M179.851 192.243h-5.597v2.32h5.597c.56 0 1.12-.58 1.12-1.16s-.56-1.16-1.12-1.16z"
-                fill="#9e9e9e"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M179.851 192.243h-5.597v2.32h5.597c.56 0 1.12-.58 1.12-1.16s-.56-1.16-1.12-1.16"
-                fill="none"
-                stroke="#333"
-                stroke-width="0.64"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M176.493 24.825c0 4.397-18.01 8.235-41.095 8.235-22.506 0-41.095-3.838-41.095-8.235"
-                fill="none"
-                stroke="#fff"
-                stroke-width="0.32"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M174.254 21.867c0 4.537-17.41 8.475-38.776 8.475-20.788 0-38.217-3.938-38.217-8.475"
-                fill="none"
-                stroke="#fff"
-                stroke-width="0.32"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M35.299 308.253v6.196c0 3.938 7.295 7.316 16.29 7.316 8.974 0 15.69-3.378 15.69-7.316v-6.196H35.3zm168.697 0v6.196c0 3.938 6.736 7.316 15.71 7.316 8.995 0 16.271-3.378 16.271-7.316v-6.196h-31.98zM36.058 149.67c0-4.498 3.358-7.876 7.855-7.876h183.789c3.918 0 7.855 3.378 7.855 7.875l5.617 90.525c0 4.498-3.358 7.856-7.296 7.856H37.738c-3.938 0-7.876-3.358-7.876-7.856l6.196-90.525zm209.073-81.112H26.484c-2.798 0-4.497 2.26-5.057 5.657l-7.316 45.113h243.373l-7.855-45.113c-.56-3.398-1.7-5.657-4.498-5.657"
-                fill="none"
-                stroke="#333"
-                stroke-width="0.64"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M174.254 193.683c0-11.653 9.295-21.108 20.748-21.108 11.473 0 20.747 9.455 20.747 21.108 0 11.673-9.274 21.107-20.747 21.107-11.453 0-20.748-9.434-20.748-21.107"
-                fill="none"
-                stroke="#333"
-                stroke-width="0.64"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M176.493 214.79c-2.239-.56-15.71-20.788-5.037-34.84l-6.736-3.937c-12.932 20.248 8.975 38.217 11.773 38.777z"
-                fill="#02638b"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M112.932 35.299H65.14c-1.68 0-5.057.58-5.617 2.258L24.105 69.038c.58 0 1.7-.56 2.259-.56h218.648c.56 0 1.119.56 1.678.56l-34.838-31.48s0 0 0 0c-1.12-1.68-4.498-2.26-6.177-2.26h-47.231"
-                fill="none"
-                stroke="#333"
-                stroke-width="0.64"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                clip-path="url(#agitator_svg__a)"
-                d="M3.978 291.383c1.119.56 2.258 1.12 4.497 1.12H263.62c7.855 0 6.176-8.415 6.176-8.415s0 0 0 0l-12.352-164.76H14.091L1.18 284.648v1.119s-.58 3.937 2.799 5.616"
-                fill="none"
-                stroke="#333"
-                stroke-width="0.64"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                clip-path="url(#agitator_svg__a)"
-                d="M269.237 289.465c-1.12 1.719-2.239 2.858-5.617 2.858h-3.937s0 0 0 0H8.475c-2.239 0-3.378-.58-4.497-1.14-1.12-.58-1.12-1.139-1.68-1.718l-.56 12.532s-1.138 6.256 6.737 6.256H263.62c7.855 0 6.176-8.535 6.176-8.535l-.56-10.253z"
-                fill="none"
-                stroke="#333"
-                stroke-width="0.64"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M104.537 187.286c0-2.798-1.68-5.036-4.478-5.036H71.397c-2.819 0-5.077 2.238-5.077 5.036v11.753c0 2.799 2.258 4.478 5.077 4.478h28.662c2.799 0 4.478-1.68 4.478-4.478v-11.753z"
-                fill="none"
-                stroke="#333"
-                stroke-width="0.64"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M72.556 187.766H98.78v10.794H72.556zm12.712 0l.32 10.794m-10.314-10.794l.32 10.794M100.06 8.475C100.06 4.137 116.07.6 135.797.6c19.748 0 35.738 3.537 35.738 7.875 0 4.357-15.99 7.875-35.738 7.875-19.728 0-35.739-3.518-35.739-7.875m.002 38.217c0-4.338 16.01-7.876 35.738-7.876 19.748 0 35.738 3.538 35.738 7.876 0 4.357-15.99 7.875-35.738 7.875-19.728 0-35.739-3.518-35.739-7.875"
-                fill="none"
-                stroke="#333"
-                stroke-width="0.64"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M106.775 46.452c0-2.978 12.833-5.397 28.623-5.397 15.81 0 28.623 2.419 28.623 5.397 0 2.998-12.813 5.397-28.623 5.397-15.79 0-28.623-2.399-28.623-5.397m3.858-39.776c5.077-1.679 13.532-2.798 24.825-2.798 11.833 0 20.288 1.119 25.365 2.798 1.679.56 1.119 1.12.56 1.679-5.637 1.12-14.092 2.239-25.925 2.239-11.293 0-19.748-1.12-24.825-2.24-1.12-.559-2.818-1.118 0-1.678"
-                fill="none"
-                stroke="#333"
-                stroke-width="0.64"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M100.06 19.128c0 4.538 15.77 7.936 35.458 7.936 19.708 0 36.018-3.398 36.018-7.936V8.355c0 4.537-16.31 7.955-36.018 7.955-19.688 0-35.459-3.418-35.459-7.955v10.773z"
-                fill="none"
-                stroke="#333"
-                stroke-width="0.64"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M100.02 19.068c0 4.538 15.73 7.916 35.378 7.916 19.668 0 35.958-3.378 35.958-7.916l7.855 7.916c0 5.656-19.648 9.594-43.813 9.594-24.145 0-43.814-3.938-43.814-9.594l8.435-7.916z"
-                fill="none"
-                stroke="#333"
-                stroke-width="0.64"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M118.528 36.098v10.594c0 2.218 7.875 3.877 16.87 3.877 9.574 0 16.87-1.659 16.87-3.877V36.098c-5.057.56-10.674.56-16.87.56-5.617 0-11.233 0-16.87-.56z"
-                fill="#0e191e"
-                fill-rule="evenodd"
-              ></path>
-              <path
-                d="M118.528 36.098v10.594c0 2.218 7.875 3.877 16.87 3.877 9.574 0 16.87-1.659 16.87-3.877V36.098c-5.057.56-10.674.56-16.87.56-5.617 0-11.233 0-16.87-.56"
-                fill="none"
-                stroke="#333"
-                stroke-width="0.64"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M162.901 198c-3.358-8.415 0-17.41 1.68-20.228l1.678 1.14s-6.156 6.176-3.358 19.088z"
-                fill="#fff"
-                fill-rule="evenodd"
-              ></path>
-            </svg>
+        <div class="absolute inset-0" @click="clickAction">
+          <div class="flex flex-row justify-center items-center h-full px-8">
+            <img
+              :ref="icon.name"
+              class="h-3/5 w-auto"
+              crossorigin
+              data-mime-type="image/svg+xml"
+              :alt="icon.name"
+              :src="
+                '/icons/' +
+                icon.license +
+                '/' +
+                icon.category +
+                '/' +
+                authorunderscore +
+                '/' +
+                icon.name +
+                '.svg'
+              "
+              v-lazy-load
+            />
           </div>
         </div>
         <div class="p-4 absolute inset-x-0 bottom-0">
@@ -337,16 +39,20 @@
               class="subpixel-antialiased w-full px-2 py-1 tracking-wide leading-tight text-cool-gray-600 dark:text-cool-gray-400 cursor-text select-text"
               style="font-size: 0.8125rem"
             >
-              Agitator
+              {{ icon.name }}
             </p>
             <p
               class="subpixel-antialiased w-full px-2 py-1 tracking-wide leading-tight text-gray-500 dark:text-cool-gray-400 cursor-text select-text"
               style="font-size: 0.625rem"
             >
-              CC by SA 3.0
-              <!-- -->
-              -
-              <!-- -->Attribute Servier
+              <a
+                :href="licenseurl"
+                target="_blank"
+                class="hover:text-green-500 focus:text-green-500"
+                >{{ license }}</a
+              >
+              - {{ attribution }}
+              {{ icon.author }}
             </p>
           </div>
         </div>
@@ -356,7 +62,143 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: ['icon', 'clipboard'],
+  data() {
+    return {
+      licenses: {
+        'cc-0': {
+          name: 'CC-0',
+          attribute: 'No attribution',
+          url: 'https://creativecommons.org/publicdomain/zero/1.0/',
+        },
+        'cc-by-3.0': {
+          name: 'CC-BY 3.0 Unported',
+          attribute: 'Attribute',
+          url: 'https://creativecommons.org/licenses/by/3.0/',
+        },
+      },
+    }
+  },
+  computed: {
+    authorunderscore() {
+      return this.icon.author.replace(' ', '_')
+    },
+    license() {
+      return this.licenses[this.icon.license].name
+    },
+    licenseurl() {
+      return this.licenses[this.icon.license].url
+    },
+    attribution() {
+      return this.licenses[this.icon.license].attribute
+    },
+    fileurl() {
+      return (
+        '/icons/' +
+        this.icon.license +
+        '/' +
+        this.icon.category +
+        '/' +
+        this.authorunderscore +
+        '/' +
+        this.icon.name +
+        '.svg'
+      )
+    },
+  },
+  methods: {
+    forceFileDownload(response, name) {
+      const url = window.URL.createObjectURL(new Blob([response.data]))
+      const link = document.createElement('a')
+      link.href = url
+      link.setAttribute('download', name + '.svg') // or any other extension
+      document.body.appendChild(link)
+      link.click()
+    },
+    downloadWithAxios(fileurl, name) {
+      this.$axios({
+        method: 'get',
+        url: fileurl,
+        responseType: 'arraybuffer',
+      })
+        .then((response) => {
+          this.forceFileDownload(response, name)
+        })
+        .catch(() => console.log('error occured'))
+    },
+    copy2clipboard() {
+      this.$emit('copy-clipboard', this.icon.name)
+      this.copy(this.$refs[this.icon.name])
+    },
+    clickAction() {
+      if (!this.clipboard) {
+        // ToDo: this should be inverted
+        this.copy2clipboard()
+      } else {
+        this.downloadWithAxios(this.fileurl, this.icon.name)
+      }
+    },
+    // ToDo: Detect browser and download directly in firefox
+    // below functions are from https://blog.tomayac.com/2020/03/20/multi-mime-type-copying-with-the-async-clipboard-api/
+    // they perform multi-mime copying to the clipboard
+    // in MacOs Preview or Adobe Illustrator an SVG is pasted, in a text editor XML is pasted
+    // in GIMP or Power Point the image is pasted
+    // https://github.com/ICJIA/vue-browser-detect-plugin
+    async toSourceBlob(img) {
+      const response = await fetch(img.src)
+      const source = await response.text()
+      return new Blob([source], { type: 'text/plain' })
+    },
+    async toOriginBlob(img) {
+      const response = await fetch(img.src)
+      return await response.blob()
+    },
+    async toPNGBlob(img) {
+      const canvas = new OffscreenCanvas(
+        img.naturalWidth * 4,
+        img.naturalHeight * 4
+      )
+      const ctx = canvas.getContext('2d')
+      ctx.fillStyle = '#fff'
+      ctx.fillRect(0, 0, canvas.width, canvas.height)
+      ctx.drawImage(img, 0, 0)
+      return await canvas.convertToBlob()
+    },
+    async copy(img) {
+      const mimeType = img.dataset.mimeType
+      let text = null
+      if (mimeType === 'image/svg+xml') {
+        text = await this.toSourceBlob(img)
+      } else {
+        text = new Blob([img.alt], { type: 'text/plain' })
+      }
+      const clipboardData = {
+        'text/plain': text,
+      }
+      clipboardData['image/png'] = await this.toPNGBlob(img)
+      if (mimeType !== 'image/png') {
+        clipboardData[mimeType] = await this.toOriginBlob(img)
+      }
+      try {
+        await navigator.clipboard.write([new ClipboardItem(clipboardData)]) // eslint-disable-line
+      } catch (err) {
+        console.warn(err.name, err.message)
+        if (err.name === 'NotAllowedError') {
+          const disallowedMimeType = err.message.replace(
+            /^.*? (\w+\/[^\s]+).*?$/,
+            '$1'
+          )
+          delete clipboardData[disallowedMimeType]
+
+          await navigator.clipboard.write([new ClipboardItem(clipboardData)]) // eslint-disable-line
+        }
+      }
+      console.log(clipboardData)
+      // debug.value = JSON.stringify(clipboardData, null, 2)
+    },
+  },
+}
 </script>
 
 <style></style>
