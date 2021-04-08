@@ -1,6 +1,5 @@
 <template>
-  <img src="~/assets/logo.svg" v-if="!darkMode" />
-  <img src="~/assets/logoDark.svg" v-else />
+  <img class="h-20" src="~/assets/logo.svg" />
 </template>
 
 <script>

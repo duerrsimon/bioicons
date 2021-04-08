@@ -36,13 +36,12 @@
         <div class="p-4 absolute inset-x-0 bottom-0">
           <div class="-mx-2 flex flex-row flex-wrap justify-center">
             <p
-              class="subpixel-antialiased w-full px-2 py-1 tracking-wide leading-tight text-cool-gray-600 dark:text-cool-gray-400 cursor-text select-text"
-              style="font-size: 0.8125rem"
+              class="subpixel-antialiased w-full px-2 py-1 text-base sm:text-sm tracking-wide leading-tight text-cool-gray-600 dark:text-cool-gray-400 cursor-text select-text"
             >
               {{ icon.name }}
             </p>
             <div
-              class="flex justify-center tracking-wide text-xs leading-tight text-cool-gray-600 cursor-text select-text pt-1 space-x-2"
+              class="flex justify-center tracking-wide text-base sm:text-sm md:text-xs leading-tight text-cool-gray-600 cursor-text select-text pt-1 space-x-2"
             >
               <div class="flex items-center space-x-1">
                 <svg

@@ -3,14 +3,14 @@
     <div class="-my-1">
       <div class="top-0 absolute left-0 p-4">
         <a
-          href="https://twitter.com/intent/tweet?text=Check%20out%20Heroicons!%20%F0%9F%94%A5%0A%0AThanks%20@steveschoger%20for%20Heroicons%20and%20@username_ZAYDEK%20for%20heroicons.dev!%0A%0Ahttps://heroicons.dev"
+          href="https://twitter.com/intent/tweet?text=Check%20out%20Bioicons!%20%F0%9F%94%A5%0A%0Aby%20@duerrsimon%20"
           target="_blank"
           rel="noopener noreferrer"
           class="gh-button gh-button-tweet"
           ><span></span>Tweet about bioicons</a
         ><br />
         <a
-          href="//github.com/chrisnager/simple-paper-spinner"
+          href="//github.com/duerrsimon/bioicons"
           target="_blank"
           rel="noopener noreferrer"
           class="gh-button gh-button-gh"

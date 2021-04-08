@@ -75,6 +75,21 @@
       </div>
       <div class="hidden lg:block h-24"></div>
     </section>
+
+    <div class="container mx-auto mb-4 text-cool-gray-800 text-right">
+      <span>Made with Tailwind, Vue.js, Nuxt and Inkscape</span> &middot;
+      <a
+        href="https://github.com/duerrsimon/bioicons"
+        class="text-green-500 hover:underline font-medium"
+        >Contribute</a
+      >
+      your own icons by creating a pull request &middot;
+      <a
+        href="https://simonduerr.eu/impressum"
+        class="text-green-500 hover:underline font-medium"
+        >Imprint</a
+      >
+    </div>
     <notificationGroup>
       <div
         class="px-4 sm:px-6 py-4 fixed left-0 bottom-0 z-30 transition duration-300 ease-out opacity-100 transform scale-90"
