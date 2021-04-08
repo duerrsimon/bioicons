@@ -1,9 +1,10 @@
 <template>
-  <div class="container" :class="{ dark: darkMode }">
+  <div class="mx-auto" :class="{ dark: darkMode }">
     <section class="relative">
       <github-buttons />
 
-      <app-header :darkMode="darkMode" />
+      <app-header :darkMode="darkMode" :numberoficons="icons.length" />
+
       <div class="absolute inset-x-0 top-full pointer-events-none">
         <svg
           preserveAspectRatio="none"
@@ -22,7 +23,7 @@
         class="px-0 lg:px-6 flex flex-row justify-center items-start"
         style="margin-top: calc(-1 * var(--search-bar-negative-margin))"
       >
-        <main class="z-10" style="width: 100%; max-width: 1152px">
+        <main class="z-10 container mx-auto">
           <toolbar
             ref="toolbar"
             @toggleDark="toggleDarkMode"
@@ -30,6 +31,7 @@
             :darkMode="darkMode"
             :clipboard="clipboard"
             :categories="categories"
+            :clipboardAllowed="clipboardAllowed"
             v-model="searchQuery"
             @category="categorySelected"
           />
@@ -41,6 +43,7 @@
               min-height: calc(100vh - 7rem);
             "
           >
+            <!-- ClipboardAllowed {{ clipboardAllowed }} Clipboard {{ clipboard }} -->
             <div id="app-grid">
               <icon
                 v-on:copy-clipboard="showToast"
@@ -49,6 +52,23 @@
                 :clipboard="clipboard"
                 :icon="icon"
               />
+            </div>
+            <div
+              class="flex flex-col items-center justify-center bg-contain h-screen bg-no-repeat bg-center"
+              :style="noresults"
+              v-if="filteredIcons.length == 0"
+            >
+              <span class="font-medium text-green-600 text-4xl mt-8"
+                >No results</span
+              >
+              <span class="text-cool-gray-800 font-light mt-2">
+                You can contribute your own by opening a
+                <a
+                  class="text-green-600 font-medium hover:underline focus:underline"
+                  href="https://github.com/duerrsimon/bioicons"
+                  >new Github issue</a
+                >
+              </span>
             </div>
           </div>
         </main>
@@ -117,6 +137,7 @@
 </template>
 
 <script>
+import noresult from 'assets/no-results.svg'
 import AppHeader from '../components/AppHeader.vue'
 import GithubButtons from '../components/GithubButtons.vue'
 import Icon from '../components/Icon.vue'
@@ -137,8 +158,10 @@ export default {
   },
   data() {
     return {
+      noresults: { backgroundImage: `url(${noresult})` },
       darkMode: false,
       clipboard: false,
+      clipboardAllowed: true,
       // iconName: '',
       name: '',
       searchQuery: null,
@@ -211,7 +234,17 @@ export default {
     console.log(settings)
     if (settings) {
       this.clipboard = settings.clipboard
-      this.clipboard = settings.darkMode
+      this.darkMode = settings.darkMode
+    }
+    if (
+      this.$browserDetect.isFirefox ||
+      this.$browserDetect.isIE ||
+      this.$browserDetect.isSafari ||
+      this.$browserDetect.isIOS ||
+      this.$browserDetect.isChromeIOS
+    ) {
+      this.clipboard = true
+      this.clipboardAllowed = false
     }
     window.addEventListener('keypress', (e) => {
       if (e.keyCode === 47) {
@@ -259,7 +292,7 @@ html {
 }
 #app-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(calc(260px - 1px), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(calc(300px - 1px), 1fr));
   gap: 1px;
 }
 

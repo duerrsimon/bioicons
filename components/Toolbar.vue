@@ -67,6 +67,7 @@
                 :aria-label="ariaClipboardDownload"
                 @click="toggleClipboard"
                 id="clipboard"
+                v-if="clipboardAllowed"
               >
                 <svg
                   v-if="clipboard"
@@ -106,10 +107,10 @@
                     <div
                       class="rounded-1 shadow-px-2 dark:shadow-2 px-3 py-2 bg-white dark:bg-cool-gray-800"
                     >
-                      <p
-                        class="text-left text-sm whitespace-pre font-medium text-cool-gray-800 dark:text-cool-gray-100"
-                      > {{clipboard ? 'Copy icons to clipboard (chrome/Edge only)' : 'Download icons as svg on click'}} </p> <!-- eslint-disable-line -->
-                     
+                      <!-- eslint-disable-->
+                      <!-- prettier-ignore -->
+                      <p class="text-left text-sm whitespace-pre font-medium text-cool-gray-800 dark:text-cool-gray-100" >{{ clipboard ? 'Copy icons to clipboard (Chrome/Edge only)' : 'Download icons as svg on click' }}</p>
+                      <!-- eslint-enable-->
                     </div>
                   </div>
                 </div>
@@ -129,12 +130,28 @@
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                   class="w-6 h-6 overflow-visible"
+                  v-if="!darkMode"
                 >
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
                     d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                  ></path>
+                </svg>
+                <svg
+                  v-else
+                  class="w-6 h-6 overflow-visible"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
                   ></path>
                 </svg>
                 <div
@@ -145,10 +162,11 @@
                     <div
                       class="rounded-1 shadow-px-2 dark:shadow-2 px-3 py-2 bg-white dark:bg-cool-gray-800"
                     >
-                      <p
-                        class="text-left text-sm whitespace-pre font-medium text-cool-gray-800 dark:text-cool-gray-100"
-                      > Switch to {{darkMode ? 'light mode' : 'dark mode'}} </p> <!-- eslint-disable-line -->
-                     
+                      <!-- eslint-disable-->
+                      <!-- prettier-ignore -->
+                      <p class="text-left text-sm whitespace-pre font-medium text-cool-gray-800 dark:text-cool-gray-100"
+                      >Switch to {{ darkMode ? 'light mode' : 'dark mode' }}</p>
+                      <!-- eslint-enable-->
                     </div>
                   </div>
                 </div>
@@ -166,7 +184,7 @@
 import SelectCategories from '../components/SelectCategories.vue'
 
 export default {
-  props: ['darkMode', 'value', 'categories', 'clipboard'],
+  props: ['darkMode', 'value', 'categories', 'clipboard', 'clipboardAllowed'],
   components: { SelectCategories },
   data() {
     return {
@@ -178,7 +196,7 @@ export default {
     toggleClipboard() {
       let dm = 'File download activated'
       if (this.clipboard) {
-        dm = 'Copy to clipboard activated (only chrome)'
+        dm = 'Copy to clipboard activated (Chrome/Edge only)'
       }
       this.$notify(
         {

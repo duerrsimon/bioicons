@@ -10,31 +10,66 @@
         </div>
       </div>
       <div class="h-2"></div>
-      <div class="flex flex-row justify-center">
+      <div class="flex flex-row justify-center mt-4">
         <h2 class="text-center font-medium text-xl text-green-50">
-          <span
-            class="inline-flex flex-row flex-wrap justify-center items-center align-top"
-            ><span
-              class="inline-flex flex-row flex-wrap justify-center items-center align-top"
-              ><span style="width: 0.33ch"></span
-              ><span class="inline sm:hidden"
-                >CC by SA and CC0 science icons.</span
-              ><span class="hidden sm:inline"
-                >CC by SA and CC0 icons for your scientific figures.</span
-              ><span style="width: 0.33ch"></span></span
-            ><span style="width: 0.33ch"></span
-            ><span
-              class="inline-flex flex-row flex-wrap justify-center items-center align-top"
-              >Viewer by<span style="width: 0.33ch"></span
-              ><a
-                class="font-semibold no-underline hover:underline"
-                href="https://twitter.com/simonduerr"
-                target="_blank"
-                rel="noopener noreferrer"
-                >@simonduerr</a
-              >.</span
-            ></span
-          >
+          <div class="flex text-base space-x-4 justify-center">
+            <div class="flex space-x-2 items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 text-gray-200"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12 7a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0V8.414l-4.293 4.293a1 1 0 01-1.414 0L8 10.414l-4.293 4.293a1 1 0 01-1.414-1.414l5-5a1 1 0 011.414 0L11 10.586 14.586 7H12z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>{{ numberoficons }} icons</span>
+            </div>
+            <div class="flex space-x-2 items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 text-gray-200"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05A3.989 3.989 0 0115 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.715-5.349L11 6.477V16h2a1 1 0 110 2H7a1 1 0 110-2h2V6.477L6.237 7.582l1.715 5.349a1 1 0 01-.285 1.05A3.989 3.989 0 015 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.738-5.42-1.233-.617a1 1 0 01.894-1.788l1.599.799L9 4.323V3a1 1 0 011-1zm-5 8.274l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L5 10.274zm10 0l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L15 10.274z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>CC 0 &middot; CC by SA &middot; MIT License</span>
+            </div>
+            <div class="flex space-x-2 items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 text-gray-200"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span
+                >Viewer by
+                <a
+                  class="font-semibold no-underline hover:underline"
+                  href="https://twitter.com/simonduerr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >@simonduerr</a
+                ></span
+              >
+            </div>
+
+            <div></div>
+          </div>
         </h2>
       </div>
       <div class="h-8"></div>
@@ -123,7 +158,7 @@
 import Logo from './Logo.vue'
 export default {
   components: { Logo },
-  props: ['darkMode'],
+  props: ['darkMode', 'numberoficons'],
 }
 </script>
 
