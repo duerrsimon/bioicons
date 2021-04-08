@@ -25,7 +25,6 @@ jobs:
         run: python index.py
 
       - name: Setup node env
-        working-directory: ./
         uses: actions/setup-node@v2.1.2
         with:
           node-version: ${{ matrix.node }}
