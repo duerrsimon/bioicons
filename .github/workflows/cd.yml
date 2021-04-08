@@ -26,10 +26,12 @@ jobs:
 
       - name: Setup node env
         uses: actions/setup-node@v2.1.2
+        working-directory: ./
         with:
           node-version: ${{ matrix.node }}
 
       - name: Install dependencies
+        working-directory: ./
         run: yarn
 
       - name: Generate
