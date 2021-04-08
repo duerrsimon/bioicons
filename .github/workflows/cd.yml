@@ -3,31 +3,31 @@ name: cd
 on: [push, pull_request]
 
 jobs:
-          cd:
-                      runs-on: ${{ matrix.os }}
+  cd:
+    runs-on: ${{ matrix.os }}
 
-                          strategy:
-                                        matrix:
-                                                        os: [ubuntu-latest]
-                                                                node: [14]
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14]
 
-                                                                    steps:
-                                                                                  - name: Checkout
-                                                                                            uses: actions/checkout@master
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
 
-                                                                                                  - name: Setup node env
-                                                                                                            uses: actions/setup-node@v2.1.2
-                                                                                                                    with:
-                                                                                                                                      node-version: ${{ matrix.node }}
+      - name: Setup node env
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: ${{ matrix.node }}
 
-                                                                                                                                            - name: Install dependencies
-                                                                                                                                                      run: yarn
+      - name: Install dependencies
+        run: yarn
 
-                                                                                                                                                            - name: Generate
-                                                                                                                                                                      run: yarn run generate
+      - name: Generate
+        run: yarn run generate
 
-                                                                                                                                                                            - name: Deploy
-                                                                                                                                                                                      uses: peaceiris/actions-gh-pages@v3
-                                                                                                                                                                                              with:
-                                                                                                                                                                                                                github_token: ${{ secrets.GITHUB_TOKEN }}
-                                                                                                                                                                                                                          publish_dir: ./dist
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
