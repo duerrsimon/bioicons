@@ -20,8 +20,9 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       # You can test your matrix by printing the current Python version
-      - name: Display Python version
-        run: python -c "import os; print(os.listdir())"
+      - name: Index icons
+        working-directory: ./static/icons
+        run: python index.py
 
       - name: Setup node env
         uses: actions/setup-node@v2.1.2

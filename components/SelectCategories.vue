@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-44 border-l border-cool-gray-200 dark:border-cool-gray-700 mr-4"
+    class="w-72 sm:w-44 sm:border-l border-cool-gray-200 dark:border-cool-gray-700 mr-4"
   >
     <div>
       <label

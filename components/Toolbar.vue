@@ -11,51 +11,56 @@
       ></div>
     </div>
     <div
-      class="rounded-t-0 lg:rounded-t-6 shadow dark:shadow-none box-content bg-white dark:bg-cool-gray-900 border-b border-transparent dark:border-cool-gray-800"
-      style="height: var(--search-bar-height)"
+      class="rounded-t-0 h-32 sm:h-16 lg:rounded-t-6 shadow dark:shadow-none box-content bg-white dark:bg-cool-gray-900 border-b border-transparent dark:border-cool-gray-800"
     >
-      <form class="h-full relative">
-        <div class="absolute left-0 inset-y-0 pointer-events-none">
-          <div class="px-8 pr-4 flex flex-row h-full">
-            <div class="flex flex-row items-center">
-              <svg
-                class="w-6 h-6 text-cool-gray-400 dark:text-cool-gray-600 transition duration-200 ease-out"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                :class="{ 'text-green-500': fieldFocus }"
-              >
-                <path
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                ></path>
-              </svg>
+      <!-- style="height: var(--search-bar-height)"-->
+      <form
+        class="h-full relative flex flex-wrap items-center justify-center sm:justify-between"
+      >
+        <div class="h-16 flex w-5/6 sm:w-2/3 px-12 sm:px-1">
+          <div class="w-1/6 sm:flex-1 pointer-events-none">
+            <div class="px-2 sm:px-8 sm:pr-4 flex flex-row h-full">
+              <div class="flex flex-row items-center">
+                <svg
+                  class="w-6 h-6 text-cool-gray-400 dark:text-cool-gray-600 transition duration-200 ease-out"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  :class="{ 'text-green-500': fieldFocus }"
+                >
+                  <path
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  ></path>
+                </svg>
+              </div>
             </div>
           </div>
+          <input
+            id="searchInput"
+            ref="searchInput"
+            :value="value"
+            @input="$emit('input', $event.target.value)"
+            aria-label='Search (Press "/" to Focus)'
+            autocapitalize="off"
+            autocomplete="off"
+            autocorrect="off"
+            autofocus=""
+            class="flex-grow block w-full h-full bg-transparent focus:outline-none px-2 sm:pr-16 text-xl placeholder-cool-gray-400 dark:placeholder-cool-gray-600 text-cool-gray-800 dark:text-cool-gray-200"
+            placeholder='Search (Press "/" to Focus)'
+            spellcheck="false"
+            type="text"
+            @focus="fieldFocus = true"
+            @blur="fieldFocus = false"
+          />
         </div>
-        <input
-          id="searchInput"
-          ref="searchInput"
-          :value="value"
-          @input="$emit('input', $event.target.value)"
-          aria-label='Search (Press "/" to Focus)'
-          autocapitalize="off"
-          autocomplete="off"
-          autocorrect="off"
-          autofocus=""
-          class="block w-full h-full bg-transparent focus:outline-none px-16 text-xl placeholder-cool-gray-400 dark:placeholder-cool-gray-600 text-cool-gray-800 dark:text-cool-gray-200"
-          placeholder='Search (Press "/" to Focus)'
-          spellcheck="false"
-          style="padding-left: 4.5rem; padding-right: 11.5rem"
-          type="text"
-          @focus="fieldFocus = true"
-          @blur="fieldFocus = false"
-        />
-        <div class="absolute right-0 inset-y-0">
-          <div class="px-8 pl-4 flex flex-row h-full">
+        <div class="w-full sm:w-1/3">
+          <div
+            class="px-8 pl-4 flex flex-row h-full w-full justify-center sm:justify-end"
+          >
             <div class="-mr-1"></div>
             <div class="group px-1 flex flex-row items-center">
               <select-categories
