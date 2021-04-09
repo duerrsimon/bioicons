@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  props: ['darkMode'],
+  props: { darkMode: Boolean },
 }
 </script>
 

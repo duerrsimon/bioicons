@@ -14,6 +14,7 @@
           <div class="flex flex-row justify-center items-center h-full px-8">
             <img
               :ref="icon.name"
+              v-lazy-load
               class="h-3/5 w-auto"
               crossorigin
               data-mime-type="image/svg+xml"
@@ -29,7 +30,6 @@
                 icon.name +
                 '.svg'
               "
-              v-lazy-load
             />
           </div>
         </div>
@@ -117,7 +117,15 @@
 
 <script>
 export default {
-  props: ['icon', 'clipboard'],
+  props: {
+    icon: {
+      type: Object,
+      default() {
+        return {}
+      },
+    },
+    clipboard: { type: Boolean, default: true },
+  },
   data() {
     return {
       licenses: {
@@ -180,11 +188,9 @@ export default {
         method: 'get',
         url: fileurl,
         responseType: 'arraybuffer',
+      }).then((response) => {
+        this.forceFileDownload(response, name)
       })
-        .then((response) => {
-          this.forceFileDownload(response, name)
-        })
-        .catch(() => console.log('error occured'))
     },
     copy2clipboard() {
       this.$emit('copy-clipboard', this.icon.name)
@@ -198,12 +204,10 @@ export default {
         this.downloadWithAxios(this.fileurl, this.icon.name)
       }
     },
-    // ToDo: Detect browser and download directly in firefox
     // below functions are from https://blog.tomayac.com/2020/03/20/multi-mime-type-copying-with-the-async-clipboard-api/
     // they perform multi-mime copying to the clipboard
     // in MacOs Preview or Adobe Illustrator an SVG is pasted, in a text editor XML is pasted
     // in GIMP or Power Point the image is pasted
-    // https://github.com/ICJIA/vue-browser-detect-plugin
     async toSourceBlob(img) {
       const response = await fetch(img.src)
       const source = await response.text()
@@ -242,7 +246,6 @@ export default {
       try {
         await navigator.clipboard.write([new ClipboardItem(clipboardData)]) // eslint-disable-line
       } catch (err) {
-        console.warn(err.name, err.message)
         if (err.name === 'NotAllowedError') {
           const disallowedMimeType = err.message.replace(
             /^.*? (\w+\/[^\s]+).*?$/,
@@ -253,7 +256,6 @@ export default {
           await navigator.clipboard.write([new ClipboardItem(clipboardData)]) // eslint-disable-line
         }
       }
-      console.log(clipboardData)
       // debug.value = JSON.stringify(clipboardData, null, 2)
     },
   },

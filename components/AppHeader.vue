@@ -6,7 +6,7 @@
       <div class="h-16"></div>
       <div class="flex flex-row justify-center">
         <div class="relative">
-          <Logo :darkMode="darkMode" />
+          <Logo :dark-mode="darkMode" />
         </div>
       </div>
       <div class="h-2"></div>
@@ -119,7 +119,7 @@
           <!-- </a> -->
           <div class="w-3 h-3"></div>
           <a
-            href="https://github.com/duerrsimon/bioicons.com"
+            href="https://github.com/duerrsimon/bioicons"
             target="_blank"
             rel="noopener noreferrer"
             class="block"
@@ -161,7 +161,10 @@
 import Logo from './Logo.vue'
 export default {
   components: { Logo },
-  props: ['darkMode', 'numberoficons'],
+  props: {
+    darkMode: { type: Boolean, default: false },
+    numberoficons: { type: Number, default: 0 },
+  },
 }
 </script>
 

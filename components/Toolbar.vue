@@ -13,7 +13,6 @@
     <div
       class="rounded-t-0 h-32 sm:h-16 lg:rounded-t-6 shadow dark:shadow-none box-content bg-white dark:bg-cool-gray-900 border-b border-transparent dark:border-cool-gray-800"
     >
-      <!-- style="height: var(--search-bar-height)"-->
       <form
         class="h-full relative flex flex-wrap items-center justify-center sm:justify-between"
       >
@@ -43,7 +42,6 @@
             id="searchInput"
             ref="searchInput"
             :value="value"
-            @input="$emit('input', $event.target.value)"
             aria-label='Search (Press "/" to Focus)'
             autocapitalize="off"
             autocomplete="off"
@@ -53,6 +51,7 @@
             placeholder='Search (Press "/" to Focus)'
             spellcheck="false"
             type="text"
+            @input="$emit('input', $event.target.value)"
             @focus="fieldFocus = true"
             @blur="fieldFocus = false"
           />
@@ -64,15 +63,15 @@
             <div class="-mr-1"></div>
             <div class="group px-1 flex flex-row items-center">
               <select-categories
-                v-on:category="categorySelected"
                 :categories="categories"
+                @category="categorySelected"
               />
               <div
+                v-if="clipboardAllowed"
+                id="clipboard"
                 class="cursor-pointer focus:outline-none transition duration-200 ease-out p-2 relative text-green-500 bg-green-500 bg-opacity-12.5 hover:bg-opacity-25 focus:bg-opacity-25 rounded-full"
                 :aria-label="ariaClipboardDownload"
                 @click="toggleClipboard"
-                id="clipboard"
-                v-if="clipboardAllowed"
               >
                 <svg
                   v-if="clipboard"
@@ -105,8 +104,8 @@
                   ></path>
                 </svg>
                 <div
-                  class="pt-2 absolute right-0 top-full hidden"
                   id="clipboardMessage"
+                  class="pt-2 absolute right-0 top-full hidden"
                 >
                   <div class="rounded-1 shadow">
                     <div
@@ -123,19 +122,19 @@
             </div>
             <div class="group px-1 flex flex-row items-center">
               <div
+                id="darkMode"
+                aria-label="Click to Enable Dark Mode"
                 class="cursor-pointer focus:outline-none transition duration-200 ease-out p-2 relative text-green-500 bg-green-500 bg-opacity-12.5 hover:bg-opacity-25 focus:bg-opacity-25 rounded-full"
                 style="color: ; background-color: "
-                aria-label="Click to Enable Dark Mode"
                 @click="toggleDarkMode"
-                id="darkMode"
               >
                 <svg
+                  v-if="!darkMode"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                   class="w-6 h-6 overflow-visible"
-                  v-if="!darkMode"
                 >
                   <path
                     stroke-linecap="round"
@@ -160,8 +159,8 @@
                   ></path>
                 </svg>
                 <div
-                  class="pt-2 absolute right-0 top-full hidden"
                   id="darkModeMessage"
+                  class="pt-2 absolute right-0 top-full hidden"
                 >
                   <div class="rounded-1 shadow">
                     <div
@@ -189,13 +188,38 @@
 import SelectCategories from '../components/SelectCategories.vue'
 
 export default {
-  props: ['darkMode', 'value', 'categories', 'clipboard', 'clipboardAllowed'],
   components: { SelectCategories },
+  props: {
+    darkMode: { type: Boolean, default: false },
+    value: { type: String, default: '' },
+    categories: {
+      type: Array,
+      default() {
+        return []
+      },
+    },
+    clipboard: { type: Boolean, default: false },
+    clipboardAllowed: { type: Boolean, default: false },
+  },
   data() {
     return {
       // search: '',
       fieldFocus: false,
     }
+  },
+  computed: {
+    ariaClipboardDownload() {
+      if (this.clipboard) {
+        return 'Click to enable copy to clipboard as SVG'
+      }
+      return 'Click to download as SVG'
+    },
+    searchFocus() {
+      if (this.value.length > 0 || this.fieldFocus) {
+        return true
+      }
+      return false
+    },
   },
   methods: {
     toggleClipboard() {
@@ -228,20 +252,6 @@ export default {
     },
     categorySelected(cat) {
       this.$emit('category', cat)
-    },
-  },
-  computed: {
-    ariaClipboardDownload() {
-      if (this.clipboard) {
-        return 'Click to enable copy to clipboard as SVG'
-      }
-      return 'Click to download as SVG'
-    },
-    searchFocus() {
-      if (this.value.length > 0 || this.fieldFocus) {
-        return true
-      }
-      return false
     },
   },
 }

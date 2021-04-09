@@ -3,7 +3,7 @@
     <section class="relative">
       <github-buttons />
 
-      <app-header :darkMode="darkMode" :numberoficons="icons.length" />
+      <app-header :dark-mode="darkMode" :numberoficons="icons.length" />
 
       <div class="absolute inset-x-0 top-full pointer-events-none">
         <svg
@@ -26,14 +26,14 @@
         <main class="z-10 container mx-auto">
           <toolbar
             ref="toolbar"
-            @toggleDark="toggleDarkMode"
-            @toggleClipboard="toggleClipboard"
-            :darkMode="darkMode"
+            v-model="searchQuery"
+            :dark-mode="darkMode"
             :clipboard="clipboard"
             :categories="categories"
-            :clipboardAllowed="clipboardAllowed"
-            v-model="searchQuery"
+            :clipboard-allowed="clipboardAllowed"
             @category="categorySelected"
+            @toggleDark="toggleDarkMode"
+            @toggleClipboard="toggleClipboard"
           />
           <div
             class="shadow lg:shadow-lg bg-white dark:bg-cool-gray-900 overflow-hidden rounded-b-xl"
@@ -46,17 +46,17 @@
             <!-- ClipboardAllowed {{ clipboardAllowed }} Clipboard {{ clipboard }} -->
             <div id="app-grid">
               <icon
-                v-on:copy-clipboard="showToast"
                 v-for="icon in filteredIcons"
                 :key="icon.name"
                 :clipboard="clipboard"
                 :icon="icon"
+                @copy-clipboard="showToast"
               />
             </div>
             <div
+              v-if="filteredIcons.length == 0"
               class="flex flex-col items-center justify-center bg-contain h-screen bg-no-repeat bg-center"
               :style="noresults"
-              v-if="filteredIcons.length == 0"
             >
               <span class="font-medium text-green-600 text-4xl mt-8"
                 >No results</span
@@ -97,9 +97,9 @@
         <div class="rounded-1 shadow-4">
           <notification v-slot="{ notifications }">
             <div
-              class="rounded-1 shadow-2 px-3 py-2 bg-cool-gray-800 my-1"
               v-for="notification in notifications"
               :key="notification.id"
+              class="rounded-1 shadow-2 px-3 py-2 bg-cool-gray-800 my-1"
             >
               <p
                 class="font-medium text-cool-gray-100"
@@ -183,27 +183,6 @@ export default {
       category: 'All_icons',
     }
   },
-  methods: {
-    categorySelected(val) {
-      this.category = val
-    },
-    showToast(icon) {
-      // this.iconName = icon
-      this.$notify(
-        {
-          text: icon,
-          type: 'copy',
-        },
-        2000
-      )
-    },
-    toggleDarkMode() {
-      this.darkMode = !this.darkMode
-    },
-    toggleClipboard() {
-      this.clipboard = !this.clipboard
-    },
-  },
   computed: {
     categorizedIcons() {
       if (this.category !== 'All_icons') {
@@ -246,8 +225,7 @@ export default {
   },
   mounted() {
     const settings = localStorage.getItem('settings')
-    console.log(settings)
-    if (settings) {
+    if (typeof settings.clipboad !== 'undefined') {
       this.clipboard = settings.clipboard
       this.darkMode = settings.darkMode
     }
@@ -269,6 +247,27 @@ export default {
         })
       }
     })
+  },
+  methods: {
+    categorySelected(val) {
+      this.category = val
+    },
+    showToast(icon) {
+      // this.iconName = icon
+      this.$notify(
+        {
+          text: icon,
+          type: 'copy',
+        },
+        2000
+      )
+    },
+    toggleDarkMode() {
+      this.darkMode = !this.darkMode
+    },
+    toggleClipboard() {
+      this.clipboard = !this.clipboard
+    },
   },
 }
 </script>

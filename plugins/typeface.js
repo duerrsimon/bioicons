@@ -1,1 +1,1 @@
-import "typeface-inter";
+import 'typeface-inter'
