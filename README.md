@@ -1,6 +1,6 @@
 # Bioicons
 
-![Bioicons](assets/logo.svg)
+![Bioicons](assets/logo_github.svg)
 
 Bioicons is a free library of open source icons for scientific illustrations using vector graphics software such as [Inkscape](https://inkscape.org) or Adobe Illustrator. 
 
@@ -17,4 +17,4 @@ Inkscape supports symbol libraries and I plan to provide an automatic script tha
 
 ## Contribute
 
-If you want to make available icons (preferably under `CC-0` or `MIT` License) to the community via this platform you can either open a new issue and link the icon or create a pull request as described in [CONTRIBUTING](Contributing).
+If you want to make available icons (preferably under `CC-0` or `MIT` License) to the community via this platform you can either open a new issue and link the icon or create a pull request as described in [Contributing](CONTRIBUTING.md).
