@@ -3,7 +3,7 @@
     <div class="-my-1">
       <div class="top-0 absolute left-0 p-4">
         <a
-          href="https://twitter.com/intent/tweet?text=Check%20out%20Bioicons!%20%F0%9F%94%A5%0A%0Aby%20@duerrsimon%20"
+          href="https://twitter.com/intent/tweet?text=Check%20out%20Bioicons!%20%F0%9F%94%A5%0A%0Aby%20@simonduerr%20"
           target="_blank"
           rel="noopener noreferrer"
           class="gh-button gh-button-tweet"
