@@ -19,7 +19,7 @@
               crossorigin
               data-mime-type="image/svg+xml"
               :alt="icon.name"
-              :src="
+              :data-src="
                 '/icons/' +
                 icon.license +
                 '/' +
