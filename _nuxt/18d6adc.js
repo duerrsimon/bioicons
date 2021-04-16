@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{258:function(e){e.exports=JSON.parse('["All_icons","Intracellular_components","Machine_Learning","Oncology","General_items","Viruses","Receptors_channels","Scientific_graphs","Laboratory_apparatus","Lab_apparatus","Animals","Genetics","Tissues","Cell_membrane","Nucleic_acids","Microbiology","Chemistry"]')}}]);
