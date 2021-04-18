@@ -105,72 +105,70 @@
         >Imprint</a
       >
     </div>
-    <client-only>
-      <notificationGroup>
-        <div
-          class="px-4 sm:px-6 py-4 fixed left-0 bottom-0 z-30 transition duration-300 ease-out opacity-100 transform scale-90"
-        >
-          <div class="rounded-1 shadow-4">
-            <notification v-slot="{ notifications }">
-              <div
-                v-for="notification in notifications"
-                :key="notification.id"
-                class="rounded-1 shadow-2 px-3 py-2 bg-cool-gray-800 my-1"
+    <notificationGroup>
+      <div
+        class="px-4 sm:px-6 py-4 fixed left-0 bottom-0 z-30 transition duration-300 ease-out opacity-100 transform scale-90"
+      >
+        <div class="rounded-1 shadow-4">
+          <notification v-slot="{ notifications }">
+            <div
+              v-for="notification in notifications"
+              :key="notification.id"
+              class="rounded-1 shadow-2 px-3 py-2 bg-cool-gray-800 my-1"
+            >
+              <p
+                class="font-medium text-cool-gray-100"
+                style="font-size: 0.875rem; letter-spacing: 0.0125em"
               >
-                <p
-                  class="font-medium text-cool-gray-100"
-                  style="font-size: 0.875rem; letter-spacing: 0.0125em"
+                <span class="flex flex-row"
+                  ><span
+                    class="flex flex-row items-center"
+                    style="height: 1.3125rem"
+                    ><svg
+                      v-if="notification.type === 'copy'"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class=""
+                      style="width: 1em; height: 1em"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                    <svg
+                      v-else
+                      style="width: 1em; height: 1em"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      ></path>
+                    </svg> </span
+                  ><span style="width: 1ch"></span
+                  ><span v-if="notification.type === 'copy'"
+                    >Copied {{ notification.text }} to clipboard</span
+                  ><span v-else> {{ notification.text }} </span></span
                 >
-                  <span class="flex flex-row"
-                    ><span
-                      class="flex flex-row items-center"
-                      style="height: 1.3125rem"
-                      ><svg
-                        v-if="notification.type === 'copy'"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                        class=""
-                        style="width: 1em; height: 1em"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z"
-                          clip-rule="evenodd"
-                        ></path>
-                      </svg>
-                      <svg
-                        v-else
-                        style="width: 1em; height: 1em"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                        ></path>
-                      </svg> </span
-                    ><span style="width: 1ch"></span
-                    ><span v-if="notification.type === 'copy'"
-                      >Copied {{ notification.text }} to clipboard</span
-                    ><span v-else> {{ notification.text }} </span></span
-                  >
-                </p>
-              </div>
-            </notification>
-          </div>
+              </p>
+            </div>
+          </notification>
         </div>
-      </notificationGroup>
-      <v-tour
-        name="gettingStarted"
-        :steps="steps"
-        :options="{ startTimeout: 400 }"
-        :callbacks="myCallbacks"
-      ></v-tour>
-    </client-only>
+      </div>
+    </notificationGroup>
+    <v-tour
+      name="gettingStarted"
+      :steps="steps"
+      :options="{ startTimeout: 400 }"
+      :callbacks="myCallbacks"
+    ></v-tour>
   </div>
 </template>
 
@@ -344,9 +342,14 @@ export default {
     if (settings !== null) {
       if (typeof settings.clipboard !== 'undefined') {
         this.clipboard = settings.clipboard
+      }
+      if (typeof settings.darkMode !== 'undefined') {
         this.darkMode = settings.darkMode
+      }
+      if (typeof settings.showTour !== 'undefined') {
         this.showTour = settings.showTour
-        this.$notify(
+      }
+      this.$notify(
           {
             text: 'Loaded settings from local storage',
             type: 'info',
