@@ -16,7 +16,7 @@
       <form
         class="h-full relative flex flex-wrap items-center justify-center sm:justify-between"
       >
-        <div class="h-16 flex w-5/6 sm:w-2/3 px-12 sm:px-1">
+        <div class="h-16 flex w-5/6 sm:w-1/2 md:w-3/5 xl:w-2/3 px-12 sm:px-1">
           <div class="w-1/6 sm:flex-1 pointer-events-none">
             <div class="px-2 sm:px-8 sm:pr-4 flex flex-row h-full">
               <div class="flex flex-row items-center">
@@ -56,65 +56,68 @@
             @blur="fieldFocus = false"
           />
         </div>
-        <div class="w-full sm:w-1/3">
+        <div class="w-full sm:w-1/2 md:w-2/5 xl:w-1/3">
           <div
             class="px-8 pl-4 flex flex-row h-full w-full justify-center sm:justify-end"
           >
             <div class="-mr-1"></div>
-            <div class="group px-1 flex flex-row items-center">
+            <div class="w-full group px-1 flex flex-row items-center">
               <select-categories
                 :categories="categories"
+                :selected-cat="category"
                 @category="categorySelected"
               />
-              <div
-                v-if="clipboardAllowed"
-                id="clipboard"
-                class="cursor-pointer focus:outline-none transition duration-200 ease-out p-2 relative text-green-500 bg-green-500 bg-opacity-12.5 hover:bg-opacity-25 focus:bg-opacity-25 rounded-full"
-                :aria-label="ariaClipboardDownload"
-                @click="toggleClipboard"
-              >
-                <svg
-                  v-if="clipboard"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  class="w-6 h-6 overflow-visible"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
-                  ></path>
-                </svg>
-
-                <svg
-                  v-else
-                  class="w-6 h-6 overflow-visible"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"
-                  ></path>
-                </svg>
+              <div id="clipboardDownload">
                 <div
-                  id="clipboardMessage"
-                  class="pt-2 absolute right-0 top-full hidden"
+                  v-if="clipboardAllowed"
+                  id="clipboard"
+                  class="cursor-pointer focus:outline-none transition duration-200 ease-out p-2 relative text-green-500 bg-green-500 bg-opacity-12.5 hover:bg-opacity-25 focus:bg-opacity-25 rounded-full"
+                  :aria-label="ariaClipboardDownload"
+                  @click="toggleClipboard"
                 >
-                  <div class="rounded-1 shadow">
-                    <div
-                      class="rounded-1 shadow-px-2 dark:shadow-2 px-3 py-2 bg-white dark:bg-cool-gray-800"
-                    >
-                      <!-- eslint-disable-->
-                      <!-- prettier-ignore -->
-                      <p class="text-left text-sm whitespace-pre font-medium text-cool-gray-800 dark:text-cool-gray-100" >{{ clipboard ? 'Copy icons to clipboard (Chrome/Edge only)' : 'Download icons as svg on click' }}</p>
-                      <!-- eslint-enable-->
+                  <svg
+                    v-if="clipboard"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    class="w-6 h-6 overflow-visible"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+                    ></path>
+                  </svg>
+
+                  <svg
+                    v-else
+                    class="w-6 h-6 overflow-visible"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"
+                    ></path>
+                  </svg>
+                  <div
+                    id="clipboardMessage"
+                    class="pt-2 absolute right-0 top-full hidden"
+                  >
+                    <div class="rounded-1 shadow">
+                      <div
+                        class="rounded-1 shadow-px-2 dark:shadow-2 px-3 py-2 bg-white dark:bg-cool-gray-800"
+                      >
+                        <!-- eslint-disable-->
+                        <!-- prettier-ignore -->
+                        <p class="text-left text-sm whitespace-pre font-medium text-cool-gray-800 dark:text-cool-gray-100" >{{ clipboard ? 'Copy icons to clipboard (Chrome/Edge only)' : 'Download icons as svg on click' }}</p>
+                        <!-- eslint-enable-->
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -192,6 +195,7 @@ export default {
   props: {
     darkMode: { type: Boolean, default: false },
     value: { type: String, default: '' },
+    category: { type: String, default: 'All_icons' },
     categories: {
       type: Array,
       default() {

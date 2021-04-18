@@ -2,9 +2,13 @@
   <div class="mx-auto relative" :class="{ dark: darkMode }">
     <section class="relative">
       <github-buttons />
-
-      <app-header :dark-mode="darkMode" :numberoficons="icons.length" />
-
+      <div id="start" class="absolute top-0 right-0"></div>
+      <app-header
+        :dark-mode="darkMode"
+        :numberoficons="icons.length"
+        :counts="categoryCounts"
+        @category="categorySelected"
+      />
       <div class="absolute inset-x-0 top-full pointer-events-none">
         <svg
           preserveAspectRatio="none"
@@ -31,6 +35,7 @@
             :clipboard="clipboard"
             :categories="categories"
             :clipboard-allowed="clipboardAllowed"
+            :category="category"
             @category="categorySelected"
             @toggleDark="toggleDarkMode"
             @toggleClipboard="toggleClipboard"
@@ -47,7 +52,8 @@
             <div id="infiniteScroll">
               <div id="app-grid">
                 <icon
-                  v-for="icon in paginatedIcons"
+                  v-for="(icon, i) in paginatedIcons"
+                  :id="'icon' + i"
                   :key="icon.name"
                   :clipboard="clipboard"
                   :icon="icon"
@@ -55,7 +61,7 @@
                 />
                 <InfiniteScroll :enough="enough" @load-more="loadMore()">
                   <!-- eslint-disable -->
-                  <template> <loading class="sr-only" /></template> 
+                  <template> <loading class="sr-only" /></template>
                   <!-- eslint-enable -->
                 </InfiniteScroll>
               </div>
@@ -99,64 +105,72 @@
         >Imprint</a
       >
     </div>
-    <notificationGroup>
-      <div
-        class="px-4 sm:px-6 py-4 fixed left-0 bottom-0 z-30 transition duration-300 ease-out opacity-100 transform scale-90"
-      >
-        <div class="rounded-1 shadow-4">
-          <notification v-slot="{ notifications }">
-            <div
-              v-for="notification in notifications"
-              :key="notification.id"
-              class="rounded-1 shadow-2 px-3 py-2 bg-cool-gray-800 my-1"
-            >
-              <p
-                class="font-medium text-cool-gray-100"
-                style="font-size: 0.875rem; letter-spacing: 0.0125em"
+    <client-only>
+      <notificationGroup>
+        <div
+          class="px-4 sm:px-6 py-4 fixed left-0 bottom-0 z-30 transition duration-300 ease-out opacity-100 transform scale-90"
+        >
+          <div class="rounded-1 shadow-4">
+            <notification v-slot="{ notifications }">
+              <div
+                v-for="notification in notifications"
+                :key="notification.id"
+                class="rounded-1 shadow-2 px-3 py-2 bg-cool-gray-800 my-1"
               >
-                <span class="flex flex-row"
-                  ><span
-                    class="flex flex-row items-center"
-                    style="height: 1.3125rem"
-                    ><svg
-                      v-if="notification.type === 'copy'"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      class=""
-                      style="width: 1em; height: 1em"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z"
-                        clip-rule="evenodd"
-                      ></path>
-                    </svg>
-                    <svg
-                      v-else
-                      style="width: 1em; height: 1em"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      ></path>
-                    </svg> </span
-                  ><span style="width: 1ch"></span
-                  ><span v-if="notification.type === 'copy'"
-                    >Copied {{ notification.text }} to clipboard</span
-                  ><span v-else> {{ notification.text }} </span></span
+                <p
+                  class="font-medium text-cool-gray-100"
+                  style="font-size: 0.875rem; letter-spacing: 0.0125em"
                 >
-              </p>
-            </div>
-          </notification>
+                  <span class="flex flex-row"
+                    ><span
+                      class="flex flex-row items-center"
+                      style="height: 1.3125rem"
+                      ><svg
+                        v-if="notification.type === 'copy'"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class=""
+                        style="width: 1em; height: 1em"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </svg>
+                      <svg
+                        v-else
+                        style="width: 1em; height: 1em"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        ></path>
+                      </svg> </span
+                    ><span style="width: 1ch"></span
+                    ><span v-if="notification.type === 'copy'"
+                      >Copied {{ notification.text }} to clipboard</span
+                    ><span v-else> {{ notification.text }} </span></span
+                  >
+                </p>
+              </div>
+            </notification>
+          </div>
         </div>
-      </div>
-    </notificationGroup>
+      </notificationGroup>
+      <v-tour
+        name="gettingStarted"
+        :steps="steps"
+        :options="{ startTimeout: 400 }"
+        :callbacks="myCallbacks"
+      ></v-tour>
+    </client-only>
   </div>
 </template>
 
@@ -179,11 +193,78 @@ export default {
   async asyncData({ req }) {
     const icons = await getIcons()
     const categories = await getCategories()
-    return { icons, categories }
+
+    let categoryCounts = {} // eslint-disable-line
+
+    for (const { category } of icons) {
+      categoryCounts[category] = categoryCounts[category]
+        ? categoryCounts[category] + 1
+        : 1
+    }
+    return { icons, categories, categoryCounts }
   },
   data() {
     return {
       noresults: { backgroundImage: `url(${noresult})` },
+      myCallbacks: {
+        onStop: this.onTourStop,
+      },
+      steps: [
+        {
+          target: '#start',
+          header: {
+            title: 'Hello 👋',
+          },
+          content: `Take a quick tour of bioicons.com`,
+        },
+        {
+          target: '#v-step-0',
+          header: {
+            title: 'Categories',
+          },
+          content: `Bioicons are categorized so that you can more easily find them.`,
+          params: {
+            placement: 'top',
+            enableScrolling: false,
+          },
+        },
+        {
+          target: '#clipboardDownload',
+          header: {
+            title: 'Clipboard/Download toggle',
+          },
+          content: `By clicking on this button, you can switch to direct download of icons as vector file. <br><br><small class="mb-2">If you are using recent Chrome/Edge browser, you can copy the icons on click to the clipboard an paste them. In Inkscape the image is pasted as png not as vector.</small> `,
+        },
+        {
+          target: '#darkMode',
+          header: {
+            title: 'Darkmode toggle',
+          },
+          content: `Click this icon to view the site in dark mode.`,
+        },
+        {
+          target: '#icon0 .license',
+          header: {
+            title: 'License',
+          },
+          content: `Before downloading check the license of the icon you are downloading.`,
+          params: {
+            placement: 'top', // Any valid Popper.js placement. See https://popper.js.org/popper-documentation.html#Popper.placements
+            enableScrolling: false,
+          },
+        },
+        {
+          target: '#icon0 .attribution',
+          header: {
+            title: 'Attribution',
+          },
+          content: `For some licenses you need to attribute the creator for example in the figure caption or the acknowledgement section.`,
+          params: {
+            placement: 'top', // Any valid Popper.js placement. See https://popper.js.org/popper-documentation.html#Popper.placements
+            enableScrolling: false,
+          },
+        },
+      ],
       darkMode: false,
       clipboard: false,
       clipboardAllowed: true,
@@ -194,6 +275,7 @@ export default {
       loading: false,
       size: 12,
       enough: false,
+      showTour: true,
     }
   },
   head() {
@@ -220,7 +302,11 @@ export default {
       }
     },
     settings() {
-      return { clipboard: this.clipboard, darkMode: this.darkMode }
+      return {
+        clipboard: this.clipboard,
+        darkMode: this.darkMode,
+        showTour: this.showTour,
+      }
     },
     filteredIcons() {
       if (this.searchQuery) {
@@ -252,15 +338,24 @@ export default {
   },
   created() {
     this.searchQuery = this.$route.query.query
-    if (process.client) {
-      const settings = localStorage.getItem('settings')
+  },
+  mounted() {
+    const settings = JSON.parse(localStorage.getItem('settings'))
+    if (settings !== null) {
       if (typeof settings.clipboard !== 'undefined') {
         this.clipboard = settings.clipboard
         this.darkMode = settings.darkMode
+        this.showTour = settings.showTour
+        this.$notify(
+          {
+            text: 'Loaded settings from local storage',
+            type: 'info',
+          },
+          2000
+        )
       }
     }
-  },
-  mounted() {
+
     if (
       this.$browserDetect.isFirefox ||
       this.$browserDetect.isIE ||
@@ -279,7 +374,9 @@ export default {
         })
       }
     })
-
+    if (this.showTour) {
+      this.$tours.gettingStarted.start()
+    }
     // const listElm = document.querySelector('#infiniteScroll') // eslint-disable-line
     // listElm.addEventListener('scroll', this.handleScroll)
 
@@ -304,12 +401,14 @@ export default {
     //     alert('scrolled to bottom')
     //   }
     // },
+    onTourStop() {
+      this.showTour = false
+    },
     categorySelected(val) {
       this.category = val
       this.size = 12
     },
     showToast(icon) {
-      // this.iconName = icon
       this.$notify(
         {
           text: icon,

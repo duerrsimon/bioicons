@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-72 sm:w-44 sm:border-l border-cool-gray-200 dark:border-cool-gray-700 mr-4"
+    class="w-full sm:border-l border-cool-gray-200 dark:border-cool-gray-700 mr-4"
   >
     <div>
       <label
@@ -74,6 +74,7 @@
 <script>
 export default {
   props: {
+    selectedCat: { type: String, default: 'All_icons' },
     categories: {
       type: Array,
       default() {
@@ -84,7 +85,6 @@ export default {
   data() {
     return {
       selected: false,
-      selectedCat: 'All icons',
       selectedCatIndex: 0,
     }
   },
@@ -96,9 +96,8 @@ export default {
       return value.replace('_', ' ')
     },
     select(cat, i) {
-      this.selectedCat = cat
       this.selectedCatIndex = i
-      this.$emit('category', this.selectedCat.replace(' ', '_'))
+      this.$emit('category', cat.replace(' ', '_'))
       this.selected = false
     },
   },

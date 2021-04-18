@@ -19,7 +19,8 @@
     "nuxt-lazy-load": "^1.2.5",
     "typeface-inter": "^3.15.1",
     "vt-notifications": "^0.4.1",
-    "vue-browser-detect-plugin": "^0.1.13"
+    "vue-browser-detect-plugin": "^0.1.13",
+    "vue-tour": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",

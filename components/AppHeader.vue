@@ -147,11 +147,20 @@
           </a>
         </div>
       </div>
-      <div class="hidden sm:block">
-        <div class="h-16"></div>
-        <div class="flex flex-row justify-center"></div>
+      <div id="v-step-0" class="mb-2 mt-8 text-center">
+        <button
+          v-for="(value, name) in counts"
+          :key="name"
+          class="badge bg-green-50 focus:outline-none hover:outline-none bg-opacity-18.75 dark:bg-opacity-12.5 text-green-50 rounded-3 hover:bg-white hover:text-gray-800 px-3 py-2 m-1 text-sm"
+          @click="selectCat(name)"
+        >
+          <span
+            class="mb-3 bg-white text-green-800 rounded-full px-2 py-1 text-center object-right-top text-xs mr-2"
+            >{{ value }}</span
+          >{{ removeUnderscore(name) }}
+        </button>
       </div>
-      <div class="h-16"></div>
+      <div class="h-4"></div>
       <div style="height: var(--search-bar-negative-margin)"></div>
     </div>
   </header>
@@ -164,8 +173,26 @@ export default {
   props: {
     darkMode: { type: Boolean, default: false },
     numberoficons: { type: Number, default: 0 },
+    counts: {
+      type: Object,
+      default() {
+        return {}
+      },
+    },
+  },
+  methods: {
+    removeUnderscore(value) {
+      return value.replace('_', ' ')
+    },
+    selectCat(value) {
+      this.$emit('category', value)
+    },
   },
 }
 </script>
 
-<style></style>
+<style>
+.badge:hover span {
+  @apply bg-green-400 text-white;
+}
+</style>

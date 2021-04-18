@@ -25,10 +25,13 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['vue-tour/dist/vue-tour.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '~/plugins/vt-notifications' }],
+  plugins: [
+    { src: '~/plugins/vt-notifications' },
+    { src: '~/plugins/vue-tour', ssr: false },
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -62,6 +65,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile: ['vt-notifications'],
+    transpile: ['vt-notifications', 'vue-tour'],
   },
 }

@@ -59,7 +59,7 @@
                 <a
                   :href="licenseurl"
                   target="_blank"
-                  class="hover:text-green-500 focus:text-green-500"
+                  class="hover:text-green-500 focus:text-green-500 license"
                   rel="noopener noreferrer"
                   >{{ license }}</a
                 >
@@ -79,7 +79,7 @@
                 </svg>
                 <span>{{ icon.author }}</span>
               </div>
-              <div class="flex items-center space-x-1">
+              <div class="flex items-center space-x-1 attribution">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-4 w-4 text-cool-gray-400"
