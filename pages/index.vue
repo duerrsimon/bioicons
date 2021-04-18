@@ -291,6 +291,7 @@ export default {
     // },
     categorySelected(val) {
       this.category = val
+      this.size = 12
     },
     showToast(icon) {
       // this.iconName = icon
