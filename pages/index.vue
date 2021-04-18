@@ -357,8 +357,6 @@ export default {
           2000
         )
       }
-    }
-
     if (
       this.$browserDetect.isFirefox ||
       this.$browserDetect.isIE ||
