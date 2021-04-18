@@ -90,6 +90,13 @@
       <div class="hidden lg:block h-24"></div>
     </section>
     <div class="container mx-auto mb-4 text-cool-gray-800 text-right">
+      <button
+        class="text-green-500 hover:underline font-medium"
+        @click="displayTour()"
+      >
+        Show tour
+      </button>
+      &middot;
       <span>Made with Tailwind, Vue.js, Nuxt and Inkscape</span> &middot;
       <a
         href="https://github.com/duerrsimon/bioicons"
@@ -247,7 +254,7 @@ export default {
           },
           content: `Before downloading check the license of the icon you are downloading.`,
           params: {
-            placement: 'top', // Any valid Popper.js placement. See https://popper.js.org/popper-documentation.html#Popper.placements
+            placement: 'top',
             enableScrolling: false,
           },
         },
@@ -258,7 +265,7 @@ export default {
           },
           content: `For some licenses you need to attribute the creator for example in the figure caption or the acknowledgement section.`,
           params: {
-            placement: 'top', // Any valid Popper.js placement. See https://popper.js.org/popper-documentation.html#Popper.placements
+            placement: 'top',
             enableScrolling: false,
           },
         },
@@ -350,13 +357,13 @@ export default {
         this.showTour = settings.showTour
       }
       this.$notify(
-          {
-            text: 'Loaded settings from local storage',
-            type: 'info',
-          },
-          2000
-        )
-      }
+        {
+          text: 'Loaded settings from local storage',
+          type: 'info',
+        },
+        2000
+      )
+    }
     if (
       this.$browserDetect.isFirefox ||
       this.$browserDetect.isIE ||
@@ -378,30 +385,11 @@ export default {
     if (this.showTour) {
       this.$tours.gettingStarted.start()
     }
-    // const listElm = document.querySelector('#infiniteScroll') // eslint-disable-line
-    // listElm.addEventListener('scroll', this.handleScroll)
-
-    // const listElm = document.querySelector('#app-grid')
-
-    // listElm.addEventListener('scroll', (e) => {
-    //   alert('test')
-    //   if (listElm.scrollTop + listElm.clientHeight >= listElm.scrollHeight) {
-    //     this.loadMore()
-    //   }
-    // })
   },
   methods: {
-    // handleScroll(el) {
-    //   console.log(el)
-    //   alert('scrolled to bottom')
-    //   if (
-    //     el.target.offsetHeight + el.target.scrollTop >=
-    //     el.target.scrollHeight
-    //   ) {
-    //     this.hasScrolledToBottom = true
-    //     alert('scrolled to bottom')
-    //   }
-    // },
+    displayTour() {
+      this.$tours.gettingStarted.start()
+    },
     onTourStop() {
       this.showTour = false
     },
@@ -444,7 +432,6 @@ html {
 @media (min-width: 1072px) {
   html {
     background-attachment: fixed, fixed;
-    /* https://yoksel.github.io/url-encoder */
     background-image: url("data:image/svg+xml,%3Csvg fill='rgba(16, 185, 129,50)' viewBox='0 0 1 1' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='1' height='1' /%3E%3C/svg%3E"),
       url("data:image/svg+xml,%3Csvg fill='rgba(16, 185, 129,50)' viewBox='0 0 32 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 1C4 1 0 0 0 0H32C32 0 28 1 16 1Z' /%3E%3C/svg%3E");
     background-repeat: repeat-x, no-repeat;
