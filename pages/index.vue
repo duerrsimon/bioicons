@@ -54,7 +54,9 @@
                   @copy-clipboard="showToast"
                 />
                 <InfiniteScroll :enough="enough" @load-more="loadMore()">
-                  <template> <loading class="sr-only" /></template> <!-- eslint-disable-line -->
+                  <!-- eslint-disable -->
+                  <template> <loading class="sr-only" /></template> 
+                  <!-- eslint-enable -->
                 </InfiniteScroll>
               </div>
             </div>
@@ -192,6 +194,19 @@ export default {
       loading: false,
       size: 12,
       enough: false,
+    }
+  },
+  head() {
+    return {
+      title: 'Bioicons - high quality science illustrations',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Bioicons contains free science illustrations for biologists, chemists, machine learning under permissive CC0, CC BY or MIT License.',
+        },
+      ],
     }
   },
   computed: {
