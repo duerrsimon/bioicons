@@ -60,6 +60,7 @@
                   :href="licenseurl"
                   target="_blank"
                   class="hover:text-green-500 focus:text-green-500"
+                  rel="noopener noreferrer"
                   >{{ license }}</a
                 >
               </div>

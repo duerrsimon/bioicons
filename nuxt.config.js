@@ -50,6 +50,7 @@ export default {
       'nuxt-lazy-load',
       { directiveOnly: true, defaultImage: 'loading-static.svg' },
     ],
+    '@forked-prs/nuxt-infinite-scroll-module'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

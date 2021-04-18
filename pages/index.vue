@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto" :class="{ dark: darkMode }">
+  <div class="mx-auto relative" :class="{ dark: darkMode }">
     <section class="relative">
       <github-buttons />
 
@@ -44,14 +44,19 @@
             "
           >
             <!-- ClipboardAllowed {{ clipboardAllowed }} Clipboard {{ clipboard }} -->
-            <div id="app-grid">
-              <icon
-                v-for="icon in filteredIcons"
-                :key="icon.name"
-                :clipboard="clipboard"
-                :icon="icon"
-                @copy-clipboard="showToast"
-              />
+            <div id="infiniteScroll">
+              <div id="app-grid">
+                <icon
+                  v-for="icon in paginatedIcons"
+                  :key="icon.name"
+                  :clipboard="clipboard"
+                  :icon="icon"
+                  @copy-clipboard="showToast"
+                />
+                <InfiniteScroll :enough="enough" @load-more="loadMore()">
+                  <template> <loading class="sr-only" /></template> <!-- eslint-disable-line -->
+                </InfiniteScroll>
+              </div>
             </div>
             <div
               v-if="filteredIcons.length == 0"
@@ -66,6 +71,7 @@
                 <a
                   class="text-green-600 font-medium hover:underline focus:underline"
                   href="https://github.com/duerrsimon/bioicons"
+                  rel="noopener noreferrer"
                   >new Github issue</a
                 >
               </span>
@@ -75,18 +81,19 @@
       </div>
       <div class="hidden lg:block h-24"></div>
     </section>
-
     <div class="container mx-auto mb-4 text-cool-gray-800 text-right">
       <span>Made with Tailwind, Vue.js, Nuxt and Inkscape</span> &middot;
       <a
         href="https://github.com/duerrsimon/bioicons"
         class="text-green-500 hover:underline font-medium"
+        rel="noopener noreferrer"
         >Contribute</a
       >
       your own icons by creating a pull request &middot;
       <a
         href="https://simonduerr.eu/impressum"
         class="text-green-500 hover:underline font-medium"
+        rel="noopener noreferrer"
         >Imprint</a
       >
     </div>
@@ -157,6 +164,7 @@ import AppHeader from '../components/AppHeader.vue'
 import GithubButtons from '../components/GithubButtons.vue'
 import Icon from '../components/Icon.vue'
 import Toolbar from '../components/Toolbar.vue'
+// import Loading from '../components/Loading.vue'
 
 const getIcons = () =>
   import('../static/icons/icons.json').then((m) => m.default || m)
@@ -165,7 +173,7 @@ const getCategories = () =>
   import('../static/icons/categories.json').then((m) => m.default || m)
 
 export default {
-  components: { GithubButtons, AppHeader, Toolbar, Icon }, // Toast
+  components: { GithubButtons, AppHeader, Toolbar, Icon }, // Loading
   async asyncData({ req }) {
     const icons = await getIcons()
     const categories = await getCategories()
@@ -181,6 +189,9 @@ export default {
       name: '',
       searchQuery: null,
       category: 'All_icons',
+      loading: false,
+      size: 12,
+      enough: false,
     }
   },
   computed: {
@@ -208,6 +219,9 @@ export default {
         return this.categorizedIcons
       }
     },
+    paginatedIcons() {
+      return this.filteredIcons.slice(0, this.size)
+    },
   },
   watch: {
     searchQuery() {
@@ -215,6 +229,7 @@ export default {
         path: this.$route.path,
         query: { query: this.searchQuery },
       })
+      this.size = 12
     },
     settings() {
       localStorage.setItem('settings', JSON.stringify(this.settings))
@@ -222,13 +237,15 @@ export default {
   },
   created() {
     this.searchQuery = this.$route.query.query
+    if (process.client) {
+      const settings = localStorage.getItem('settings')
+      if (typeof settings.clipboard !== 'undefined') {
+        this.clipboard = settings.clipboard
+        this.darkMode = settings.darkMode
+      }
+    }
   },
   mounted() {
-    const settings = localStorage.getItem('settings')
-    if (typeof settings.clipboad !== 'undefined') {
-      this.clipboard = settings.clipboard
-      this.darkMode = settings.darkMode
-    }
     if (
       this.$browserDetect.isFirefox ||
       this.$browserDetect.isIE ||
@@ -247,8 +264,31 @@ export default {
         })
       }
     })
+
+    // const listElm = document.querySelector('#infiniteScroll') // eslint-disable-line
+    // listElm.addEventListener('scroll', this.handleScroll)
+
+    // const listElm = document.querySelector('#app-grid')
+
+    // listElm.addEventListener('scroll', (e) => {
+    //   alert('test')
+    //   if (listElm.scrollTop + listElm.clientHeight >= listElm.scrollHeight) {
+    //     this.loadMore()
+    //   }
+    // })
   },
   methods: {
+    // handleScroll(el) {
+    //   console.log(el)
+    //   alert('scrolled to bottom')
+    //   if (
+    //     el.target.offsetHeight + el.target.scrollTop >=
+    //     el.target.scrollHeight
+    //   ) {
+    //     this.hasScrolledToBottom = true
+    //     alert('scrolled to bottom')
+    //   }
+    // },
     categorySelected(val) {
       this.category = val
     },
@@ -267,6 +307,9 @@ export default {
     },
     toggleClipboard() {
       this.clipboard = !this.clipboard
+    },
+    loadMore() {
+      this.size = this.size + 12
     },
   },
 }
