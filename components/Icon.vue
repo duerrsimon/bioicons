@@ -95,20 +95,6 @@
                 <span>{{ attribution }}</span>
               </div>
             </div>
-
-            <!-- <p
-              class="subpixel-antialiased w-full px-2 py-1 tracking-wide leading-tight text-gray-500 dark:text-cool-gray-400 cursor-text select-text"
-              style="font-size: 0.625rem"
-            >
-              <a
-                :href="licenseurl"
-                target="_blank"
-                class="hover:text-green-500 focus:text-green-500"
-                >{{ license }}</a
-              >
-              - {{ attribution }}
-              {{ icon.author }}
-            </p> -->
           </div>
         </div>
       </button>
@@ -152,8 +138,13 @@ export default {
         },
         mit: {
           name: 'MIT',
-          attribute: 'No attribution',
+          attribute: 'Attribute',
           url: 'https://mit-license.org/',
+        },
+        bsd: {
+          name: 'BSD',
+          attribute: 'Attribute',
+          url: 'https://opensource.org/licenses/BSD-3-Clause',
         },
       },
     }
