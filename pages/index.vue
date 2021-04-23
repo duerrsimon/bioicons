@@ -59,7 +59,7 @@
                   :icon="icon"
                   @copy-clipboard="showToast"
                 />
-                <InfiniteScroll :enough="enough" @load-more="loadMore()">
+                <InfiniteScroll :enough="enough" @load-more="loadMore">
                   <!-- eslint-disable -->
                   <template> <loading class="sr-only" /></template>
                   <!-- eslint-enable -->

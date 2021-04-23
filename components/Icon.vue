@@ -134,12 +134,12 @@ export default {
         'cc-by-sa-4.0': {
           name: 'CC-BY SA 4.0',
           attribute: 'Attribute - Share Alike',
-          url: 'https://creativecommons.org/licenses/by/sa/4.0/',
+          url: 'https://creativecommons.org/licenses/by-sa/4.0/',
         },
         'cc-by-sa-3.0': {
           name: 'CC-BY SA 3.0',
           attribute: 'Attribute - Share Alike',
-          url: 'https://creativecommons.org/licenses/by/sa/3.0/',
+          url: 'https://creativecommons.org/licenses/by-sa/3.0/',
         },
         mit: {
           name: 'MIT',

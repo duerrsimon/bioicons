@@ -182,7 +182,7 @@ export default {
   },
   methods: {
     removeUnderscore(value) {
-      return value.replace('_', ' ')
+      return value.split('_').join(' ')
     },
     selectCat(value) {
       this.$emit('category', value)

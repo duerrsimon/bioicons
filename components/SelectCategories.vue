@@ -93,7 +93,7 @@ export default {
       this.selected = value
     },
     removeUnderscore(value) {
-      return value.replace('_', ' ')
+      return value.split('_').join(' ')
     },
     select(cat, i) {
       this.selectedCatIndex = i
