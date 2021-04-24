@@ -18,3 +18,12 @@ Inkscape supports symbol libraries and I plan to provide an automatic script tha
 ## Contribute
 
 If you want to make available icons (preferably under `CC-0` or `MIT` License) to the community via this platform you can either open a new issue and link the icon or create a pull request as described in [Contributing](CONTRIBUTING.md).
+
+## Credits
+
+Thanks to the  [https://togotv.dbcls.jp/en/pics.html](Database Center for the life sciences/TogoTV) and [https://smart.servier.com/](Servier) for making comprehensive open art libraries for the life sciences available. Their navigation is a bit clunky though and the formats are mixed images with vectors or in propietary format (Microsoft powerpoint emf). 
+Bioicons is free and open and will accept any high quality science illustration as svg vector broadly fitting in the scope of the life sciences. 
+
+If you are looking for other open clipart or Emojiis I recommend [https://openclipart.org/](OpenClipart) and [https://openmoji.org/](Openmojii)
+
+The viewer website was inspired by the [heroicons.dev](heroicons.dev) site built by [https://github.com/zaydek](@zaydek) under MIT License.
