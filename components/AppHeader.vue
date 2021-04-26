@@ -112,7 +112,7 @@
                 <span
                   class="text-green-600 dark:text-green-900 uppercase text-xs font-medium pr-1"
                   >Coming soon</span
-                ><span> Inkscape symbols</span></span
+                ><span> Inkscape integration</span></span
               >
             </p>
           </div>

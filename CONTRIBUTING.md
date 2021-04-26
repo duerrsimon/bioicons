@@ -17,6 +17,12 @@ If all this suceeds you can go ahead and submit your pull request.
 cd static/icons
 python index.py
 
+Add yourself to the authors file using the same alias as for the folder name. You can link e.g your personal website, your ORCID profile etc. 
+Do not use spaces but replace spaces with underscores. 
+
+`static/icons/authors.json`
+
+
 cd ../../
 # Build webapp
 # install dependencies

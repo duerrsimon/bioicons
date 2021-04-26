@@ -57,6 +57,7 @@
                   :key="icon.name"
                   :clipboard="clipboard"
                   :icon="icon"
+                  :authors="authors"
                   @copy-clipboard="showToast"
                 />
                 <InfiniteScroll :enough="enough" @load-more="loadMore">
@@ -193,12 +194,15 @@ const getIcons = () =>
 const getCategories = () =>
   import('../static/icons/categories.json').then((m) => m.default || m)
 
+const getAuthors = () =>
+  import('../static/icons/authors.json').then((m) => m.default || m)
+
 export default {
   components: { GithubButtons, AppHeader, Toolbar, Icon }, // Loading
   async asyncData({ req }) {
     const icons = await getIcons()
     const categories = await getCategories()
-
+    const authors = await getAuthors()
     let categoryCounts = {} // eslint-disable-line
 
     for (const { category } of icons) {
@@ -206,7 +210,7 @@ export default {
         ? categoryCounts[category] + 1
         : 1
     }
-    return { icons, categories, categoryCounts }
+    return { icons, categories, categoryCounts, authors }
   },
   data() {
     return {
@@ -278,7 +282,7 @@ export default {
       searchQuery: null,
       category: 'All_icons',
       loading: false,
-      size: 12,
+      size: 24,
       enough: false,
       showTour: true,
     }
@@ -335,7 +339,7 @@ export default {
         path: this.$route.path,
         query: { query: this.searchQuery },
       })
-      this.size = 12
+      this.size = 24
     },
     settings() {
       localStorage.setItem('settings', JSON.stringify(this.settings))
@@ -395,7 +399,7 @@ export default {
     },
     categorySelected(val) {
       this.category = val
-      this.size = 12
+      this.size = 24
     },
     showToast(icon) {
       this.$notify(
