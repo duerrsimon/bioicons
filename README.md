@@ -26,4 +26,4 @@ Bioicons is free and open and will accept any high quality science illustration 
 
 If you are looking for other open clipart or Emojiis I recommend [OpenClipart](https://openclipart.org/) and [Openmojii](https://openmoji.org/)
 
-The viewer website was inspired by the [heroicons.dev](heroicons.dev) site built by [@zaydek](https://github.com/zaydek) under MIT License.
+The viewer website was inspired by the [heroicons.dev](https://heroicons.dev/) site built by [@zaydek](https://github.com/zaydek) under MIT License.
