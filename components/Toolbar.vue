@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-0 lg:-mt-4 pt-0 lg:pt-4 sticky top-0 z-10">
+  <div class="mt-0 lg:-mt-4 pt-0 lg:pt-4 sticky top-0 z-50">
     <div
       class="hidden lg:block -mx-6 absolute inset-x-0 top-0 pointer-events-none"
       style="z-index: -1"

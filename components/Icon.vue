@@ -118,7 +118,7 @@
 
     <div
       v-if="showTooltip"
-      class="absolute w-full h-full z-50"
+      class="absolute w-full h-full z-10"
       role="dialog"
       aria-labelledby="how-to-attribute"
       aria-modal="true"
@@ -127,7 +127,7 @@
         class="bg-gray-600 h-full text-white text-sm rounded right-0 bottom-full"
       >
         <span class="bg-gray-700 py-2 w-full block text-center"
-          >License: {{ license }}</span
+          >{{ icon.name }} is licensed under {{ license }}</span
         >
         <div class="p-3 text-left text-sm my-auto">
           <span class="text-center block">This work is free to:</span>

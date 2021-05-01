@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 34.555648 27.288331"
+   version="1.1"
+   id="svg304"
+   sodipodi:docname="scaffold.svg"
+   width="34.555649"
+   height="27.28833"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata308">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview306"
+     showgrid="false"
+     inkscape:zoom="16.91989"
+     inkscape:cx="35.546738"
+     inkscape:cy="18.550611"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Abbildung_4" />
+  <defs
+     id="defs10">
+    <style
+       id="style2">.cls-1{fill:#f78f39;}.cls-2{fill:#f2985b;}.cls-3{clip-path:url(#clip-path);}.cls-4{fill:#c7e9f4;}.cls-5,.cls-8{fill:#fff;}.cls-6{fill:#91b4c4;}.cls-7{clip-path:url(#clip-path-2);}.cls-8{fill-opacity:0.09;}.cls-9{opacity:0.09;}.cls-10{fill:#e57830;}.cls-11{fill:#c38552;}</style>
+    <clipPath
+       id="clip-path">
+      <path
+         class="cls-1"
+         d="m 33.86,31.34 v 16.29 c 0,0 14.28,11.46 33.23,0 l 0.07,-16.29 z"
+         id="path4" />
+    </clipPath>
+    <clipPath
+       id="clip-path-2">
+      <ellipse
+         class="cls-2"
+         cx="50.389999"
+         cy="31.34"
+         rx="16.540001"
+         ry="5.6300001"
+         id="ellipse7" />
+    </clipPath>
+  </defs>
+  <g
+     id="Layer_2"
+     data-name="Layer 2"
+     transform="translate(-33.167133,-25.687923)">
+    <g
+       id="Abbildung_4"
+       data-name="Abbildung 4">
+      <g
+         id="Scaffold"
+         clip-path="none">
+        <path
+           class="cls-1"
+           d="m 33.86,31.34 v 16.29 c 0,0 14.28,11.46 33.23,0 l 0.07,-16.29 z"
+           id="path12" />
+        <g
+           class="cls-3"
+           clip-path="url(#clip-path)"
+           id="g50">
+          <ellipse
+             class="cls-4"
+             cx="38.27"
+             cy="50.139999"
+             rx="0.94999999"
+             ry="1.1900001"
+             id="ellipse14" />
+          <ellipse
+             class="cls-4"
+             cx="43.549999"
+             cy="52.720001"
+             rx="0.94999999"
+             ry="1.1900001"
+             id="ellipse16" />
+          <circle
+             class="cls-5"
+             cx="48.049999"
+             cy="52.599998"
+             r="0.46000001"
+             id="circle18" />
+          <ellipse
+             class="cls-5"
+             cx="58.869999"
+             cy="50.939999"
+             rx="0.28"
+             ry="0.63999999"
+             id="ellipse20" />
+          <ellipse
+             class="cls-5"
+             cx="62.349998"
+             cy="50.669998"
+             rx="0.72000003"
+             ry="0.95999998"
+             transform="rotate(-38.12,62.356001,50.670306)"
+             id="ellipse22" />
+          <ellipse
+             class="cls-4"
+             cx="65.849998"
+             cy="48.740002"
+             rx="0.86000001"
+             ry="0.66000003"
+             id="ellipse24" />
+          <circle
+             class="cls-5"
+             cx="33.860001"
+             cy="46.919998"
+             r="0.68000001"
+             id="circle26" />
+          <ellipse
+             class="cls-5"
+             cx="33.860001"
+             cy="43.759998"
+             rx="0.68000001"
+             ry="0.56"
+             id="ellipse28" />
+          <circle
+             class="cls-5"
+             cx="33.549999"
+             cy="39.880001"
+             r="0.56999999"
+             id="circle30" />
+          <ellipse
+             class="cls-5"
+             cx="33.610001"
+             cy="38.57"
+             rx="0.94"
+             ry="0.47999999"
+             id="ellipse32" />
+          <ellipse
+             class="cls-5"
+             cx="33.23"
+             cy="36.209999"
+             rx="1.0700001"
+             ry="0.75999999"
+             id="ellipse34" />
+          <ellipse
+             class="cls-5"
+             cx="33.889999"
+             cy="32.970001"
+             rx="0.41"
+             ry="0.95999998"
+             transform="rotate(-7.95,33.862249,32.936753)"
+             id="ellipse36" />
+          <ellipse
+             class="cls-6"
+             cx="66.860001"
+             cy="36.220001"
+             rx="0.41"
+             ry="0.75"
+             id="ellipse38" />
+          <ellipse
+             class="cls-6"
+             cx="66.860001"
+             cy="39.66"
+             rx="0.46000001"
+             ry="0.73000002"
+             transform="rotate(-2.93,66.870623,39.663187)"
+             id="ellipse40" />
+          <circle
+             class="cls-4"
+             cx="66.629997"
+             cy="42.720001"
+             r="0.69"
+             id="circle42" />
+          <ellipse
+             class="cls-4"
+             cx="67.370003"
+             cy="45.549999"
+             rx="0.91000003"
+             ry="0.56"
+             id="ellipse44" />
+          <ellipse
+             class="cls-6"
+             cx="66.809998"
+             cy="32.990002"
+             rx="0.50999999"
+             ry="0.68000001"
+             id="ellipse46" />
+          <ellipse
+             class="cls-5"
+             cx="52.91"
+             cy="52.34"
+             rx="0.91000003"
+             ry="0.75999999"
+             id="ellipse48" />
+        </g>
+        <ellipse
+           class="cls-2"
+           cx="50.389999"
+           cy="31.34"
+           rx="16.540001"
+           ry="5.6300001"
+           id="ellipse52" />
+        <g
+           class="cls-7"
+           clip-path="url(#clip-path-2)"
+           id="g74">
+          <ellipse
+             class="cls-5"
+             cx="36.759998"
+             cy="28.450001"
+             rx="0.99000001"
+             ry="0.61000001"
+             id="ellipse54" />
+          <ellipse
+             class="cls-5"
+             cx="33.939999"
+             cy="30.940001"
+             rx="0.61000001"
+             ry="0.41"
+             id="ellipse56" />
+          <ellipse
+             class="cls-5"
+             cx="42.470001"
+             cy="26.469999"
+             rx="1.01"
+             ry="0.25"
+             id="ellipse58" />
+          <ellipse
+             class="cls-6"
+             cx="57.439999"
+             cy="26.190001"
+             rx="0.75999999"
+             ry="0.33000001"
+             transform="rotate(-72.54,57.435067,26.188863)"
+             id="ellipse60" />
+          <ellipse
+             class="cls-5"
+             cx="47.09"
+             cy="25.92"
+             rx="0.72000003"
+             ry="0.2"
+             id="ellipse62" />
+          <ellipse
+             class="cls-5"
+             cx="50.950001"
+             cy="25.9"
+             rx="0.31999999"
+             ry="0.43000001"
+             id="ellipse64" />
+          <ellipse
+             class="cls-5"
+             cx="53.950001"
+             cy="25.790001"
+             rx="0.69999999"
+             ry="0.38"
+             id="ellipse66" />
+          <ellipse
+             class="cls-6"
+             cx="66.790001"
+             cy="30.35"
+             rx="0.47999999"
+             ry="0.99000001"
+             id="ellipse68" />
+          <circle
+             class="cls-6"
+             cx="63.549999"
+             cy="28.01"
+             r="0.37"
+             id="circle70" />
+          <ellipse
+             class="cls-6"
+             cx="60.220001"
+             cy="26.83"
+             rx="0.76999998"
+             ry="0.46000001"
+             id="ellipse72" />
+        </g>
+        <path
+           class="cls-8"
+           d="m 59.47,30.9 c 0,1.77 -4.77,3.89 -10.67,3.89 -5.9,0 -10.66,-2.12 -10.66,-3.89 0,-1.77 6.76,-3.9 12.65,-3.9 5.89,0 8.68,2.13 8.68,3.9 z"
+           id="path76" />
+        <g
+           class="cls-9"
+           id="g80">
+          <image
+             width="385"
+             height="362"
+             transform="scale(0.24)"
+             xlink:href="data:image/png;base64,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CAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhYkAQGEiAFCYCAAUJgIAhf0/jJV7+jmaeeYAAAAASUVORK5CYII="
+             id="image78" />
+        </g>
+        <path
+           class="cls-10"
+           d="m 33.86,31.34 a 2.71,2.71 0 0 0 1,2 7.29,7.29 0 0 0 1.91,1.24 19.6,19.6 0 0 0 4.36,1.39 52.87,52.87 0 0 0 9.13,1 37.69,37.69 0 0 0 9.14,-0.97 22.91,22.91 0 0 0 4.35,-1.45 10,10 0 0 0 2,-1.15 2.8,2.8 0 0 0 1.2,-1.87 2.79,2.79 0 0 1 -1.17,1.91 9.38,9.38 0 0 1 -2,1.22 21.91,21.91 0 0 1 -4.37,1.5 37.06,37.06 0 0 1 -9.15,1 52.13,52.13 0 0 1 -9.16,-1 19.41,19.41 0 0 1 -4.38,-1.45 7.51,7.51 0 0 1 -1.91,-1.3 2.8,2.8 0 0 1 -0.95,-2.07 z"
+           id="path82" />
+        <path
+           class="cls-11"
+           d="m 40.28,40.88 c 0,0.48 -0.51,0.62 -1.14,0.62 -0.63,0 -1.14,-0.14 -1.14,-0.62 0,-0.48 0.51,-0.86 1.14,-0.86 0.63,0 1.14,0.38 1.14,0.86 z"
+           id="path84" />
+        <ellipse
+           class="cls-11"
+           cx="45.119999"
+           cy="39.150002"
+           rx="0.72000003"
+           ry="0.67000002"
+           id="ellipse86" />
+        <path
+           class="cls-11"
+           d="m 42,37.5 c 0,0.37 -0.32,0.53 -0.71,0.53 -0.39,0 -0.72,-0.16 -0.72,-0.53 a 0.72,0.72 0 0 1 1.43,0 z"
+           id="path88" />
+        <ellipse
+           class="cls-11"
+           cx="40.669998"
+           cy="39.150002"
+           rx="0.22"
+           ry="0.34"
+           id="ellipse90" />
+        <ellipse
+           class="cls-11"
+           cx="38.5"
+           cy="37.720001"
+           rx="0.22"
+           ry="0.34"
+           id="ellipse92" />
+        <path
+           class="cls-11"
+           d="m 36.41,36.49 c 0,0.19 0.07,0.86 -0.22,0.34 -0.06,-0.11 -0.23,-0.15 -0.23,-0.34 0,-0.19 0.1,-0.34 0.23,-0.34 0.13,0 0.22,0.15 0.22,0.34 z"
+           id="path94" />
+        <path
+           class="cls-11"
+           d="m 36.9,38.84 c -0.08,0.17 -0.1,0.34 -0.22,0.34 -0.12,0 -0.23,-0.15 -0.23,-0.34 0,-0.19 0.1,-0.33 0.23,-0.33 a 0.23,0.23 0 0 1 0.22,0.33 z"
+           id="path96" />
+        <path
+           class="cls-11"
+           d="m 45.64,44.48 c 0,0.87 -0.18,1.58 -0.64,1.58 -0.46,0 -0.82,-0.71 -0.82,-1.58 0,-0.87 0.37,-1.57 0.82,-1.57 0.45,0 0.64,0.7 0.64,1.57 z"
+           id="path98" />
+        <path
+           class="cls-11"
+           d="m 51.41,43.6 c -0.36,0.79 -0.81,1.35 -1.23,1.16 -0.42,-0.19 -0.46,-1 -0.1,-1.77 0.36,-0.77 1,-1.28 1.4,-1.09 0.4,0.19 0.3,0.9 -0.07,1.7 z"
+           id="path100" />
+        <path
+           class="cls-11"
+           d="m 56.7,32 c -0.74,0.46 -1.44,0.68 -1.68,0.29 -0.24,-0.39 0.16,-1.08 0.9,-1.54 0.74,-0.46 1.53,-0.52 1.78,-0.13 0.25,0.39 -0.26,0.91 -1,1.38 z"
+           id="path102" />
+        <path
+           class="cls-11"
+           d="m 47.56,49.2 c 0,0.87 -1.18,1.58 -1.63,1.58 -0.45,0 -0.83,-0.71 -0.83,-1.58 0,-0.87 0.37,-1.57 0.83,-1.57 0.46,0 1.63,0.7 1.63,1.57 z"
+           id="path104" />
+        <path
+           class="cls-11"
+           d="m 40.55,35.1 c -0.85,0.18 -1.79,-0.82 -1.89,-1.27 -0.1,-0.45 0.51,-0.95 1.36,-1.14 0.85,-0.19 1.62,0 1.72,0.47 a 2,2 0 0 1 -1.19,1.94 z"
+           id="path106" />
+        <path
+           class="cls-11"
+           d="m 44.18,42 c 0,0.87 -0.74,1.93 -1.19,1.93 -0.45,0 -0.83,-0.7 -0.83,-1.57 0,-0.87 0.37,-1.58 0.83,-1.58 A 1.2,1.2 0 0 1 44.18,42 Z"
+           id="path108" />
+        <path
+           class="cls-11"
+           d="m 60,40.69 a 2.4,2.4 0 0 1 -1.65,1.86 c -0.46,0 0,-1 0,-1.86 0,-0.86 0.65,-1.85 1.1,-1.85 0.45,0 0.55,0.98 0.55,1.85 z"
+           id="path110" />
+        <path
+           class="cls-11"
+           d="m 62.7,31.68 a 2.43,2.43 0 0 1 0,2.5 c -0.35,0.3 -0.66,-0.75 -1.23,-1.41 -0.57,-0.66 -0.72,-1.82 -0.38,-2.12 0.34,-0.3 1.03,0.35 1.61,1.03 z"
+           id="path112" />
+        <path
+           class="cls-11"
+           d="m 64.79,45.52 c 0,0.88 -0.09,1.67 -0.54,1.67 a 1.94,1.94 0 0 1 -1.48,-1.66 2.21,2.21 0 0 1 1.48,-1.85 c 0.46,0 0.54,0.97 0.54,1.84 z"
+           id="path114" />
+        <path
+           class="cls-11"
+           d="m 56,48.8 c 0,0.87 -0.36,1.87 -0.82,1.87 A 1.36,1.36 0 0 1 54.34,48.8 C 54.56,48 55,47 55.4,47 c 0.4,0 0.6,0.93 0.6,1.8 z"
+           id="path116" />
+        <path
+           class="cls-11"
+           d="M 53.33,45.42 C 53.22,46.28 53,47 52.5,47 52,47 52.09,46.3 52.09,45.43 a 2.22,2.22 0 0 1 0.41,-1.58 c 1.78,-2.24 0.97,0.45 0.83,1.57 z"
+           id="path118" />
+        <ellipse
+           class="cls-11"
+           cx="39.91"
+           cy="44.369999"
+           rx="0.75999999"
+           ry="0.89999998"
+           id="ellipse120" />
+        <path
+           class="cls-11"
+           d="m 39,46.58 a 0.84,0.84 0 0 1 -0.76,0.9 c -0.42,0 -0.85,-0.17 -0.85,-0.67 0,-0.5 0.43,-1.13 0.85,-1.13 a 0.84,0.84 0 0 1 0.76,0.9 z"
+           id="path122" />
+        <path
+           class="cls-11"
+           d="m 40.54,46.69 c 0,0.5 -0.72,1 -1.15,1 a 0.9,0.9 0 0 1 0,-1.8 c 0.43,0.02 1.15,0.3 1.15,0.8 z"
+           id="path124" />
+        <path
+           class="cls-11"
+           d="m 36.4,45.28 c 0,0.29 -0.12,0.53 -0.33,0.53 -0.21,0 -0.38,-0.24 -0.38,-0.53 0,-0.29 0.17,-0.52 0.38,-0.52 0.21,0 0.33,0.24 0.33,0.52 z"
+           id="path126" />
+        <ellipse
+           class="cls-11"
+           cx="34.599998"
+           cy="42.549999"
+           rx="0.38"
+           ry="0.51999998"
+           id="ellipse128" />
+        <path
+           class="cls-11"
+           d="m 36.45,41.55 c 0,0.29 -0.17,0.52 -0.38,0.52 -0.21,0 -0.38,-0.23 -0.38,-0.52 0,-0.29 0.17,-0.22 0.38,-0.22 0.21,0 0.38,-0.07 0.38,0.22 z"
+           id="path130" />
+        <path
+           class="cls-11"
+           d="m 48.24,45 c 0,0.29 -0.09,0.52 -0.3,0.52 -0.21,0 -0.38,-0.23 -0.38,-0.52 0,-0.29 0.17,-0.53 0.38,-0.53 0.21,0 0.3,0.25 0.3,0.53 z"
+           id="path132" />
+        <ellipse
+           class="cls-11"
+           cx="49.400002"
+           cy="49.73"
+           rx="0.38"
+           ry="0.51999998"
+           id="ellipse134" />
+        <path
+           class="cls-11"
+           d="m 49.78,47 c 0,0.29 -0.17,0.53 -0.38,0.53 -0.21,0 -0.24,-0.24 -0.24,-0.53 0,-0.29 0,-0.52 0.24,-0.52 0.24,0 0.38,0.18 0.38,0.52 z"
+           id="path136" />
+        <ellipse
+           class="cls-11"
+           cx="51.990002"
+           cy="48.810001"
+           rx="0.38"
+           ry="0.51999998"
+           id="ellipse138" />
+        <ellipse
+           class="cls-11"
+           cx="54.200001"
+           cy="46.060001"
+           rx="0.38"
+           ry="0.51999998"
+           id="ellipse140" />
+        <path
+           class="cls-11"
+           d="m 49.4,42.39 c 0,0.28 -0.12,0.38 -0.33,0.38 a 0.38,0.38 0 0 1 -0.43,-0.38 c 0,-0.29 0.17,-0.53 0.38,-0.53 0.21,0 0.38,0.24 0.38,0.53 z"
+           id="path142" />
+        <path
+           class="cls-11"
+           d="m 46.65,41.7 c 0,0.28 -0.11,0.33 -0.32,0.33 C 46.12,42.03 46,42 46,41.7 c 0,-0.3 0.17,-0.53 0.38,-0.53 0.21,0 0.27,0.24 0.27,0.53 z"
+           id="path144" />
+        <path
+           class="cls-11"
+           d="m 49.4,38.84 c 0,0.29 -0.17,0.53 -0.38,0.53 -0.21,0 -0.19,-0.22 -0.38,-0.53 -0.19,-0.31 0.17,-0.52 0.38,-0.52 0.21,0 0.38,0.23 0.38,0.52 z"
+           id="path146" />
+        <path
+           class="cls-11"
+           d="m 54.8,38 c 0,0.28 -0.18,0.52 -0.39,0.52 -0.21,0 -0.21,-0.21 -0.21,-0.5 0,-0.29 0,-0.55 0.21,-0.55 0.21,0 0.39,0.27 0.39,0.53 z"
+           id="path148" />
+        <path
+           class="cls-11"
+           d="m 56.82,43 a 0.59,0.59 0 0 1 -0.49,0.56 c -0.22,0 -0.39,-0.23 -0.39,-0.52 a 0.65,0.65 0 0 1 0.53,-0.59 c 0.21,0.04 0.35,0.3 0.35,0.55 z"
+           id="path150" />
+        <path
+           class="cls-11"
+           d="m 57.9,48.43 c 0.07,0.4 -0.17,0.52 -0.38,0.52 -0.21,0 -0.38,-0.23 -0.38,-0.52 0,-0.29 0.17,-0.53 0.38,-0.53 0.21,0 0.33,0.24 0.38,0.53 z"
+           id="path152" />
+        <path
+           class="cls-11"
+           d="m 66.58,47 c 0.08,0.4 -0.46,0.53 -0.67,0.53 -0.21,0 -0.39,-0.24 -0.39,-0.53 0,-0.29 0.18,-0.52 0.39,-0.52 A 0.81,0.81 0 0 1 66.58,47 Z"
+           id="path154" />
+        <path
+           class="cls-11"
+           d="m 60.37,48.29 c -0.11,0.26 -0.17,0.52 -0.38,0.52 -0.21,0 -0.38,-0.24 -0.38,-0.52 0,-0.28 0.17,-0.53 0.38,-0.53 0.21,0 0.58,0.07 0.38,0.53 z"
+           id="path156" />
+        <path
+           class="cls-11"
+           d="m 61,45 c 0,0.29 -0.17,0.52 -0.38,0.52 -0.21,0 -0.38,-0.23 -0.38,-0.52 a 0.54,0.54 0 0 1 0.47,-0.53 C 60.87,44.48 61,44.72 61,45 Z"
+           id="path158" />
+        <path
+           class="cls-11"
+           d="m 61.72,46.58 c 0,0.29 -0.17,0.53 -0.38,0.53 -0.21,0 -0.39,-0.24 -0.39,-0.53 a 0.53,0.53 0 0 1 0.47,-0.52 c 0.21,0 0.3,0.23 0.3,0.52 z"
+           id="path160" />
+        <path
+           class="cls-11"
+           d="m 61.23,49.7 c 0,0.29 -0.17,0.53 -0.38,0.53 C 60.64,50.23 60,50 60,49.7 c 0,-0.3 0.75,-0.52 1,-0.52 0.25,0 0.23,0.24 0.23,0.52 z"
+           id="path162" />
+        <path
+           class="cls-11"
+           d="m 63.78,47.9 c 0,0.29 -0.17,0.53 -0.38,0.53 -0.21,0 -0.4,-0.24 -0.4,-0.53 0,-0.29 0.17,-0.35 0.38,-0.35 0.21,0 0.4,0.07 0.4,0.35 z"
+           id="path164" />
+        <path
+           class="cls-11"
+           d="m 62.39,44.46 c 0,0.29 -0.17,0.53 -0.39,0.53 -0.22,0 -0.38,-0.24 -0.38,-0.53 a 0.53,0.53 0 0 1 0.47,-0.52 c 0.21,0 0.3,0.23 0.3,0.52 z"
+           id="path166" />
+        <path
+           class="cls-11"
+           d="m 65.18,42.13 c 0,0.28 -0.17,0.52 -0.39,0.52 -0.22,0 -0.38,-0.24 -0.38,-0.52 0,-0.28 0.32,-0.72 0.53,-0.72 0.21,0 0.24,0.43 0.24,0.72 z"
+           id="path168" />
+        <path
+           class="cls-11"
+           d="m 58.83,44.05 c 0,0.28 -0.17,0.52 -0.38,0.52 -0.21,0 -0.54,-0.09 -0.54,-0.38 0,-0.29 0.33,-0.67 0.54,-0.67 0.21,0 0.38,0.24 0.38,0.53 z"
+           id="path170" />
+        <path
+           class="cls-11"
+           d="m 60.49,37.94 c 0,0.29 -0.17,0.52 -0.38,0.52 -0.21,0 -0.38,-0.23 -0.38,-0.52 0,-0.29 0.14,-1.29 0.64,-0.91 0.57,0.09 0.12,0.62 0.12,0.91 z"
+           id="path172" />
+        <path
+           class="cls-11"
+           d="m 53.41,34.91 c 0,0.29 -0.17,0.52 -0.38,0.52 -0.21,0 -0.39,-0.23 -0.39,-0.52 0,-0.29 0.15,-1.29 0.65,-0.91 0.57,0.09 0.12,0.62 0.12,0.91 z"
+           id="path174" />
+        <path
+           class="cls-11"
+           d="m 59.36,32.31 c 0,0.28 -0.17,0.52 -0.38,0.52 -0.21,0 -0.38,-0.24 -0.38,-0.52 0,-0.28 0.14,-1.29 0.64,-0.91 0.57,0.09 0.12,0.6 0.12,0.91 z"
+           id="path176" />
+        <ellipse
+           class="cls-11"
+           cx="42.509998"
+           cy="48.810001"
+           rx="0.38"
+           ry="0.51999998"
+           id="ellipse178" />
+        <ellipse
+           class="cls-11"
+           cx="40.540001"
+           cy="50.259998"
+           rx="0.38"
+           ry="0.51999998"
+           id="ellipse180" />
+        <ellipse
+           class="cls-11"
+           cx="39.389999"
+           cy="48.810001"
+           rx="0.38"
+           ry="0.51999998"
+           id="ellipse182" />
+        <path
+           class="cls-11"
+           d="m 36.69,48.29 c 0,0.28 -0.17,0.52 -0.38,0.52 -0.21,0 -0.38,-0.24 -0.38,-0.52 0,-0.28 0.17,-0.27 0.38,-0.27 0.21,0 0.38,-0.02 0.38,0.27 z"
+           id="path184" />
+        <ellipse
+           class="cls-11"
+           cx="42.509998"
+           cy="46.810001"
+           rx="0.38"
+           ry="0.51999998"
+           id="ellipse186" />
+        <path
+           class="cls-11"
+           d="m 50.55,40.54 c 0,0.29 -0.17,0.52 -0.38,0.52 -0.21,0 -0.31,-0.23 -0.31,-0.52 0,-0.29 0.1,-0.52 0.31,-0.52 0.21,0 0.38,0.23 0.38,0.52 z"
+           id="path188" />
+        <path
+           class="cls-11"
+           d="m 56.67,40.18 c 0,0.28 -0.17,0.52 -0.38,0.52 -0.21,0 -0.31,-0.24 -0.31,-0.52 0,-0.28 0.1,-0.53 0.31,-0.53 0.21,0 0.38,0.24 0.38,0.53 z"
+           id="path190" />
+        <path
+           class="cls-11"
+           d="m 58.37,37.94 c 0,0.29 -0.17,0.52 -0.38,0.52 -0.21,0 -0.31,-0.23 -0.31,-0.52 0,-0.29 0.1,-0.53 0.31,-0.53 0.21,0 0.38,0.24 0.38,0.53 z"
+           id="path192" />
+        <path
+           class="cls-11"
+           d="m 60.43,43.29 c 0,0.29 -0.17,0.52 -0.38,0.52 -0.21,0 -0.31,-0.23 -0.31,-0.52 0,-0.29 0.1,-0.52 0.31,-0.52 0.21,0 0.38,0.23 0.38,0.52 z"
+           id="path194" />
+        <path
+           class="cls-11"
+           d="m 62.35,39.37 c 0,0.28 -0.17,0.52 -0.38,0.52 -0.21,0 -0.31,-0.24 -0.31,-0.52 0,-0.28 0.1,-0.53 0.31,-0.53 0.21,0 0.38,0.24 0.38,0.53 z"
+           id="path196" />
+        <path
+           class="cls-11"
+           d="m 64.94,38.55 c 0,0.29 -0.17,0.52 -0.38,0.52 -0.21,0 -0.31,-0.23 -0.31,-0.52 0,-0.29 0.1,-0.52 0.31,-0.52 0.21,0 0.38,0.23 0.38,0.52 z"
+           id="path198" />
+        <path
+           class="cls-11"
+           d="m 62.58,37.72 c 0,0.29 -0.18,0.52 -0.39,0.52 -0.21,0 -0.3,-0.23 -0.3,-0.52 0,-0.29 0.09,-0.52 0.3,-0.52 0.21,0 0.39,0.23 0.39,0.52 z"
+           id="path200" />
+        <path
+           class="cls-11"
+           d="m 52.33,29.5 c 0,0.29 -0.17,0.52 -0.38,0.52 -0.21,0 -0.31,-0.23 -0.31,-0.52 0,-0.29 0.1,-0.52 0.31,-0.52 0.21,0 0.38,0.23 0.38,0.52 z"
+           id="path202" />
+        <path
+           class="cls-11"
+           d="m 63.53,40.76 c 0,0.29 -0.17,0.52 -0.38,0.52 -0.21,0 -0.31,-0.23 -0.31,-0.52 0,-0.29 0.09,-0.52 0.31,-0.52 0.22,0 0.38,0.23 0.38,0.52 z"
+           id="path204" />
+        <path
+           class="cls-11"
+           d="m 61.3,40.76 c 0,0.29 -0.17,0.52 -0.38,0.52 -0.21,0 -0.31,-0.23 -0.31,-0.52 0,-0.29 0.1,-0.52 0.31,-0.52 0.21,0 0.38,0.23 0.38,0.52 z"
+           id="path206" />
+        <path
+           class="cls-11"
+           d="m 53.88,40 c -0.06,0.26 -0.18,0.52 -0.39,0.52 -0.21,0 -0.38,-0.23 -0.38,-0.52 0,-0.29 0.17,-0.53 0.38,-0.53 A 0.45,0.45 0 0 1 53.88,40 Z"
+           id="path208" />
+        <ellipse
+           class="cls-11"
+           cx="63.869999"
+           cy="36.68"
+           rx="0.38"
+           ry="0.51999998"
+           id="ellipse210" />
+        <ellipse
+           class="cls-11"
+           cx="56.889999"
+           cy="28.950001"
+           rx="0.51999998"
+           ry="0.38"
+           transform="rotate(-74.4,56.886802,28.955458)"
+           id="ellipse212" />
+        <ellipse
+           class="cls-11"
+           cx="60.889999"
+           cy="28.360001"
+           rx="0.51999998"
+           ry="0.38"
+           transform="rotate(-74.4,60.883057,28.354918)"
+           id="ellipse214" />
+        <path
+           class="cls-11"
+           d="m 63.18,42.39 c 0,0.28 0,0.48 -0.23,0.48 -0.23,0 -0.6,-0.1 -0.6,-0.38 0,-0.28 0.24,-0.63 0.45,-0.63 0.21,0 0.38,0.24 0.38,0.53 z"
+           id="path216" />
+        <ellipse
+           class="cls-11"
+           cx="58.509998"
+           cy="46.060001"
+           rx="0.38"
+           ry="0.51999998"
+           id="ellipse218" />
+        <path
+           class="cls-11"
+           d="m 40.49,31.06 c 0,0.31 -0.67,0.57 -1.24,0.57 -0.57,0 -1.64,0 -1.64,-0.29 0,-0.29 1,-0.72 1.59,-0.72 0.59,0 1.29,0.12 1.29,0.44 z"
+           id="path220" />
+        <ellipse
+           class="cls-11"
+           cx="42.970001"
+           cy="29.08"
+           rx="0.2"
+           ry="0.41999999"
+           id="ellipse222" />
+        <path
+           class="cls-11"
+           d="m 48.6,28.65 c 0,-0.44 -1.13,-0.2 -1.71,-0.2 a 0.84,0.84 0 1 0 0,1.63 c 0.58,0 1.71,-0.98 1.71,-1.43 z"
+           id="path224" />
+        <path
+           class="cls-11"
+           d="m 44.59,32 c 0,0.22 -0.19,0.26 -0.41,0.26 a 0.42,0.42 0 0 1 -0.42,-0.42 c 0,-0.22 0.29,-0.41 0.51,-0.41 0.22,0 0.32,0.33 0.32,0.57 z"
+           id="path226" />
+        <path
+           class="cls-11"
+           d="m 41.5,30 c 0,0.23 -0.19,0.26 -0.42,0.26 a 0.41,0.41 0 0 1 -0.41,-0.41 c 0,-0.23 0.28,-0.41 0.51,-0.41 0.23,0 0.32,0.31 0.32,0.56 z"
+           id="path228" />
+        <path
+           class="cls-11"
+           d="m 42.38,31.78 c 0,0.23 -0.18,0.26 -0.41,0.26 a 0.41,0.41 0 0 1 -0.41,-0.41 c 0,-0.23 0.28,-0.41 0.51,-0.41 0.23,0 0.31,0.34 0.31,0.56 z"
+           id="path230" />
+        <circle
+           class="cls-11"
+           cx="43.610001"
+           cy="34.349998"
+           r="0.16"
+           id="circle232" />
+        <circle
+           class="cls-11"
+           cx="58.029999"
+           cy="35.119999"
+           r="0.16"
+           id="circle234" />
+        <circle
+           class="cls-11"
+           cx="59.919998"
+           cy="34.029999"
+           r="0.16"
+           id="circle236" />
+        <circle
+           class="cls-11"
+           cx="64.410004"
+           cy="32.25"
+           r="0.16"
+           id="circle238" />
+        <ellipse
+           class="cls-11"
+           cx="54.950001"
+           cy="35.900002"
+           rx="0.99000001"
+           ry="0.46000001"
+           id="ellipse240" />
+        <path
+           class="cls-11"
+           d="m 50,34.51 c 0,0.09 -0.43,0.16 -0.95,0.16 -0.52,0 -1,-0.07 -1,-0.16 A 2.29,2.29 0 0 1 49.4,34 0.53,0.53 0 0 1 50,34.51 Z"
+           id="path242" />
+        <path
+           class="cls-11"
+           d="m 65.19,30.73 c 0,0.09 -0.42,0.17 -0.94,0.17 -0.52,0 -1,-0.08 -1,-0.17 A 2.16,2.16 0 0 1 64.59,30 c 0.53,0 0.6,0.64 0.6,0.73 z"
+           id="path244" />
+        <path
+           class="cls-11"
+           d="m 56.53,34.4 a 1.35,1.35 0 0 1 -1.9,0 2.29,2.29 0 0 1 1.29,-0.48 0.53,0.53 0 0 1 0.61,0.48 z"
+           id="path246" />
+        <path
+           class="cls-11"
+           d="m 50.79,31.49 c 0,0.08 0,0.34 -0.24,0.34 a 1.12,1.12 0 0 1 -0.71,-0.34 c 0,-0.08 0.21,-0.15 0.47,-0.15 0.26,0 0.48,0.07 0.48,0.15 z"
+           id="path248" />
+        <path
+           class="cls-11"
+           d="m 49.28,32.73 c 0,0.08 0,0.34 -0.24,0.34 a 1.12,1.12 0 0 1 -0.71,-0.34 c 0,-0.08 0.21,-0.15 0.47,-0.15 0.26,0 0.48,0.07 0.48,0.15 z"
+           id="path250" />
+        <path
+           class="cls-11"
+           d="m 51.7,36.05 c 0,0.08 0,0.35 -0.24,0.35 a 1.12,1.12 0 0 1 -0.72,-0.35 c 0,-0.08 0.22,-0.14 0.48,-0.14 0.26,0 0.48,0.09 0.48,0.14 z"
+           id="path252" />
+        <ellipse
+           class="cls-11"
+           cx="39.57"
+           cy="28.74"
+           rx="0.43000001"
+           ry="0.23999999"
+           id="ellipse254" />
+        <ellipse
+           class="cls-11"
+           cx="47.060001"
+           cy="27.709999"
+           rx="0.43000001"
+           ry="0.23999999"
+           id="ellipse256" />
+        <ellipse
+           class="cls-11"
+           cx="48.369999"
+           cy="26.74"
+           rx="0.43000001"
+           ry="0.23999999"
+           id="ellipse258" />
+        <ellipse
+           class="cls-11"
+           cx="50.790001"
+           cy="28.379999"
+           rx="0.43000001"
+           ry="0.23999999"
+           id="ellipse260" />
+        <ellipse
+           class="cls-11"
+           cx="55.23"
+           cy="27.5"
+           rx="0.43000001"
+           ry="0.23999999"
+           id="ellipse262" />
+        <ellipse
+           class="cls-11"
+           cx="53.25"
+           cy="31.83"
+           rx="0.43000001"
+           ry="0.23999999"
+           id="ellipse264" />
+        <ellipse
+           class="cls-11"
+           cx="54.200001"
+           cy="29.74"
+           rx="0.43000001"
+           ry="0.23999999"
+           id="ellipse266" />
+        <ellipse
+           class="cls-11"
+           cx="57.68"
+           cy="33.869999"
+           rx="0.43000001"
+           ry="0.23999999"
+           id="ellipse268" />
+        <ellipse
+           class="cls-11"
+           cx="59.490002"
+           cy="29.120001"
+           rx="0.43000001"
+           ry="0.23999999"
+           id="ellipse270" />
+        <ellipse
+           class="cls-11"
+           cx="58.599998"
+           cy="28.120001"
+           rx="0.43000001"
+           ry="0.23999999"
+           id="ellipse272" />
+        <ellipse
+           class="cls-11"
+           cx="62.84"
+           cy="29.120001"
+           rx="0.43000001"
+           ry="0.23999999"
+           id="ellipse274" />
+        <circle
+           class="cls-11"
+           cx="35.810001"
+           cy="30.4"
+           r="0.37"
+           id="circle276" />
+        <ellipse
+           class="cls-11"
+           cx="46.48"
+           cy="35.59"
+           rx="1.02"
+           ry="0.58999997"
+           id="ellipse278" />
+        <ellipse
+           class="cls-11"
+           cx="46.740002"
+           cy="31.870001"
+           rx="0.47999999"
+           ry="0.37"
+           id="ellipse280" />
+        <circle
+           class="cls-11"
+           cx="45"
+           cy="30.200001"
+           r="0.37"
+           id="circle282" />
+        <ellipse
+           class="cls-11"
+           cx="46.099998"
+           cy="33.869999"
+           rx="0.52999997"
+           ry="0.37"
+           id="ellipse284" />
+        <ellipse
+           class="cls-11"
+           cx="36.490002"
+           cy="32.630001"
+           rx="0.87"
+           ry="0.38999999"
+           id="ellipse286" />
+        <ellipse
+           class="cls-11"
+           cx="42.790001"
+           cy="27.940001"
+           rx="0.81999999"
+           ry="0.33000001"
+           id="ellipse288" />
+        <ellipse
+           class="cls-11"
+           cx="45.380001"
+           cy="26.93"
+           rx="0.25999999"
+           ry="0.050000001"
+           id="ellipse290" />
+        <ellipse
+           class="cls-11"
+           cx="49.98"
+           cy="26.940001"
+           rx="0.56999999"
+           ry="0.23999999"
+           id="ellipse292" />
+        <ellipse
+           class="cls-11"
+           cx="38.279999"
+           cy="29.74"
+           rx="0.56999999"
+           ry="0.23999999"
+           id="ellipse294" />
+        <ellipse
+           class="cls-11"
+           cx="52.93"
+           cy="27.309999"
+           rx="0.94999999"
+           ry="0.43000001"
+           id="ellipse296" />
+        <path
+           class="cls-11"
+           d="m 49.24,29.66 a 0.66,0.66 0 0 0 0.18,0.93 c 0.31,0.21 0.19,0 0.4,-0.34 0.21,-0.34 0.66,-0.57 0.35,-0.78 a 0.68,0.68 0 0 0 -0.93,0.19 z"
+           id="path298" />
+      </g>
+    </g>
+  </g>
+</svg>
