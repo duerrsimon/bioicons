@@ -22,7 +22,9 @@ jobs:
       - name: Index icons
         working-directory: ./static/icons
         run: python index.py
-
+      - name: Create drawio lib
+        working-directory: ./static/icons
+        run: python drawiolib.py
       - name: Setup node env
         uses: actions/setup-node@v2.1.2
         with:

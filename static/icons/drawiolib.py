@@ -133,8 +133,13 @@ for name in glob.glob(os.path.join("./*/*/*/*.svg")):
 
     icons[c].append(item)
 
+drawio = {}
 for category in icons.keys():
+    drawio[category] = {"n":len(icons[category]), "file": "Bioicons-" + category.replace(" ", "_") + ".xml"}
     with open(
         "../drawio-lib/Bioicons-" + category.replace(" ", "_") + ".xml", "w"
     ) as outfile:
         outfile.write("<mxlibrary>" + json.dumps(icons[category]) + "</mxlibrary>")
+
+with open('../drawio-lib/categories.json', 'w') as outfile:
+        json.dump(drawio, outfile)
