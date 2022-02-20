@@ -97,7 +97,7 @@
                       :class="
                         isSelected(key)
                           ? 'bg-theme text-white  '
-                          : 'text-theme bg-white'
+                          : 'text-theme bg-white dark:bg-transparent'
                       "
                       @click="toggleSelect(key)"
                     >
@@ -106,7 +106,7 @@
                         :class="
                           isSelected(key)
                             ? 'bg-white text-green-800  '
-                            : 'bg-white text-theme'
+                            : 'bg-white text-theme dark:bg-transparent'
                         "
                         >{{ value.n }}</span
                       >{{ key.replace(/_/g, ' ') }}
@@ -184,12 +184,23 @@
                     ></path>
                   </g>
                 </svg>
-                <h1 class="font-bold text-3xl">Inkscape</h1>
+                <h1 class="font-bold text-3xl dark:text-white">
+                  Inkscape (beta)
+                </h1>
               </div>
               <p class="text-sm py-3 text-gray-500">
                 Inkscape is a free vector graphics editor. It is used to create
                 and edit vector graphics. Bioicons are available within the
-                Inkscape Import Clipart extension.
+                Inkscape Import Clipart extension. The Inkscape Import Clipart
+                extension is currently undergoing work to be merged into the
+                core. Support the developers
+                <a
+                  href="https://www.patreon.com/doctormo"
+                  target="_blank"
+                  class="hover:underline text-theme"
+                >
+                  here</a
+                >.
               </p>
               <div class="divide-y divide-gray-300/50">
                 <div class="py-3 text-base leading-7 space-y-2 text-gray-600">
@@ -201,7 +212,7 @@
                 </div>
 
                 <div
-                  class="px-4 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-3 lg:px-8 lg:py-6"
+                  class="px-4 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-3 lg:px-8 lg:py-6 dark:text-white"
                 >
                   <div class="">
                     <div class="">
@@ -246,7 +257,8 @@
                         <div class="pt-1 pb-8">
                           <p class="mb-2 text-lg font-bold">
                             Select
-                            <span class="p-1 bg-gray-200 rounded"
+                            <span
+                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
                               >Extensions</span
                             >
                             in toolbar
@@ -289,7 +301,8 @@
                         <div class="pt-1 pb-8">
                           <p class="mb-2 text-lg font-bold">
                             Navigate to
-                            <span class="p-1 bg-gray-200 rounded"
+                            <span
+                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
                               >Manage Extensions</span
                             >
                           </p>
@@ -331,11 +344,13 @@
                         <div class="pt-1 pb-8">
                           <p class="mb-2 text-lg font-bold">
                             Switch to
-                            <span class="p-1 bg-gray-200 rounded"
+                            <span
+                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
                               >Install Packages</span
                             >
                             tab and select
-                            <span class="p-1 bg-gray-200 rounded"
+                            <span
+                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
                               >Import Clipart</span
                             >
                             Extension
@@ -381,7 +396,8 @@
                         <div class="pt-1 pb-8">
                           <p class="mb-2 text-lg font-bold">
                             Click on
-                            <span class="p-1 bg-gray-200 rounded"
+                            <span
+                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
                               >Install Package</span
                             >
                           </p>
@@ -422,13 +438,19 @@
                         <div class="pt-1 pb-8">
                           <p class="mb-2 text-lg font-bold">
                             Bioicons can now be inserted using
-                            <span class="p-1 bg-gray-200 rounded"
+                            <span
+                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
                               >Extensions
                             </span>
                             &rarr;
-                            <span class="p-1 bg-gray-200 rounded"> Import</span>
+                            <span
+                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
+                            >
+                              Import</span
+                            >
                             &rarr;
-                            <span class="p-1 bg-gray-200 rounded"
+                            <span
+                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
                               >Internet Resource</span
                             >
                           </p>
