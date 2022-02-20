@@ -194,7 +194,7 @@
               <div class="divide-y divide-gray-300/50">
                 <div class="py-3 text-base leading-7 space-y-2 text-gray-600">
                   <img
-                    src="inkscape-ext.png"
+                    src="/inkscape-ext.png"
                     alt="Inkscape extension"
                     class="rounded border border-gray-300"
                   />
@@ -251,7 +251,7 @@
                             >
                             in toolbar
                           </p>
-                          <img src="step1.png" alt="Inkscape Toolbar" />
+                          <img src="/step1.png" alt="Inkscape Toolbar" />
                         </div>
                       </div>
                       <div class="flex">
@@ -293,7 +293,7 @@
                               >Manage Extensions</span
                             >
                           </p>
-                          <img src="step2.png" alt="Extensions menu" />
+                          <img src="/step2.png" alt="Extensions menu" />
                         </div>
                       </div>
                       <div class="flex">
@@ -341,7 +341,7 @@
                             Extension
                           </p>
                           <img
-                            src="step3.png"
+                            src="/step3.png"
                             alt="Inkscape Extension Manager dialog"
                           />
                         </div>
@@ -385,7 +385,7 @@
                               >Install Package</span
                             >
                           </p>
-                          <img src="step4.png" alt="Install package" />
+                          <img src="/step4.png" alt="Install package" />
                         </div>
                       </div>
                       <div class="flex">
