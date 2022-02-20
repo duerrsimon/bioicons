@@ -12,7 +12,7 @@ import json
 icons = []
 categories = set() 
 # iterates over all svg files organized as license/category/author/icon.svg
-for name in glob.glob(os.path.join("./*/*/*/*.svg")):
+for name in sorted(glob.glob(os.path.join("./*/*/*/*.svg")), key=os.path.getmtime):
     n = name.split('/')[-1].split('.')[0]
     l = name.split('/')[1]
     a = name.split('/')[3].replace('_', ' ')
