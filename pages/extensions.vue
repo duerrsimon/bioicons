@@ -28,9 +28,9 @@
         </h1>
       </div>
       <div class="px-0 lg:px-6 flex flex-row justify-center items-start">
-        <main class="z-10 container mx-auto flex sm:flex-no-wrap sm:space-x-4">
+        <main class="z-10 container mx-auto flex flex-wrap md:flex-no-wrap space-y-4 md:space-y-0 md:space-x-4">
           <div
-            class="shadow lg:shadow-lg bg-white h-full minh-0 dark:bg-cool-gray-900 overflow-hidden rounded-xl p-5 w-1/2"
+            class="shadow lg:shadow-lg bg-white h-full minh-0 dark:bg-cool-gray-900 overflow-hidden rounded-xl p-5 w-full md:w-1/2"
           >
             <div class="w-full mx-auto">
               <div class="flex items-center space-x-3">
@@ -159,7 +159,7 @@
             </div>
           </div>
           <div
-            class="shadow lg:shadow-lg bg-white dark:bg-cool-gray-900 overflow-hidden rounded-xl p-5 w-1/2"
+            class="shadow lg:shadow-lg bg-white dark:bg-cool-gray-900 overflow-hidden rounded-xl p-5 w-full md:w-1/2"
           >
             <div class="w-full mx-auto">
               <div class="flex items-center space-x-3">
