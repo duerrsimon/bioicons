@@ -28,7 +28,9 @@
         </h1>
       </div>
       <div class="px-0 lg:px-6 flex flex-row justify-center items-start">
-        <main class="z-10 container mx-auto flex flex-wrap md:flex-no-wrap space-y-4 md:space-y-0 md:space-x-4">
+        <main 
+          class="z-10 container mx-auto flex flex-wrap md:flex-nowrap space-y-4 md:space-y-0 md:space-x-4"
+        >
           <div
             class="shadow lg:shadow-lg bg-white h-full minh-0 dark:bg-cool-gray-900 overflow-hidden rounded-xl p-5 w-full md:w-1/2"
           >
