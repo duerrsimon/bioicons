@@ -1,0 +1,24 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="background-color:#ffffff00" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113 126">
+  <path d="m12.472 92.666-.5-.866 22.04-12.728.5.865-22.04 12.729ZM10.666 89.539l-.5-.866L32.21 75.942l.5.866-22.044 12.731Z"/>
+  <text fill="red" transform="matrix(.05 0 0 .05 2.51 97.096)" font-size="200" font-family="Arial">
+O</text>
+  <path d="M57.91 11.194h1V33.2l-.5.289-.5-.288V11.194Z"/>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 54.8 9.216)" font-size="200" font-family="Arial">
+N</text>
+  <text transform="matrix(.05 0 0 .05 62.02 9.216)" font-size="200" font-family="Arial">
+H</text>
+  <text transform="matrix(.05 0 0 .05 69.243 11.516)" font-size="150" font-family="Arial">
+2</text>
+  <path d="m57.91 33.202.5.288v.577L38.118 45.79l-.5-.866L57.91 33.202ZM58.162 37.209l.5.866-18.746 10.829-.5-.866 18.746-10.829Z"/>
+  <path d="M58.41 34.067v-.577l.5-.289 25.51 14.702v.577l-.5.289-25.51-14.702Z"/>
+  <path d="m83.92 48.769.5-.289.5.289v29.98l-1-.577V48.769ZM80.322 50.559h1v25.826h-1V50.559Z"/>
+  <path d="m83.92 78.172 1 .577-20.854 12.066-.5-.865L83.92 78.171ZM53.168 89.892l-.502.865L31.96 78.748l1-.576 20.208 11.72ZM32.96 78.172l-1 .576V54.043h1v24.129Z"/>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 54.8 97.096)" font-size="200" font-family="Arial">
+N</text>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 28.85 52.066)" font-size="200" font-family="Arial">
+N</text>
+  <path d="M58.91 123.51h-1V115h1v8.51ZM57.91 99.074h1V107h-1v-7.926Z"/>
+  <path stroke="#000" stroke-width="1" fill="none" d="M43.52 111c0 1.104.84 2 1.875 2 1.035 0 1.875-.896 1.875-2s.84-2 1.875-2c1.035 0 1.875.896 1.875 2s.84 2 1.875 2c1.035 0 1.875-.896 1.875-2s.84-2 1.875-2c1.035 0 1.875.896 1.875 2s.84 2 1.875 2c1.035 0 1.875-.896 1.875-2s.84-2 1.875-2c1.035 0 1.875.896 1.875 2s.84 2 1.875 2c1.035 0 1.875-.896 1.875-2s.84-2 1.875-2c1.035 0 1.875.896 1.875 2"/>
+  <path d="m110.15 33.037.5.866-25.73 14.866-.5-.289v-.577l25.73-14.866Z"/>
+</svg>

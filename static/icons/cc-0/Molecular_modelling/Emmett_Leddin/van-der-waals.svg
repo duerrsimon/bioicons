@@ -1,0 +1,26 @@
+<svg viewBox="0 0 297 210" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="b">
+      <stop style="stop-color:#fff;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#fff;stop-opacity:0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop style="stop-color:#ea0d13;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#ea0d13;stop-opacity:0" offset="1"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="c" x1="42.604" y1="113.941" x2="106.015" y2="39.632" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#b" id="d" x1="261.338" y1="117.843" x2="326.272" y2="45.694" gradientUnits="userSpaceOnUse"/>
+    <marker style="overflow:visible" id="f" refX="0" refY="0" orient="auto">
+      <path transform="translate(1.1) scale(1.1)" d="M8.719 4.034-2.207.016 8.719-4.002c-1.746 2.372-1.736 5.618 0 8.036z" style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:.625;stroke-linejoin:round"/>
+    </marker>
+    <marker style="overflow:visible" id="g" refX="0" refY="0" orient="auto">
+      <path transform="translate(1.1) scale(1.1)" d="M8.719 4.034-2.207.016 8.719-4.002c-1.746 2.372-1.736 5.618 0 8.036z" style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:.625;stroke-linejoin:round"/>
+    </marker>
+    <path id="e" d="M-6.131 190.075h306.573v462.926H-6.131z"/>
+  </defs>
+  <circle style="fill:url(#c);stroke:#000;stroke-width:3.1605;stroke-miterlimit:3.8;stroke-dasharray:none;fill-opacity:1" cx="39.632" cy="116.914" r="35"/>
+  <circle style="fill:url(#d);stroke:#000;stroke-width:3.1605;stroke-miterlimit:3.8;stroke-dasharray:none;fill-opacity:1" cx="255.625" cy="116.914" r="35"/>
+  <path style="fill:none;stroke:#000;stroke-width:6.65152;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M108.603 116.914h75.442"/>
+  <path style="fill:none;stroke:#000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#f)" d="M93.257 116.914h6.413"/>
+  <path style="fill:none;stroke:#000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#g)" d="M202 116.914h-6.413"/>
+</svg>
