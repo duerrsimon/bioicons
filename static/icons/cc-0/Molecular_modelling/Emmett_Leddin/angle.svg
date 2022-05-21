@@ -1,0 +1,25 @@
+<svg viewBox="0 0 275 250" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="c">
+      <stop style="stop-color:#47555e;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#47555e;stop-opacity:0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop style="stop-color:#0c23da;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#0c23da;stop-opacity:0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop style="stop-color:#ea0d13;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#ea0d13;stop-opacity:0" offset="1"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="d" x1="39.066" y1="40.067" x2="84.142" y2="-32.555" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#b" id="e" x1="235.396" y1="40.067" x2="281.474" y2="-21.035" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#c" id="f" x1="158.895" y1="206.184" x2="212.603" y2="201.659" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <path style="fill:none;fill-opacity:1;stroke:#000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5,5;stroke-opacity:1;stroke-dashoffset:0" d="M94.744 133.753s45.076-47.079 85.144 0"/>
+  <path style="fill:none;stroke:#000;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" d="m39.066 40.067 98.165 170.788Z"/>
+  <path style="fill:none;stroke:#000;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m235.396 40.067-98.165 170.788Z"/>
+  <circle style="fill:url(#d);stroke:#000;stroke-width:4.99999;fill-opacity:1;stroke-opacity:1" cx="40.318" cy="41.82" r="35"/>
+  <circle style="fill:url(#e);stroke:#000;stroke-width:4.99999;fill-opacity:1" cx="236.899" cy="41.82" r="35"/>
+  <circle style="fill:url(#f);stroke:#000;stroke-width:4.99999;fill-opacity:1" cx="138.608" cy="208.351" r="35"/>
+</svg>

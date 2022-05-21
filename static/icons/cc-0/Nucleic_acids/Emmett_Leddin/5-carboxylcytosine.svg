@@ -1,0 +1,32 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="background-color:#ffffff00" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 149 129">
+  <path d="m12.472 95.666-.5-.866 22.04-12.728.5.865-22.04 12.729ZM10.666 92.539l-.5-.866L32.21 78.942l.5.866-22.044 12.731Z"/>
+  <text fill="red" transform="matrix(.05 0 0 .05 2.51 100.096)" font-size="200" font-family="Arial">
+O</text>
+  <path d="M57.91 14.194h1V36.2l-.5.289-.5-.288V14.194Z"/>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 54.8 12.216)" font-size="200" font-family="Arial">
+N</text>
+  <text transform="matrix(.05 0 0 .05 62.02 12.216)" font-size="200" font-family="Arial">
+H</text>
+  <text transform="matrix(.05 0 0 .05 69.243 14.516)" font-size="150" font-family="Arial">
+2</text>
+  <path d="m57.91 36.202.5.288v.577L38.118 48.79l-.5-.866L57.91 36.202ZM58.162 40.209l.5.866-18.746 10.829-.5-.866 18.746-10.829Z"/>
+  <path d="M58.41 37.067v-.577l.5-.289 25.51 14.702v.577l-.5.289-25.51-14.702Z"/>
+  <path d="m83.92 51.769.5-.289.5.289v29.98l-1-.577V51.769ZM80.322 53.559h1v25.826h-1V53.559Z"/>
+  <path d="m83.92 81.172 1 .577-20.854 12.066-.5-.865L83.92 81.171ZM53.168 92.892l-.502.865L31.96 81.748l1-.576 20.208 11.72ZM32.96 81.172l-1 .576V57.043h1v24.129Z"/>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 54.8 100.096)" font-size="200" font-family="Arial">
+N</text>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 28.85 55.066)" font-size="200" font-family="Arial">
+N</text>
+  <path d="M58.91 126.51h-1V118h1v8.51ZM57.91 102.074h1V110h-1v-7.926Z"/>
+  <path stroke="#000" stroke-width="1" fill="none" d="M43.52 114c0 1.104.84 2 1.875 2 1.035 0 1.875-.896 1.875-2s.84-2 1.875-2c1.035 0 1.875.896 1.875 2s.84 2 1.875 2c1.035 0 1.875-.896 1.875-2s.84-2 1.875-2c1.035 0 1.875.896 1.875 2s.84 2 1.875 2c1.035 0 1.875-.896 1.875-2s.84-2 1.875-2c1.035 0 1.875.896 1.875 2s.84 2 1.875 2c1.035 0 1.875-.896 1.875-2s.84-2 1.875-2c1.035 0 1.875.896 1.875 2"/>
+  <path d="M110.4 35.893v1.155l-25.48 14.72-.5-.288v-.577l25.98-15.01Z"/>
+  <text fill="red" transform="matrix(.05 0 0 .05 106.501 10.056)" font-size="200" font-family="Arial">
+O</text>
+  <path d="M108.092 12.387h1l.009 25.123h-1l-.009-25.123ZM111.692 12.386l1-.001.009 25.123h-1l-.009-25.122Z"/>
+  <text fill="red" transform="matrix(.05 0 0 .05 132.501 55.046)" font-size="200" font-family="Arial">
+O</text>
+  <text transform="matrix(.05 0 0 .05 140.279 55.046)" font-size="200" font-family="Arial">
+H</text>
+  <path d="m131.766 48.216-.5.866L110.4 37.048v-1.155l21.366 12.323Z"/>
+</svg>

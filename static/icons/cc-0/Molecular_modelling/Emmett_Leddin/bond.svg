@@ -1,0 +1,18 @@
+<svg viewBox="0 0 297 210" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="b">
+      <stop style="stop-color:#ea0d13;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#ea0d13;stop-opacity:0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop style="stop-color:#0c23da;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#0b1966;stop-opacity:.13716814" offset="1"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="d" x1="251.95" y1="110.391" x2="300.365" y2="41.528" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 -.268)"/>
+    <linearGradient xlink:href="#b" id="c" x1="49.652" y1="102.517" x2="62.94" y2="23.894" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 .268)"/>
+  </defs>
+  <path style="fill:none;stroke:#000;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m41.559 111.096 210.391-1.948Z"/>
+  <circle style="fill:url(#c);fill-opacity:1;stroke:#000;stroke-width:4.99999" cx="41.4" cy="110.122" r="35"/>
+  <circle style="fill:url(#d);fill-opacity:1;stroke:#000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" cx="255.366" cy="110.122" r="35"/>
+  <text xml:space="preserve" style="font-style:normal;font-weight:400;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000;fill-opacity:1;stroke:none;stroke-width:.264583" x="41.559" y="112.339"/>
+</svg>
