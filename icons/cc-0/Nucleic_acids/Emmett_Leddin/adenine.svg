@@ -1,0 +1,30 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="background-color:#ffffff00" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145 123">
+  <path d="M21.59 120.74h-1v-8.1h1v8.1ZM20.59 96.303h1v8.337h-1v-8.337Z"/>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 97.96 55.066)" font-size="200" font-family="Arial">
+N</text>
+  <text transform="matrix(.05 0 0 .05 105.181 55.066)" font-size="200" font-family="Arial">
+H</text>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 72 100.096)" font-size="200" font-family="Arial">
+N</text>
+  <path d="m102.07 81.181-.5.289-.5-.288V57.043h1v24.138Z"/>
+  <path d="m81.266 93.812-.502-.866 20.306-11.764.5.288v.578L81.266 93.812ZM79.46 90.696l-.5-.865 18.759-10.868.502.865-18.76 10.868ZM49.543 82.014l.057-.544.5-.288 20.265 11.717-.501.866-20.321-11.75Z"/>
+  <path d="m49.1 51.843.5-.363.5.289v29.413l-.5.288-.5-.363V51.843ZM52.699 53.56h1v25.834h-1V53.56ZM75.61 35.913v1.154L50.1 51.769l-.5-.289-.057-.544L75.61 35.913Z"/>
+  <path d="M75.61 37.067v-1.154l20.751 11.982-.5.866-20.252-11.694Z"/>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 17.48 94.326)" font-size="200" font-family="Arial">
+N</text>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 17.48 45.796)" font-size="200" font-family="Arial">
+N</text>
+  <path d="m26.72 89.436-.31-.951 22.69-7.378.5.363-.057.544-22.823 7.422ZM2.832 66.47h1.236l13.519 18.6-.809.588L2.832 66.47ZM16.795 47.268l.808.588L4.068 66.47H2.832l13.963-19.202ZM19.706 49.384l.808.589-12.21 16.791-.809-.587 12.21-16.793ZM26.404 44.464l.309-.952 22.83 7.424.057.544-.5.363-22.696-7.38Z"/>
+  <text fill="red" transform="matrix(.05 0 0 .05 71.72 10.086)" font-size="200" font-family="Arial">
+O</text>
+  <path d="M73.31 12.416h1v25.111h-1V12.416ZM76.91 12.416h1v25.113h-1V12.416Z"/>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 124.029 100.096)" font-size="200" font-family="Arial">
+N</text>
+  <text transform="matrix(.05 0 0 .05 131.251 100.096)" font-size="200" font-family="Arial">
+H</text>
+  <text transform="matrix(.05 0 0 .05 138.473 102.396)" font-size="150" font-family="Arial">
+2</text>
+  <path d="m122.43 92.927-.5.866-20.36-11.745v-.578l.5-.289 20.36 11.746Z"/>
+  <path stroke="#000" stroke-width="1" fill="none" d="M36.08 108.64c0-1.104-.84-2-1.875-2-1.035 0-1.875.896-1.875 2s-.84 2-1.875 2c-1.035 0-1.875-.896-1.875-2s-.84-2-1.875-2c-1.035 0-1.875.896-1.875 2s-.84 2-1.875 2c-1.035 0-1.875-.896-1.875-2s-.84-2-1.875-2c-1.035 0-1.875.896-1.875 2s-.84 2-1.875 2c-1.035 0-1.875-.896-1.875-2s-.84-2-1.875-2c-1.035 0-1.875.896-1.875 2s-.84 2-1.875 2c-1.035 0-1.875-.896-1.875-2"/>
+</svg>

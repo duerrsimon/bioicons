@@ -1,0 +1,29 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="background-color:#ffffff00" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145 123">
+  <text fill="#00f" transform="matrix(.05 0 0 .05 97.963 55.065)" font-size="200" font-family="Arial">
+N</text>
+  <text transform="matrix(.05 0 0 .05 105.184 55.065)" font-size="200" font-family="Arial">
+H</text>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 72.001 100.1)" font-size="200" font-family="Arial">
+N</text>
+  <path d="m102.074 81.178-.5.29-.5-.288V57.042h1v24.136ZM81.305 93.793l-.502-.866 20.27-11.747.5.288.001.577-20.27 11.748ZM79.499 90.677l-.501-.865L97.722 78.96l.502.865-18.725 10.852ZM49.539 82.012l.058-.544.5-.289 20.307 11.746-.5.865-20.365-11.778Z"/>
+  <path d="m49.097 51.841.5-.363.5.289v29.412l-.5.289-.5-.363V51.84ZM52.695 53.558h1v25.834h-1V53.558Z"/>
+  <path d="M75.612 35.909v1.154L50.096 51.767l-.5-.289-.057-.544 26.072-15.025Z"/>
+  <path d="m75.611 37.063.001-1.154 20.753 11.984-.5.866L75.61 37.063Z"/>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 17.478 94.326)" font-size="200" font-family="Arial">
+N</text>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 17.478 45.793)" font-size="200" font-family="Arial">
+N</text>
+  <path d="m26.764 89.42-.31-.951 22.643-7.364.5.363-.058.544-22.775 7.408ZM2.829 66.475h1.237l13.537 18.619-.81.588L2.83 66.475ZM16.812 47.24l.808.588L4.066 66.475H2.829l13.983-19.234ZM19.724 49.357l.808.589L8.303 66.769l-.809-.589 12.23-16.823ZM26.448 44.475l.309-.951 22.783 7.41.057.544-.5.363-22.649-7.366Z"/>
+  <text fill="red" transform="matrix(.05 0 0 .05 71.723 10.083)" font-size="200" font-family="Arial">
+O</text>
+  <path d="M73.313 12.413h1v25.11h-1v-25.11ZM76.911 12.413h1v25.112h-1V12.413Z"/>
+  <text fill="#00f" transform="matrix(.05 0 0 .05 124.028 100.1)" font-size="200" font-family="Arial">
+N</text>
+  <text transform="matrix(.05 0 0 .05 131.25 100.1)" font-size="200" font-family="Arial">
+H</text>
+  <text transform="matrix(.05 0 0 .05 138.471 102.4)" font-size="150" font-family="Arial">
+2</text>
+  <path d="m122.43 92.929-.5.867-20.356-11.751v-.577l.5-.29L122.43 92.93ZM21.589 120.74h-1v-8.7h1v8.7ZM20.589 96.303h1v7.737h-1v-7.737Z"/>
+  <path stroke="#000" stroke-width="1" fill="none" d="M6.32 108.04c0 1.104.84 2 1.875 2 1.035 0 1.875-.896 1.875-2s.84-2 1.875-2c1.035 0 1.875.896 1.875 2s.84 2 1.875 2c1.035 0 1.875-.896 1.875-2s.84-2 1.875-2c1.035 0 1.875.896 1.875 2s.84 2 1.875 2c1.035 0 1.875-.896 1.875-2s.84-2 1.875-2c1.035 0 1.875.896 1.875 2s.84 2 1.875 2c1.035 0 1.875-.896 1.875-2s.84-2 1.875-2"/>
+</svg>

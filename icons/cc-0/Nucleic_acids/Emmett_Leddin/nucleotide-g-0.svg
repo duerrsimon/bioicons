@@ -1,0 +1,9 @@
+<svg viewBox="0 0 210 310" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="a" d="M400.336 325.512h21.62v247.372h-21.62z"/>
+  </defs>
+  <path style="fill:#1a1a1a;stroke:#000;stroke-width:.264583" d="M-.501 271.636h210.855v38.565H-.501z"/>
+  <path style="fill:#94ec00;stroke:#1a1a1a;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M105.637 3.019 29.55 51.265v219.87h150.753V51.265Z"/>
+  <circle style="fill:#1a1a1a;stroke:#000;stroke-width:.264583" cx="104.927" cy="271.438" r=".061"/>
+  <text xml:space="preserve" style="font-style:normal;font-weight:400;font-size:107.587px;line-height:200;font-family:sans-serif;fill:#fff;fill-opacity:1;stroke:#1a1a1a;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" x="54.507" y="237.784" transform="scale(1.0947 .9135)"><tspan style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:107.587px;font-family:Arial;-inkscape-font-specification:Arial;fill:#fff;fill-opacity:1;stroke:#1a1a1a;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" x="54.507" y="237.784">G</tspan></text>
+</svg>
