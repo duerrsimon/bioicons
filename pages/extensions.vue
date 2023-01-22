@@ -194,8 +194,7 @@
                 Inkscape is a free vector graphics editor. It is used to create
                 and edit vector graphics. Bioicons are available within the
                 Inkscape Import Clipart extension. The Inkscape Import Clipart
-                extension is currently undergoing work to be merged into the
-                core. Support the developers
+                extension is available since Inkscape 1.1 . Support the developers
                 <a
                   href="https://www.patreon.com/doctormo"
                   target="_blank"
@@ -219,11 +218,8 @@
                   <div class="">
                     <div class="">
                       <h3 class="font-medium text-2xl">
-                        Installation instructions (Inkscape 1.1+)
+                        Usage instructions (Inkscape 1.1+)
                       </h3>
-                      <p class="pb-4">
-                        Note that the package currently only works on Linux.
-                      </p>
                       <div class="flex">
                         <div class="flex flex-col items-center mr-4">
                           <div>
@@ -261,7 +257,7 @@
                             Select
                             <span
                               class="p-1 bg-gray-200 rounded dark:text-gray-800"
-                              >Extensions</span
+                              >File</span
                             >
                             in toolbar
                           </p>
@@ -302,13 +298,12 @@
                         </div>
                         <div class="pt-1 pb-8">
                           <p class="mb-2 text-lg font-bold">
-                            Navigate to
+                            Click
                             <span
                               class="p-1 bg-gray-200 rounded dark:text-gray-800"
-                              >Manage Extensions</span
+                              >Import Web Image</span
                             >
                           </p>
-                          <img src="/step2.png" alt="Extensions menu" />
                         </div>
                       </div>
                       <div class="flex">
@@ -345,119 +340,17 @@
                         </div>
                         <div class="pt-1 pb-8">
                           <p class="mb-2 text-lg font-bold">
-                            Switch to
+                            Select
                             <span
                               class="p-1 bg-gray-200 rounded dark:text-gray-800"
-                              >Install Packages</span
+                              >Bioicons</span
                             >
-                            tab and select
-                            <span
-                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
-                              >Import Clipart</span
-                            >
-                            Extension
+                            in top right corner of the popup and then search for your desired icon
                           </p>
-                          <img
-                            src="/step3.png"
-                            alt="Inkscape Extension Manager dialog"
-                          />
+                          
                         </div>
                       </div>
-                      <div class="flex">
-                        <div class="flex flex-col items-center mr-4">
-                          <div>
-                            <div
-                              class="flex items-center justify-center w-10 h-10 border rounded-full"
-                            >
-                              <svg
-                                class="w-4 text-gray-600"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                viewBox="0 0 24 24"
-                              >
-                                <line
-                                  fill="none"
-                                  stroke-miterlimit="10"
-                                  x1="12"
-                                  y1="2"
-                                  x2="12"
-                                  y2="22"
-                                ></line>
-                                <polyline
-                                  fill="none"
-                                  stroke-miterlimit="10"
-                                  points="19,15 12,22 5,15"
-                                ></polyline>
-                              </svg>
-                            </div>
-                          </div>
-                          <div class="w-px h-full bg-gray-300"></div>
-                        </div>
-                        <div class="pt-1 pb-8">
-                          <p class="mb-2 text-lg font-bold">
-                            Click on
-                            <span
-                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
-                              >Install Package</span
-                            >
-                          </p>
-                          <img src="/step4.png" alt="Install package" />
-                        </div>
-                      </div>
-                      <div class="flex">
-                        <div class="flex flex-col items-center mr-4">
-                          <div>
-                            <div
-                              class="flex items-center justify-center w-10 h-10 border rounded-full"
-                            >
-                              <svg
-                                class="w-4 text-gray-600"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                viewBox="0 0 24 24"
-                              >
-                                <line
-                                  fill="none"
-                                  stroke-miterlimit="10"
-                                  x1="12"
-                                  y1="2"
-                                  x2="12"
-                                  y2="22"
-                                ></line>
-                                <polyline
-                                  fill="none"
-                                  stroke-miterlimit="10"
-                                  points="19,15 12,22 5,15"
-                                ></polyline>
-                              </svg>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="pt-1 pb-8">
-                          <p class="mb-2 text-lg font-bold">
-                            Bioicons can now be inserted using
-                            <span
-                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
-                              >Extensions
-                            </span>
-                            &rarr;
-                            <span
-                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
-                            >
-                              Import</span
-                            >
-                            &rarr;
-                            <span
-                              class="p-1 bg-gray-200 rounded dark:text-gray-800"
-                              >Internet Resource</span
-                            >
-                          </p>
-                        </div>
-                      </div>
+
                     </div>
                   </div>
                 </div>
