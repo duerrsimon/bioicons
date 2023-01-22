@@ -6,11 +6,18 @@ svg files should have doctype declared, no width/height set and viewBox set.
 
 You can use [svgo](https://github.com/svg/svgo) and [svgo-viewbox](https://github.com/scriptex/svgo-viewbox) to clean your vector files and adding viewBox attributes before adding them to the repo. 
 
-To add new icons then clone the repo, add your svg files to the static/icons/*/* directory and follow instructions below. 
+To add new icons it is easiest if you use [github.dev](github.dev/duerrsimon/bioicons). 
 
-If all this succeeds you can go ahead and submit your pull request.
+After opening the repo using the github.dev link, you can upload icons in the sidebar in `static/icons/*/*` and modify `static/authors.json` to include your name (same as `author` folder name used, replace spaces with underscore). You can link e.g your personal website, your ORCID profile etc in the json file.
 
-## Build Setup
+Then submit your pull request.
+
+
+
+
+
+The above steps are needed only for code modifications. 
+## Build Setup (local)
 
 ```bash
 # refresh icon index
