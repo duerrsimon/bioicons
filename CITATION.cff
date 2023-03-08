@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Duerr"
+  given-names: "Simon"
+  orcid: "https://orcid.org/0000-0002-4304-8106"
+title: "bioicons"
+version: 1.0.0
+doi: 10.5281/zenodo.1234 #change this
+date-released: 2023-03-08
+url: "https://github.com/duerrsimon/bioicons"
