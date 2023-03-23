@@ -177,6 +177,30 @@
               </p>
             </div>
           </a>
+          <div class="w-3 h-3"></div>
+          <a
+            href="https://bioicons.com/submit"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="block"
+          >
+            <div
+              class="p-5 bg-green-50 bg-opacity-18.75 dark:bg-opacity-12.5 text-green-50 rounded-3 hover:bg-white hover:text-gray-800"
+            >
+              <p
+                class="text-center sm:text-left font-medium text-lg leading-none"
+              >
+                <span class="align-top inline-flex flex-row items-center"
+                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8">
+  <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+</svg>
+
+<span style="width: 0.67ch"></span>Submit illustrations</span
+                >
+              </p>
+            </div>
+          </a>
         </div>
       </div>
       <div v-if="displayCategories" id="v-step-0" class="mb-2 mt-8 text-center">

@@ -32,17 +32,17 @@
             class="z-10 container mx-auto flex flex-wrap md:flex-nowrap space-y-4 md:space-y-0 md:space-x-4"
           >
             <div
-              class="shadow lg:shadow-lg bg-white h-full minh-0 dark:bg-cool-gray-900 overflow-hidden rounded-xl p-5 w-full md:w-1/2"
+              class="shadow lg:shadow-lg bg-white h-full minh-0 dark:bg-cool-gray-900 overflow-hidden rounded-xl p-5 w-full"
             >
               <!-- component -->
               <section class="bg-white dark:bg-gray-900">
-                  <div class="lg:flex lg:items-center">
+                  <div class="lg:flex p-4 space-x-6">
                     <div class="w-full space-y-12 lg:w-1/2">
                       <div>
                         <h1
                           class="text-3xl font-bold text-gray-800 capitalize lg:text-4xl dark:text-white"
                         >
-                          Why contribute icons?
+                          How to contribute illustrations?
                         </h1>
                       </div>
   
@@ -76,7 +76,7 @@
                           <p class="mt-3 text-gray-500 dark:text-gray-300">
                             Bioicons only accepts illustrations in SVG format,
                             which can be created using Inkscape, Adobe Illustrator
-                            or Corel Draw.
+                            or Corel Draw. Do not include raster graphics textures or vectorize raster graphics
                           </p>
                         </div>
                       </div>
@@ -163,7 +163,7 @@
                       </div>
                     </div>
                   <div class="w-full space-y-4 lg:w-1/2">
-                    <h1 class="text-xl font-bold">Submission form</h1>
+                    <h1 class="text-2xl font-bold">Submission form</h1>
                     <iframe
                       src="https://simonduerr-bioicons-submission.hf.space"
                       frameborder="0"
