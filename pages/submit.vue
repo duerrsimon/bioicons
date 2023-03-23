@@ -24,7 +24,7 @@
       <section>
         <div class="flex w-full justify-center">
           <h1 class="text-gray-100 font-semibold -mt-16 text-4xl py-4 z-50">
-            Available extensions
+        Illustration submission
           </h1>
         </div>
         <div class="px-0 lg:px-6 flex flex-row justify-center items-start">
@@ -76,7 +76,7 @@
                           <p class="mt-3 text-gray-500 dark:text-gray-300">
                             Bioicons only accepts illustrations in SVG format,
                             which can be created using Inkscape, Adobe Illustrator
-                            or Corel Draw. Do not include raster graphics textures or vectorize raster graphics
+                            or Corel Draw. Do not include raster graphics textures or vectorize raster graphics. The file size of your illustration should ideally be below 200 kb.
                           </p>
                         </div>
                       </div>
@@ -168,7 +168,7 @@
                       src="https://simonduerr-bioicons-submission.hf.space"
                       frameborder="0"
                       width="100%"
-                      height="900px"
+                      height="1000px"
                     ></iframe>
                   </div>
                 </div>
