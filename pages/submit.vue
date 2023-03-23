@@ -28,96 +28,152 @@
           </h1>
         </div>
         <div class="px-0 lg:px-6 flex flex-row justify-center items-start">
-          <main 
+          <main
             class="z-10 container mx-auto flex flex-wrap md:flex-nowrap space-y-4 md:space-y-0 md:space-x-4"
           >
             <div
               class="shadow lg:shadow-lg bg-white h-full minh-0 dark:bg-cool-gray-900 overflow-hidden rounded-xl p-5 w-full md:w-1/2"
             >
-              
-        <!-- component -->
-<section class="bg-white dark:bg-gray-900">
-            <div class="">
-                <div class="lg:flex lg:items-center">
-                    <div class="w-full space-y-12 lg:w-1/2 ">
-                        <div>
-                            <h1 class="text-3xl font-bold text-gray-800 capitalize lg:text-4xl dark:text-white">Why contribute icons?</h1>
-                        
-                            
+              <!-- component -->
+              <section class="bg-white dark:bg-gray-900">
+                  <div class="lg:flex lg:items-center">
+                    <div class="w-full space-y-12 lg:w-1/2">
+                      <div>
+                        <h1
+                          class="text-3xl font-bold text-gray-800 capitalize lg:text-4xl dark:text-white"
+                        >
+                          Why contribute icons?
+                        </h1>
+                      </div>
+  
+                      <div class="md:flex md:items-start md:-mx-4">
+                        <span
+                          class="inline-block p-2 text-green-500 bg-green-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="w-6 h-6"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
+                            />
+                          </svg>
+                        </span>
+  
+                        <div class="mt-4 md:mx-4 md:mt-0">
+                          <h1
+                            class="text-2xl font-semibold text-gray-700 capitalize dark:text-white"
+                          >
+                            Make your illustrations reusable
+                          </h1>
+  
+                          <p class="mt-3 text-gray-500 dark:text-gray-300">
+                            Bioicons only accepts illustrations in SVG format,
+                            which can be created using Inkscape, Adobe Illustrator
+                            or Corel Draw.
+                          </p>
                         </div>
-
-                        <div class="md:flex md:items-start md:-mx-4">
-                            <span class="inline-block p-2 text-green-500 bg-green-100  rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125" />
-</svg>
-
-                            </span>
-
-                            <div class="mt-4 md:mx-4 md:mt-0">
-                                <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Make your illustrations reusable</h1>
-
-                                <p class="mt-3 text-gray-500 dark:text-gray-300">
-                                    Bioicons only accepts illustrations in SVG format, which can be created using Inkscape, Adobe Illustrator or Corel Draw.
-                                </p>
-                            </div>
+                      </div>
+  
+                      <div class="md:flex md:items-start md:-mx-4">
+                        <span
+                          class="inline-block p-2 text-green-500 bg-green-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500"
+                        >
+                          <svg
+                            viewbox="0 0  197 197"
+                            xmlns="http://www.w3.org/2000/svg"
+                            version="1.1"
+                            class="w-6 h-6"
+                          >
+                            <circle cx="98" cy="98" r="98" fill="currentColor" />
+                            <circle cx="98" cy="98" r="78" fill="white" />
+                            <circle cx="98" cy="98" r="55" fill="currentColor" />
+                            <circle cx="98" cy="98" r="30" fill="white" />
+                            <rect
+                              x="115"
+                              y="85"
+                              width="45"
+                              height="25"
+                              fill="white"
+                            />
+                          </svg>
+                        </span>
+  
+                        <div class="mt-4 md:mx-4 md:mt-0">
+                          <h1
+                            class="text-2xl font-semibold text-gray-700 capitalize dark:text-white"
+                          >
+                            Open license
+                          </h1>
+  
+                          <p class="mt-3 text-gray-500 dark:text-gray-300">
+                            Choose an appropriate license for your illustrations.
+                            If you want to be attributed choose
+                            <code>Creative Commons BY 4.0 (cc-by-4.0)</code>,
+                            otherwise <code>Creative Commons 0 (cc-0)</code> is
+                            the best (and most open) choice. Other licenses are
+                            also supported.
+                          </p>
                         </div>
-
-                        <div class="md:flex md:items-start md:-mx-4">
-                            <span class="inline-block p-2 text-green-500 bg-green-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
-                               <svg viewbox="0 0  197 197" xmlns="http://www.w3.org/2000/svg" version="1.1" class="w-6 h-6">
-	<circle cx="98" cy="98" r="98" fill="currentColor"/>
-	<circle cx="98" cy="98" r="78" fill="white"/>
-	<circle cx="98" cy="98" r="55" fill="currentColor"/>
-	<circle cx="98" cy="98" r="30" fill="white"/>
-	<rect x="115" y="85" width="45" height="25" fill="white"/>
-</svg>
-                            </span>
-
-                            <div class="mt-4 md:mx-4 md:mt-0">
-                                <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Open license</h1>
-
-                                <p class="mt-3 text-gray-500 dark:text-gray-300">
-                                    Choose an appropriate license for your illustrations. If you want to be attributed choose <code>Creative Commons BY 4.0 (cc-by-4.0)</code>, otherwise <code>Creative Commons 0 (cc-0)</code> is the best (and most open) choice. Other licenses are also supported.
-                                </p>
-                            </div>
+                      </div>
+  
+                      <div class="md:flex md:items-start md:-mx-4">
+                        <span
+                          class="inline-block p-2 text-green-500 bg-green-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="w-6 h-6"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"
+                            />
+                          </svg>
+                        </span>
+  
+                        <div class="mt-4 md:mx-4 md:mt-0">
+                          <h1
+                            class="text-2xl font-semibold text-gray-700 capitalize dark:text-white"
+                          >
+                            Submit illustrations
+                          </h1>
+  
+                          <p class="mt-3 text-gray-500 dark:text-gray-300">
+                            You can open a
+                            <a href="https://github.com/duerrsimon/bioicons/"
+                              >Pull request</a
+                            >
+                            on GitHub or directly upload them via the form on this
+                            website, which will open a Pull Request for you. We
+                            will check the illustrations you uploaded.
+                          </p>
                         </div>
-
-                        <div class="md:flex md:items-start md:-mx-4">
-                            <span class="inline-block p-2 text-green-500 bg-green-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-</svg>
-
-                            </span>
-
-                            <div class="mt-4 md:mx-4 md:mt-0">
-                                <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Submit illustrations</h1>
-
-                                <p class="mt-3 text-gray-500 dark:text-gray-300">
-                                   You can open a <a href="https://github.com/duerrsimon/bioicons/">Pull request</a> on GitHub or directly upload them via the form on this website, which will open a Pull Request for you. We will check the illustrations you uploaded. 
-                                </p>
-                            </div>
-                        </div>
+                      </div>
                     </div>
-
-                  
-                </div>
-
-              
-               <div class="w-full space-y-4 lg:w-1/2">
+                  <div class="w-full space-y-4 lg:w-1/2">
                     <h1 class="text-xl font-bold">Submission form</h1>
                     <iframe
-	src="https://simonduerr-bioicons-submission.hf.space"
-	frameborder="0"
-	width="100%"
-	height="900px"
-></iframe>
-               </div>
+                      src="https://simonduerr-bioicons-submission.hf.space"
+                      frameborder="0"
+                      width="100%"
+                      height="900px"
+                    ></iframe>
+                  </div>
+                </div>
+              </section>
             </div>
-        </section>
-            </div>
-            
           </main>
         </div>
         <div class="hidden lg:block h-24"></div>
@@ -142,51 +198,47 @@
   </template>
   
   <script>
-  import AppHeader from '../components/AppHeader.vue'
-  import GithubButtons from '../components/GithubButtons.vue'
+  import AppHeader from "../components/AppHeader.vue";
+  import GithubButtons from "../components/GithubButtons.vue";
   // import Loading from '../components/Loading.vue'
   
-
   export default {
     components: { GithubButtons, AppHeader }, // Loading
     data() {
       return {
         darkMode: false,
-        name: '',
+        name: "",
         selected: [],
-      }
+      };
     },
     head() {
       return {
-        title: 'Bioicons - high quality science illustrations',
+        title: "Bioicons - high quality science illustrations",
         meta: [
           {
-            hid: 'description',
-            name: 'description',
+            hid: "description",
+            name: "description",
             content:
-              'Submit new Bioicons under permissive CC0, CC BY or MIT License.',
+              "Submit new Bioicons under permissive CC0, CC BY or MIT License.",
           },
         ],
-      }
+      };
     },
-    computed: {
-    },
+    computed: {},
   
-    mounted() {
-    },
-    methods: {
-    },
-  }
+    mounted() {},
+    methods: {},
+  };
   </script>
   
   <style>
-  @import url('https://rsms.me/inter/inter.css');
+  @import url("https://rsms.me/inter/inter.css");
   html {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
   @supports (font-variation-settings: normal) {
     html {
-      font-family: 'Inter var', sans-serif;
+      font-family: "Inter var", sans-serif;
     }
   }
   @media (min-width: 1072px) {
