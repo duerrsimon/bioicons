@@ -107,7 +107,12 @@
               
                <div class="w-full space-y-4 lg:w-1/2">
                     <h1 class="text-xl font-bold">Submission form</h1>
-                    <gradio-app src="https://simonduerr-bioicons-submission.hf.space"></gradio-app>
+                    <iframe
+	src="https://simonduerr-bioicons-submission.hf.space"
+	frameborder="0"
+	width="100%"
+	height="900px"
+></iframe>
                </div>
             </div>
         </section>
@@ -141,7 +146,6 @@
   import GithubButtons from '../components/GithubButtons.vue'
   // import Loading from '../components/Loading.vue'
   
-  import 'gradio-app' from "https://gradio.s3-us-west-2.amazonaws.com/3.23.0/gradio.js"
 
   export default {
     components: { GithubButtons, AppHeader }, // Loading
