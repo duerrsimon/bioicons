@@ -95,10 +95,9 @@ licenses = {
 
 
 def get_width_height(icon):
-    tree = ET.parse(icon)
-    root = tree.getroot()
-
     try:
+        tree = ET.parse(icon)
+        root = tree.getroot()
         viewBox = root.attrib["viewBox"]
         width, height = viewBox.split(" ")[2:]
         return float(width), float(height)
@@ -112,6 +111,8 @@ def get_width_height(icon):
         else:
             width = 100
         return float(width), float(height)
+    except xml.etree.ElementTree.ParseError:
+        return float(100), float(100)
 
 
 # iterates over all svg files organized as license/category/author/icon.svg
