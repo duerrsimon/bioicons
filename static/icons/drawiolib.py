@@ -16,7 +16,7 @@ import base64
 
 from collections import defaultdict
 import xml.etree.ElementTree as ET
-
+import xml
 icons = defaultdict(list)
 categories = set()
 
