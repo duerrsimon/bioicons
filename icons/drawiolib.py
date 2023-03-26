@@ -16,7 +16,7 @@ import base64
 
 from collections import defaultdict
 import xml.etree.ElementTree as ET
-
+import xml
 icons = defaultdict(list)
 categories = set()
 
@@ -93,12 +93,20 @@ licenses = {
     },
 }
 
+def get_size(file_path, unit='bytes'):
+    file_size = os.path.getsize(file_path)
+    exponents_map = {'bytes': 0, 'kb': 1, 'mb': 2, 'gb': 3}
+    if unit not in exponents_map:
+        raise ValueError("Must select from \
+        ['bytes', 'kb', 'mb', 'gb']")
+    else:
+        size = file_size / 1024 ** exponents_map[unit]
+        return round(size, 3)
 
 def get_width_height(icon):
-    tree = ET.parse(icon)
-    root = tree.getroot()
-
     try:
+        tree = ET.parse(icon)
+        root = tree.getroot()
         viewBox = root.attrib["viewBox"]
         width, height = viewBox.split(" ")[2:]
         return float(width), float(height)
@@ -112,6 +120,8 @@ def get_width_height(icon):
         else:
             width = 100
         return float(width), float(height)
+    except xml.etree.ElementTree.ParseError:
+        return float(100), float(100)
 
 
 # iterates over all svg files organized as license/category/author/icon.svg
@@ -135,11 +145,17 @@ for name in glob.glob(os.path.join("./*/*/*/*.svg")):
 
 drawio = {}
 for category in icons.keys():
-    drawio[category] = {"n":len(icons[category]), "file": "Bioicons-" + category.replace(" ", "_") + ".xml"}
     with open(
         "../drawio-lib/Bioicons-" + category.replace(" ", "_") + ".xml", "w"
     ) as outfile:
         outfile.write("<mxlibrary>" + json.dumps(icons[category]) + "</mxlibrary>")
+    file_size = get_size( "../drawio-lib/Bioicons-" + category.replace(" ", "_") + ".xml", "mb")
+    if file_size <50:
+        drawio[category] = {"n":len(icons[category]), "file": "Bioicons-" + category.replace(" ", "_") + ".xml"}
+    else:
+        print(category.replace(" ", "_"), "is too big", file_size, "MB")
+        os.remove("../drawio-lib/Bioicons-" + category.replace(" ", "_") + ".xml")
+
 
 with open('../drawio-lib/categories.json', 'w') as outfile:
         json.dump(drawio, outfile)
