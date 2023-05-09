@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="82.621506mm"
+   height="33.664425mm"
+   viewBox="0 0 82.621506 33.664425"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="watermodels.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.2.2 (1:1.2.2+202212051552+b0a8486541)"
+   sodipodi:docname="watermodels.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.263199"
+     inkscape:cx="156.13513"
+     inkscape:cy="24.669044"
+     inkscape:window-width="1846"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7732">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop7728" />
+      <stop
+         style="stop-color:#810001;stop-opacity:1;"
+         offset="1"
+         id="stop7730" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6252">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop6248" />
+      <stop
+         style="stop-color:#810001;stop-opacity:1;"
+         offset="1"
+         id="stop6250" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5441"
+       x="-0.3"
+       y="-0.3"
+       width="1.6"
+       height="1.6">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.7565885"
+         id="feGaussianBlur5443" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7732"
+       id="radialGradient5474"
+       cx="159.5188"
+       cy="140.45117"
+       fx="159.5188"
+       fy="140.45117"
+       r="14.511554"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5496"
+       x="-0.3"
+       y="-0.3"
+       width="1.6"
+       height="1.6">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.7565885"
+         id="feGaussianBlur5498" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6252"
+       id="radialGradient5506"
+       cx="159.62715"
+       cy="140.88942"
+       fx="159.62715"
+       fy="140.88942"
+       r="14.511554"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6254"
+       x="-0.3"
+       y="-0.3"
+       width="1.6"
+       height="1.6">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.79683614"
+         id="feGaussianBlur6256" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6258"
+       x="-0.3"
+       y="-0.3"
+       width="1.6"
+       height="1.6">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.79683614"
+         id="feGaussianBlur6260" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6988"
+       x="-0.3"
+       y="-0.3"
+       width="1.6"
+       height="1.6">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.79683614"
+         id="feGaussianBlur6990" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-39.117805,-47.165654)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5.72433;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 78.567862,329.88827 161.88079,246.57534"
+       id="path358"
+       transform="matrix(-0.01027417,-0.08057991,0.08058212,-0.01025682,41.150889,85.864681)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5.72433;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 78.567862,329.88827 161.88079,246.57534"
+       id="path360"
+       transform="matrix(0.08058212,0.01025682,-0.01027417,0.08057991,48.845921,48.761863)" />
+    <circle
+       style="fill:#ff0001;fill-opacity:1;stroke:none;stroke-width:0.952011;stroke-linecap:round;stroke-linejoin:round;filter:url(#filter5441)"
+       id="circle3987"
+       cx="239.43871"
+       cy="159.18628"
+       r="7.0263538"
+       transform="matrix(0.36325676,-0.4693218,0.4693218,0.36325676,-102.33006,124.83958)" />
+    <circle
+       style="fill:url(#radialGradient5474);fill-opacity:1;stroke:none;stroke-width:2.81753;stroke-linecap:round;stroke-linejoin:round"
+       id="circle465"
+       cx="158.26883"
+       cy="145.5493"
+       r="14.511554"
+       transform="matrix(0.12274018,-0.1585783,0.1585783,0.12274018,16.850358,77.524519)" />
+    <circle
+       style="fill:#0b00ff;fill-opacity:1;stroke:none;stroke-width:0.863716;stroke-linecap:round;stroke-linejoin:round;filter:url(#filter6988)"
+       id="circle6238"
+       cx="203.85129"
+       cy="176.71051"
+       r="3.1873446"
+       transform="matrix(0.40039138,-0.51729912,0.51729912,0.40039138,-121.24473,110.84881)" />
+    <circle
+       style="fill:#0b00ff;fill-opacity:1;stroke:none;stroke-width:0.863716;stroke-linecap:round;stroke-linejoin:round;filter:url(#filter6988)"
+       id="circle6992"
+       cx="203.85129"
+       cy="176.71051"
+       r="3.1873446"
+       transform="matrix(0.40039138,-0.51729912,0.51729912,0.40039138,-106.10572,110.84881)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5.47933;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 78.567862,329.88827 161.88079,246.57534"
+       id="path236"
+       transform="matrix(-0.01435886,-0.08364089,0.08364398,-0.01434085,41.057144,73.385257)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5.47933;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 78.567862,329.88827 161.88079,246.57534"
+       id="path362"
+       transform="matrix(0.08364398,0.01434086,-0.01435886,0.08364089,49.357449,33.364014)" />
+    <circle
+       style="fill:#ff0001;fill-opacity:1;stroke:none;stroke-width:0.968264;stroke-linecap:round;stroke-linejoin:round;filter:url(#filter5496)"
+       id="path3985"
+       cx="239.43871"
+       cy="159.18628"
+       r="7.0263538"
+       transform="matrix(0.33689903,-0.47643641,0.47643641,0.33689903,-97.151542,116.75692)" />
+    <circle
+       style="fill:url(#radialGradient5506);fill-opacity:1;stroke:none;stroke-width:2.60534;stroke-linecap:round;stroke-linejoin:round"
+       id="path463"
+       cx="158.26883"
+       cy="145.5493"
+       r="14.511554"
+       transform="matrix(0.12520704,-0.17706549,0.17706549,0.12520704,13.769134,66.109455)" />
+    <circle
+       style="fill:#0b00ff;fill-opacity:1;stroke:none;stroke-width:0.878462;stroke-linecap:round;stroke-linejoin:round;filter:url(#filter6258)"
+       id="circle6236"
+       cx="203.85129"
+       cy="176.71051"
+       r="3.1873446"
+       transform="matrix(0.37133917,-0.52514102,0.52514102,0.37133917,-100.97374,103.51403)" />
+    <circle
+       style="fill:#0b00ff;fill-opacity:1;stroke:none;stroke-width:0.878462;stroke-linecap:round;stroke-linejoin:round;filter:url(#filter6254)"
+       id="path6234"
+       cx="203.85129"
+       cy="176.71051"
+       r="3.1873446"
+       transform="matrix(0.37133917,-0.52514102,0.52514102,0.37133917,-117.30355,103.51403)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:2.00315, 2.00315;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 233.49888,265.10827 8.51909,-13.62299 h 29.66389"
+       id="path8572"
+       transform="matrix(0.26458333,0,0,0.26458333,1.3029287,-0.56083124)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:2.00315, 2.00315;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 233.49888,265.10827 13.62299,-13.62299 h 29.66389"
+       id="path8576"
+       transform="matrix(0.26458333,0,0,0.26458333,6.050228,5.5184803)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:2.00315, 2.00315;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 233.49888,265.10827 7.0972,-19.72568 h 29.66389"
+       id="path8578"
+       transform="matrix(0.26458333,0,0,-0.26458333,-7.1881848,144.79337)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:2.00315, 2.00315;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 233.49888,272.9599 21.11263,-16.73317 h 29.66389"
+       id="path8580"
+       transform="matrix(0.26458333,0,0,0.26458333,-2.6255961,-11.225718)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:2.00315, 2.00315;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 240.21539,272.9599 14.39612,-16.73317 h 14.89745"
+       id="path8631"
+       transform="matrix(0.26458333,0,0,0.26458333,-2.6255961,-17.97268)"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px"
+       x="265.21182"
+       y="187.94746"
+       id="text8687"
+       transform="matrix(0.26458333,0,0,0.26458333,-1.1417683,0.46536407)"><tspan
+         sodipodi:role="line"
+         id="tspan8685"
+         x="265.21182"
+         y="187.94746">Repulsive LJ parameter is bigger for SPC water</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px"
+       x="265.21182"
+       y="187.94746"
+       id="text8741"
+       transform="matrix(0.26458333,0,0,0.26458333,2.7014459,7.2372206)"><tspan
+         sodipodi:role="line"
+         id="tspan8739"
+         x="265.21182"
+         y="187.94746">Equilibrium bond angle is larger for SPC water</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px"
+       x="265.21182"
+       y="187.94746"
+       id="text8745"
+       transform="matrix(0.26458333,0,0,0.26458333,3.35313,16.678782)"><tspan
+         sodipodi:role="line"
+         id="tspan8743"
+         x="265.21182"
+         y="187.94746">Oxygen is more negatively charged for TIP3P water</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px"
+       x="265.21182"
+       y="187.94746"
+       id="text8753"
+       transform="matrix(0.26458333,0,0,0.26458333,9.3607817,22.821855)"><tspan
+         sodipodi:role="line"
+         id="tspan8751"
+         x="265.21182"
+         y="187.94746">Hydrogen is more positively charged for TIP3P water</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px"
+       x="265.21182"
+       y="187.94746"
+       id="text8749"
+       transform="matrix(0.26458333,0,0,0.26458333,-5.3450859,30.530769)"><tspan
+         sodipodi:role="line"
+         id="tspan8747"
+         x="265.21182"
+         y="187.94746">Equilibrium bond length is slightly lower for TIP3P water</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px"
+       x="265.21182"
+       y="187.94746"
+       id="text8769"
+       transform="matrix(0.26458333,0,0,0.26458333,-29.60795,3.4145569)"><tspan
+         sodipodi:role="line"
+         id="tspan8767"
+         x="265.21182"
+         y="187.94746">SPC Water Model</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px"
+       x="265.21182"
+       y="187.94746"
+       id="text8773"
+       transform="matrix(0.26458333,0,0,0.26458333,-31.059712,17.633517)"><tspan
+         sodipodi:role="line"
+         id="tspan8771"
+         x="265.21182"
+         y="187.94746">TIP3P Water Model</tspan></text>
+  </g>
+</svg>
