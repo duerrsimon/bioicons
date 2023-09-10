@@ -177,6 +177,10 @@
       :options="{ startTimeout: 400 }"
       :callbacks="myCallbacks"
     ></v-tour>
+    <UserSurvey
+      :showsurvey="banneropen"
+      @togglebanner="toggleBanner"
+    ></UserSurvey>
   </div>
 </template>
 
@@ -186,6 +190,7 @@ import AppHeader from '../components/AppHeader.vue'
 import GithubButtons from '../components/GithubButtons.vue'
 import Icon from '../components/Icon.vue'
 import Toolbar from '../components/Toolbar.vue'
+import UserSurvey from '../components/UserSurvey.vue'
 // import Loading from '../components/Loading.vue'
 
 const getIcons = () =>
@@ -198,7 +203,7 @@ const getAuthors = () =>
   import('../static/icons/authors.json').then((m) => m.default || m)
 
 export default {
-  components: { GithubButtons, AppHeader, Toolbar, Icon }, // Loading
+  components: { GithubButtons, AppHeader, Toolbar, Icon, UserSurvey }, // Loading
   async asyncData({ req }) {
     const icons = await getIcons()
     const categories = await getCategories()
@@ -218,6 +223,7 @@ export default {
       myCallbacks: {
         onStop: this.onTourStop,
       },
+      banneropen: true,
       steps: [
         {
           target: '#start',
@@ -315,6 +321,7 @@ export default {
         clipboard: this.clipboard,
         darkMode: this.darkMode,
         showTour: this.showTour,
+        showSurvey: this.banneropen,
       }
     },
     filteredIcons() {
@@ -360,6 +367,9 @@ export default {
       if (typeof settings.showTour !== 'undefined') {
         this.showTour = settings.showTour
       }
+      if (typeof settings.showSurvey !== 'undefined') {
+        this.banneropen = settings.showSurvey
+      }
       this.$notify(
         {
           text: 'Loaded settings from local storage',
@@ -400,6 +410,9 @@ export default {
     categorySelected(val) {
       this.category = val
       this.size = 24
+    },
+    toggleBanner() {
+      this.banneropen = !this.banneropen
     },
     showToast(icon) {
       this.$notify(
