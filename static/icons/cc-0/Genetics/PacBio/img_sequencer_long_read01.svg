@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 88.17882 167.01764">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+        isolation: isolate;
+        opacity: .3;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-6 {
+        opacity: .1;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: #54bedb;
+      }
+
+      .cls-4 {
+        fill: #0e181c;
+      }
+
+      .cls-5 {
+        fill: #1e2526;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="42.20401" y1="414.79705" x2="42.20401" y2="428.06314" gradientTransform="translate(0 580.80604) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-16.04055" y1="688.64462" x2="44.45969" y2="599.51328" gradientTransform="translate(0 -598)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="img_revio_front_rfl" data-name="img revio front rfl">
+    <rect class="cls-4" y="3.94484" width="84.40802" height="149.78798"/>
+    <g>
+      <rect class="cls-1" y="153.73282" width="84.40802" height="13.28482"/>
+      <path class="cls-3" d="m72.51548.23205v3.71279h11.89254v10.50024h3.53876c.11603,0,.23205-.11602.23205-.23205V.23205c0-.11603-.11603-.23205-.23205-.23205h-15.19924c-.11603,0-.23205.11603-.23205.23205Z"/>
+    </g>
+    <rect class="cls-5" x="4.06087" y="9.45602" width="76.28629" height="120.25967"/>
+    <g class="cls-6">
+      <polygon class="cls-2" points="4.06087 9.39801 4.06087 71.29722 32.13886 71.29722 47.57016 9.39801 4.06087 9.39801"/>
+    </g>
+  </g>
+</svg>
