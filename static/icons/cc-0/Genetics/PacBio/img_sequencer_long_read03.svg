@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 99.46731 163.11218">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+        opacity: .2;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: url(#linear-gradient-3);
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+
+      .cls-3 {
+        fill: #313541;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="42.06518" y1="163.11218" x2="42.06518" y2="14.38542" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#313541"/>
+      <stop offset=".26326" stop-color="#343844"/>
+      <stop offset=".51125" stop-color="#3e4350"/>
+      <stop offset=".75311" stop-color="#4e5463"/>
+      <stop offset=".98989" stop-color="#656d7d"/>
+      <stop offset="1" stop-color="#676f7f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="42.06516" y1="156.74752" x2="42.06516" y2="20.75011" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="82.84786" y1="-2.87315" x2="101.6903" y2="15.96929" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#40a9dd"/>
+      <stop offset="1" stop-color="#00b8c4"/>
+    </linearGradient>
+  </defs>
+  <g id="_01" data-name="01">
+    <g>
+      <g id="icn_revio_alt">
+        <rect class="cls-2" y="14.38542" width="84.13036" height="148.72675"/>
+        <rect class="cls-3" x=".05956" y="136.06311" width="84.01123" height="27.04907"/>
+        <polygon class="cls-1" points="7.00066 156.74752 7.00066 20.75011 77.12966 20.75011 7.00066 156.74752"/>
+        <polyline class="cls-4" points="79.97471 4 95.46731 4 95.46731 18.19228"/>
+      </g>
+      <g id="icn_revio_alt-2" data-name="icn_revio_alt">
+        <rect class="cls-2" y="14.38542" width="84.13036" height="148.72675"/>
+        <rect class="cls-3" x=".05956" y="136.06311" width="84.01123" height="27.04907"/>
+        <polygon class="cls-1" points="7.00066 156.74752 7.00066 20.75011 77.12966 20.75011 7.00066 156.74752"/>
+        <polyline class="cls-4" points="79.97471 4 95.46731 4 95.46731 18.19228"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 95.10981 73.68404">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #9ba7ba;
+        stroke-linejoin: round;
+        stroke-width: 3.15281px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient);
+        stroke-miterlimit: 10;
+        stroke-width: 5.25468px;
+      }
+
+      .cls-3 {
+        fill: #494f59;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #313541;
+      }
+
+      .cls-5 {
+        fill: #676f7f;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="6.69675" x2="13.38108" y2="6.69675" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#40a9dd"/>
+      <stop offset="1" stop-color="#00b8c4"/>
+    </linearGradient>
+  </defs>
+  <g id="_01" data-name="01">
+    <g id="icn_emb_onso">
+      <g>
+        <g>
+          <rect class="cls-4" x="13.1019" y="25.99155" width="78.11821" height="15.71535"/>
+          <g>
+            <rect class="cls-5" x="9.0796" y="37.07907" width="49.46737" height="36.60497"/>
+            <line class="cls-1" x1="21.98413" y1="43.18156" x2="45.64244" y2="43.18156"/>
+            <rect class="cls-3" x="58.54697" y="37.07907" width="36.56284" height="36.60497"/>
+          </g>
+          <g>
+            <rect class="cls-5" x="9.0796" y="9.08704" width="30.11057" height="21.53233"/>
+            <rect class="cls-3" x="39.19017" y="9.08704" width="55.91963" height="21.53233"/>
+            <line class="cls-1" x1="55.32084" y1="32.4705" x2="78.97914" y2="32.4705"/>
+          </g>
+        </g>
+        <polyline class="cls-2" points="2.62734 13.39351 2.62734 2.62734 13.38108 2.62734"/>
+      </g>
+    </g>
+  </g>
+</svg>
