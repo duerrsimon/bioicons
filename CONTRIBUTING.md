@@ -14,6 +14,7 @@ Our standards for submitting illustrations are:
   In particular we want to avoid stereotypical depictions (for example images with only white men doing science or women in high heels in the lab)
 - You certify you own the copyright or have properly specified the license and the original author
 - Illustrations should have a certain degree of complexity (not just a few spheres and some text).
+- We aim for illustrations to follow a style of abstracted realism or flat 2D. This means they should be of typical clipart quality such as already found on the bioicons website. We will ask you to improve Illustrations that look too cartoony or too much like a sketch/handrawn in order to match the style.
 - Illustrations should mostly be single building blocks and not full figures (i.e an icon of the corona virus particle but not the complete life cycle of the virus). We invite you to split such illustrations into their individual components. 
 
 For all illustrations submitted via the Webform a Pull Request on GitHub will be created and you can track progress of your submission there ([github.com/duerrsimon/bioicons/pulls](https://github.com/duerrsimon/bioicons/pulls)).
