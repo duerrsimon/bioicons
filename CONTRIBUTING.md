@@ -9,7 +9,7 @@ All illustrations will be checked by the main developer Simon. If you want becom
 Our standards for submitting illustrations are: 
 
 - vector only in SVG format
-- avoid inline styles or bitmap textures in the SVG file and iff possible process them using [svgo](https://github.com/svg/svgo) and [svgo-viewbox](https://github.com/scriptex/svgo-viewbox) to clean your vector files
+- avoid inline styles or bitmap textures in the SVG file and if possible process them using [svgo](https://github.com/svg/svgo) and [svgo-viewbox](https://github.com/scriptex/svgo-viewbox) to clean your vector files. If you are using Adobe Illustrator make sure you export remove any inline styles or class attributes. You can remove them in the export dialog or use the default settings in [svgomg](https://jakearchibald.github.io/svgomg/)
 - respect our code of conduct and make sure your illustrations are scientifically accurate. 
   In particular we want to avoid stereotypical depictions (for example images with only white men doing science or women in high heels in the lab)
 - You certify you own the copyright or have properly specified the license and the original author
