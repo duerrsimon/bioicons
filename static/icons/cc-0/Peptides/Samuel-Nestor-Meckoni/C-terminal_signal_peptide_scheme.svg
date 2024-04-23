@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="68.738441mm"
+   height="4.9273705mm"
+   viewBox="0 0 68.738441 4.9273705"
+   version="1.1"
+   id="svg94102"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="C-terminal_signal_peptide_scheme.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview94104"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.69664703"
+     inkscape:cx="4.3063415"
+     inkscape:cy="65.312846"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs94099" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-56.781674,-130.8445)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.186546px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 61.238672,133.30818 H 121.23867"
+       id="path416-7" />
+    <rect
+       style="fill:#de8787;fill-rule:evenodd;stroke-width:0.0892648"
+       id="rect301-3-5"
+       width="55.849049"
+       height="4.9273705"
+       x="63.314148"
+       y="130.8445" />
+    <rect
+       style="fill:#00ffff;fill-rule:evenodd;stroke-width:0.0366646"
+       id="rect301-6"
+       width="9.4221869"
+       height="4.9273705"
+       x="109.741"
+       y="130.8445" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5831px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="56.297203"
+       y="135.23396"
+       id="text8431-4"
+       transform="scale(0.99997751,1.0000225)"><tspan
+         sodipodi:role="line"
+         id="tspan8429-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29155px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264577"
+         x="56.297203"
+         y="135.23396">N</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="121.97511"
+       y="135.23442"
+       id="text16397-3"><tspan
+         sodipodi:role="line"
+         id="tspan16395-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="121.97511"
+         y="135.23442">C</tspan></text>
+  </g>
+</svg>
