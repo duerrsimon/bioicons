@@ -1,0 +1,9 @@
+cff-version: 1.1.0
+message: "If you want to acknowledge the BioIcons platform itself, please cite it as below."
+authors:
+- family-names: Dürr
+  given-names: Simon
+orcid: https://orcid.org/0000-0002-4304-8106
+title: BioIcons April 2024 Release
+version: April24
+date-released: 2024-04-25
