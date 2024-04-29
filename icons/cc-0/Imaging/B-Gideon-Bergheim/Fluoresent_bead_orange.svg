@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="28.281452mm"
+   height="28.28145mm"
+   viewBox="0 0 28.281452 28.28145"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="Fluoresent_beads.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.1162327"
+     inkscape:cx="304.59598"
+     inkscape:cy="232.92634"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1"
+       x="-0.31123308"
+       y="-0.31123308"
+       width="1.6224662"
+       height="1.6224662">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.2604794"
+         id="feGaussianBlur1" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-100.95881,-30.77801)">
+    <g
+       id="g23"
+       transform="translate(11.992301)">
+      <circle
+         style="fill:#e28555;fill-opacity:1;stroke-width:0.264583px;-inkscape-stroke:none"
+         id="circle3"
+         cx="103.10723"
+         cy="44.918736"
+         r="8.7155752" />
+      <circle
+         style="fill:#e28555;fill-opacity:1;stroke-width:0.264583px;-inkscape-stroke:none;filter:url(#filter1)"
+         id="circle4"
+         cx="103.10723"
+         cy="44.918736"
+         r="8.7155752" />
+      <circle
+         style="fill:#f7e9cc;fill-opacity:1;stroke-width:0.458143px;-inkscape-stroke:none;filter:url(#filter1)"
+         id="circle20"
+         cx="25.017662"
+         cy="44.918751"
+         r="8.7155752"
+         transform="matrix(0.57751208,0,0,0.57751208,88.659233,18.97763)" />
+    </g>
+  </g>
+</svg>
