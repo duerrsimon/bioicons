@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30.002226mm"
+   height="18.535748mm"
+   viewBox="0 0 30.002226 18.535748"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="alanine_chem.svg"
+   inkscape:export-filename="alanine_chem.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.5785915"
+     inkscape:cx="-23.438616"
+     inkscape:cy="-70.315848"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient36"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop36" />
+      <stop
+         style="stop-color:#b30000;stop-opacity:1;"
+         offset="1"
+         id="stop37" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient34"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop34" />
+      <stop
+         style="stop-color:#b30000;stop-opacity:1;"
+         offset="1"
+         id="stop35" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient32"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#084594;stop-opacity:1;"
+         offset="0"
+         id="stop32" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop33" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient32"
+       id="linearGradient33"
+       x1="35.893353"
+       y1="44.796352"
+       x2="39.249138"
+       y2="48.161144"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(8.5968647)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient34"
+       id="linearGradient35"
+       x1="44.088905"
+       y1="47.407818"
+       x2="48.910381"
+       y2="47.407818"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(8.5968647)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient36"
+       id="linearGradient37"
+       x1="44.241104"
+       y1="46.103848"
+       x2="44.241718"
+       y2="40.863335"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(8.5968647)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-36.248747,-35.493305)">
+    <g
+       id="g37">
+      <path
+         id="path10-2"
+         style="color:#000000;fill:url(#linearGradient33);stroke:none;stroke-width:1;stroke-linejoin:round;-inkscape-stroke:none;paint-order:fill"
+         d="m 45.171218,44.115352 -1.361998,1.361997 0.181386,0.12848 1.308506,-1.308506 z m 0.30591,0.434406 -1.234373,1.234374 0.181027,0.128107 1.181172,-1.181173 z m 0.30591,0.434405 -1.10675,1.10675 0.181027,0.128108 1.05355,-1.05355 z m 0.30591,0.434406 -0.979126,0.979126 0.18102,0.128114 0.925929,-0.925929 z m 0.30591,0.434405 -0.851793,0.851793 0.181021,0.128115 0.798593,-0.798593 z m 0.305911,0.434406 -0.72417,0.72417 0.181027,0.128107 0.670966,-0.670966 z m 0.30591,0.434406 -0.596837,0.596836 0.181028,0.128107 0.543636,-0.543636 z m 0.30591,0.434405 -0.469213,0.469213 0.21483,0.152039 0.405838,-0.405838 z m 0.329545,0.468506 -0.331706,0.331706 0.181027,0.128107 0.2785,-0.278501 z m 0.30591,0.434405 -0.204083,0.204082 0.181027,0.128108 0.150877,-0.150877 z m 0.30591,0.434405 -0.07675,0.07675 0.09544,0.06753 0.04855,-0.04855 z" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.305001;stroke-linecap:butt;stroke-linejoin:round;paint-order:fill"
+         d="m 48.321193,54.029053 10e-7,-5.391266"
+         id="path7-0-2" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.305001;stroke-linecap:butt;stroke-linejoin:round;paint-order:fill"
+         d="M 48.244943,48.755632 52.913916,46.06"
+         id="path7-0-2-8" />
+      <path
+         style="fill:none;stroke:url(#linearGradient35);stroke-width:0.305001;stroke-linecap:butt;stroke-linejoin:round;paint-order:fill"
+         d="m 52.762022,46.06 4.668973,2.695634"
+         id="path7-0-2-8-6" />
+      <path
+         id="path4-1"
+         style="fill:none;stroke:url(#linearGradient37);stroke-width:0.305001;stroke-linecap:butt;stroke-linejoin:round;paint-order:fill"
+         d="M 53.100307,40.863334 V 46.2546 m -0.523448,0 1e-6,-5.391266" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.66628px;line-height:1.05;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#43a2ca;stroke-width:0.264583"
+         x="36.035236"
+         y="43.751896"
+         id="text26-9"><tspan
+           sodipodi:role="line"
+           id="tspan26-8"
+           style="fill:#43a2ca;stroke-width:0.264583"
+           x="36.035236"
+           y="43.751896">H</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.66628px;line-height:1.05;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#43a2ca;stroke-width:0.264583"
+         x="41.700531"
+         y="37.401882"
+         id="text26-9-3-3"><tspan
+           sodipodi:role="line"
+           id="tspan26-8-7-3"
+           style="fill:#43a2ca;stroke-width:0.264583"
+           x="41.700531"
+           y="37.401882">H</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.05;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#b30000;stroke-width:0.264583"
+         x="57.598923"
+         y="51.015079"
+         id="text28-4"><tspan
+           sodipodi:role="line"
+           id="tspan28-8"
+           style="fill:#b30000;stroke-width:0.264583"
+           x="57.598923"
+           y="51.015079">O</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.05;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#b30000;stroke-width:0.264583"
+         x="51.193825"
+         y="40.075317"
+         id="text28-4-3"><tspan
+           sodipodi:role="line"
+           id="tspan28-8-4"
+           style="fill:#b30000;stroke-width:0.264583"
+           x="51.193825"
+           y="40.075317">O</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.05;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#084594;stroke-width:0.264583"
+         x="41.099308"
+         y="44.115353"
+         id="text29-4"><tspan
+           sodipodi:role="line"
+           id="tspan29-2"
+           style="fill:#084594;stroke-width:0.264583"
+           x="41.099308"
+           y="44.115353">N</tspan></text>
+      <path
+         style="fill:none;stroke:#43a2ca;stroke-width:0.305001;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;paint-order:fill"
+         d="m 38.701333,42.797607 1.76089,10e-7"
+         id="path30-9" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.66628px;line-height:1.05;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#43a2ca;stroke-width:0.264583"
+         x="64.540283"
+         y="50.453182"
+         id="text26-9-35"><tspan
+           sodipodi:role="line"
+           id="tspan26-8-0"
+           style="fill:#43a2ca;stroke-width:0.264583"
+           x="64.540283"
+           y="50.453182">H</tspan></text>
+      <path
+         style="fill:none;stroke:#43a2ca;stroke-width:0.305001;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;paint-order:fill"
+         d="m 61.654388,49.498894 1.76089,10e-7"
+         id="path30-9-2" />
+      <path
+         style="fill:none;stroke:#43a2ca;stroke-width:0.305001;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;paint-order:fill"
+         d="m 42.615495,40.126995 v -1.76089"
+         id="path30-9-4" />
+    </g>
+  </g>
+</svg>
