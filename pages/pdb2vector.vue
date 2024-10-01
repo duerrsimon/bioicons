@@ -39,7 +39,7 @@
                   <div class="lg:flex p-4 space-x-6">
                     <div class="w-full space-y-12">
 
-                        <p>This application allows you to take a protein structure, adjust the view and colors and generate a 2D vector illustration from it. This app is powered by <a href="https://github.com/jordisr/cellscape">Cellscape</a></p>
+                        <p>This app allows you to take a protein structure, adjust the view and colors and generate a 2D vector illustration from it. This app is powered by <a href="https://github.com/jordisr/cellscape" class="text-green-700 hover:text-underline">Cellscape</a>.</p>
                     
                         <gradio-app src="https://simonduerr-pdb2vector.hf.space"></gradio-app>
                     
