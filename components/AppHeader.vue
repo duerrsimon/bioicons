@@ -15,6 +15,7 @@
           <div class="flex text-base space-x-4 justify-center flex-wrap">
             <div class="flex space-x-2 items-center">
               <svg
+              v-if="numberoficons>0"
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5 text-gray-200"
                 viewBox="0 0 20 20"
