@@ -26,7 +26,7 @@
                   clip-rule="evenodd"
                 />
               </svg>
-              <span>{{ numberoficons }} icons</span>
+              <span v-if="numberoficons>0">{{ numberoficons }} icons</span>
             </div>
             <div class="flex space-x-2 items-center">
               <svg
