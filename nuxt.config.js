@@ -22,6 +22,13 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ],
+    script: [
+        {
+          type: 'module',
+          src: 'https://gradio.s3-us-west-2.amazonaws.com/4.44.0/gradio.js',
+          defer: true
+        }
+      ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
