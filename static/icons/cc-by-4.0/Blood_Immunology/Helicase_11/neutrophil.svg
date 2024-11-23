@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200.09129mm"
+   height="181.95515mm"
+   viewBox="0 0 200.09129 181.95515"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="NEUTRO.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.34835028"
+     inkscape:cx="146.40436"
+     inkscape:cy="366.0109"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g51">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="200.09129"
+       height="181.95515"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.601327,-56.168871)">
+    <g
+       id="g51"
+       inkscape:export-filename="eosinophil_ok.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="translate(-7.1512781,41.77543)">
+      <path
+         id="path2"
+         style="fill:#de87aa;stroke:#a02c5a;stroke-width:0;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="m 213.60014,105.66872 c 0,12.49928 -2.20743,25.56706 -8.02801,36.62838 -5.33515,10.13881 -15.11617,17.27376 -23.50433,25.07748 -9.69282,9.01748 -18.57657,20.06389 -30.86062,25.00027 -13.50849,5.42842 -28.96579,3.76133 -43.52365,3.63543 -12.062131,-0.10432 -24.86479,0.99154 -36.004667,-3.63544 C 61.104704,187.98283 52.833473,179.05424 45.114812,170.597 36.559026,161.22254 29.145799,150.56649 23.75877,139.07467 19.392755,129.76091 15.890004,119.69092 15.193687,109.42821 14.113355,93.505659 14.526464,76.080326 22.147558,62.058426 26.900247,53.314046 37.269347,49.107361 44.57774,42.35165 50.600438,36.784406 55.975255,30.39245 62.218139,25.1988 c 4.810872,-4.002315 12.733804,-8.69397 20.092438,-10.198139 9.535107,-1.949059 19.416903,1.367347 29.132443,1.937709 13.24907,0.777803 27.33495,-2.629549 39.76416,2.024222 11.82244,4.426582 20.51618,14.820145 29.78648,23.389055 8.88113,8.209188 18.99358,15.961425 24.57847,26.688694 5.77203,11.086728 8.02801,24.129103 8.02801,36.628379 z"
+         sodipodi:nodetypes="aaaaaaaaaaaaaaaaaa"
+         inkscape:export-filename="NEUTROPHIL.SVG"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="fill:#d35f8d;stroke:#a02c5a;stroke-width:1.12137;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+         d="m 128.50154,171.25717 c -19.28163,-13.31468 1.17689,-53.54043 18.16114,-36.01633 10.88775,11.23382 29.61921,21.04201 31.24456,1.63157 1.41183,-16.86059 -28.90557,-2.94576 -27.368,-26.11177 1.23293,-18.576027 23.04924,-16.418802 28.0972,-28.143797 8.44458,-19.614383 -23.76837,-20.315706 -32.73198,-3.310663 -12.23975,23.2203 -34.36295,-8.808158 -25.37347,-25.962735 12.28586,-23.445081 31.13722,-2.832279 46.68456,6.112809 17.80573,10.244458 30.49284,25.486199 32.30213,44.508476 1.73123,18.20162 -7.96254,37.29082 -20.97627,48.55097 -12.98057,11.23144 -21.21869,32.96126 -39.86933,29.72272 -5.15968,-0.89595 -5.84004,-7.99088 -10.17054,-10.98125 z"
+         id="path1"
+         sodipodi:nodetypes="ssssssssssss" />
+      <ellipse
+         style="font-variation-settings:normal;vector-effect:none;fill:#d35f8d;fill-opacity:1;stroke:none;stroke-width:0.782961;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+         id="path3"
+         cx="55.924114"
+         cy="-55.858002"
+         rx="2.4374499"
+         ry="3.5624268" />
+      <ellipse
+         style="font-variation-settings:normal;vector-effect:none;fill:#d35f8d;fill-opacity:1;stroke:none;stroke-width:0.367497;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+         id="path4"
+         cx="60.989605"
+         cy="-48.23048"
+         rx="1.7600963"
+         ry="1.5840868" />
+      <ellipse
+         style="font-variation-settings:normal;vector-effect:none;fill:#d35f8d;fill-opacity:1;stroke:none;stroke-width:1.18368;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+         id="path5"
+         cx="66.561852"
+         cy="-39.248238"
+         rx="4.818769"
+         ry="3.4014835" />
+      <ellipse
+         style="font-variation-settings:normal;vector-effect:none;fill:#d35f8d;fill-opacity:1;stroke:none;stroke-width:0.665295;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+         id="ellipse28"
+         cx="13.483327"
+         cy="-84.087372"
+         rx="2.0711432"
+         ry="3.0270553"
+         transform="rotate(43.948492)" />
+      <ellipse
+         style="font-variation-settings:normal;vector-effect:none;fill:#d35f8d;fill-opacity:1;stroke:none;stroke-width:0.928063;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+         id="ellipse29"
+         cx="80.89537"
+         cy="-35.161743"
+         rx="3.7781487"
+         ry="2.6669281"
+         transform="rotate(-19.361778)" />
+      <ellipse
+         style="font-variation-settings:normal;vector-effect:none;fill:#d35f8d;fill-opacity:1;stroke:none;stroke-width:0.928063;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+         id="ellipse30"
+         cx="17.782795"
+         cy="-66.437973"
+         rx="3.7781487"
+         ry="2.6669281"
+         transform="rotate(37.824293)" />
+      <use
+         id="use54"
+         inkscape:spray-origin="#ellipse28"
+         xlink:href="#ellipse28"
+         transform="matrix(-0.35925989,1.2549721,-1.2549721,-0.35925989,10.337627,-13.463637)" />
+      <use
+         id="use55"
+         inkscape:spray-origin="#ellipse30"
+         xlink:href="#ellipse30"
+         transform="matrix(0.98847826,-0.07342512,0.07342512,0.98847826,-10.118544,117.20128)" />
+      <use
+         id="use56"
+         inkscape:spray-origin="#ellipse29"
+         xlink:href="#ellipse29"
+         transform="matrix(1.1423618,0.14527456,-0.14527456,1.1423618,-35.689453,120.48139)" />
+      <use
+         id="use57"
+         inkscape:spray-origin="#ellipse30"
+         xlink:href="#ellipse30"
+         transform="matrix(-0.8521985,1.1240425,-1.1240425,-0.8521985,70.485991,-50.710327)" />
+      <use
+         id="use58"
+         inkscape:spray-origin="#ellipse28"
+         xlink:href="#ellipse28"
+         transform="matrix(0.726317,-1.0086114,1.0086114,0.726317,89.898062,144.07389)" />
+      <use
+         id="use59"
+         inkscape:spray-origin="#path4"
+         xlink:href="#path4"
+         transform="matrix(0.50372971,-0.08003006,0.08003006,0.50372971,69.979669,98.574295)" />
+      <use
+         id="use60"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(-0.37177108,-1.249744,1.249744,-0.37177108,180.53219,156.80285)" />
+      <use
+         id="use61"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(-0.37668812,0.72856373,-0.72856373,-0.37668812,60.452164,44.724285)" />
+      <use
+         id="use62"
+         inkscape:spray-origin="#path5"
+         xlink:href="#path5"
+         transform="matrix(-0.04284955,0.65265195,-0.65265195,-0.04284955,21.982923,72.611024)" />
+      <use
+         id="use63"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(-0.34809701,1.0597489,-1.0597489,-0.34809701,20.546191,39.453769)" />
+      <use
+         id="use64"
+         inkscape:spray-origin="#ellipse30"
+         xlink:href="#ellipse30"
+         transform="matrix(0.16079338,1.1917753,-1.1917753,0.16079338,59.968445,48.381615)" />
+      <use
+         id="use65"
+         inkscape:spray-origin="#path5"
+         xlink:href="#path5"
+         transform="matrix(-0.26172029,-1.0464538,1.0464538,-0.26172029,189.16956,157.24475)" />
+      <use
+         id="use66"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(0.19467283,-1.4160467,1.4160467,0.19467283,144.68172,173.06764)" />
+      <use
+         id="use67"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(0.95854011,-0.92646674,0.92646674,0.95854011,80.082166,161.81212)" />
+      <use
+         id="use68"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(0.4872536,-0.35572974,0.35572974,0.4872536,94.833887,92.877949)" />
+      <use
+         id="use69"
+         inkscape:spray-origin="#path5"
+         xlink:href="#path5"
+         transform="matrix(1.2899473,0.0179778,-0.0179778,1.2899473,48.407185,77.475259)" />
+      <use
+         id="use70"
+         inkscape:spray-origin="#path4"
+         xlink:href="#path4"
+         transform="matrix(1.1179885,0.81928025,-0.81928025,1.1179885,-19.451026,81.944839)" />
+      <use
+         id="use71"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(1.3433266,0.13552093,-0.13552093,1.3433266,15.758988,152.96694)" />
+      <use
+         id="use72"
+         inkscape:spray-origin="#ellipse28"
+         xlink:href="#ellipse28"
+         transform="matrix(-0.10856899,1.4730469,-1.4730469,-0.10856899,-47.426124,-16.550126)" />
+      <use
+         id="use73"
+         inkscape:spray-origin="#path5"
+         xlink:href="#path5"
+         transform="matrix(0.12480316,0.86984041,-0.86984041,0.12480316,-14.349803,20.157778)" />
+      <use
+         id="use74"
+         inkscape:spray-origin="#path4"
+         xlink:href="#path4"
+         transform="matrix(1.0658706,-0.2547435,0.2547435,1.0658706,-19.252891,178.23382)" />
+      <use
+         id="use75"
+         inkscape:spray-origin="#ellipse30"
+         xlink:href="#ellipse30"
+         transform="matrix(0.52321922,-0.16368576,0.16368576,0.52321922,13.754357,161.88172)" />
+      <use
+         id="use76"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(-0.84006965,0.01624787,-0.01624787,-0.84006965,116.59818,90.309934)" />
+      <use
+         id="use77"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(-0.02509172,-0.58391407,0.58391407,-0.02509172,131.99906,163.40668)" />
+      <use
+         id="use78"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(-0.90628835,-0.25915438,0.25915438,-0.90628835,169.52026,95.030804)" />
+      <use
+         id="use79"
+         inkscape:spray-origin="#ellipse30"
+         xlink:href="#ellipse30"
+         transform="matrix(-0.05674786,0.6023754,-0.6023754,-0.05674786,81.890063,104.92865)" />
+      <use
+         id="use80"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(-0.31077815,-0.53847717,0.53847717,-0.31077815,129.87135,164.63049)" />
+      <use
+         id="use81"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(-0.56476163,0.91767481,-0.91767481,-0.56476163,32.064943,77.816842)" />
+      <use
+         id="use82"
+         inkscape:spray-origin="#path4"
+         xlink:href="#path4"
+         transform="matrix(-0.48156661,1.3311841,-1.3311841,-0.48156661,45.89685,60.582143)" />
+      <use
+         id="use83"
+         inkscape:spray-origin="#ellipse29"
+         xlink:href="#ellipse29"
+         transform="matrix(0.46588351,-0.55809109,0.55809109,0.46588351,100.73499,238.1643)" />
+      <use
+         id="use84"
+         inkscape:spray-origin="#path5"
+         xlink:href="#path5"
+         transform="matrix(1.1753875,0.57269181,-0.57269181,1.1753875,-54.892755,142.39616)" />
+      <use
+         id="use85"
+         inkscape:spray-origin="#ellipse30"
+         xlink:href="#ellipse30"
+         transform="matrix(-0.0120984,1.2185553,-1.2185553,-0.0120984,67.79061,112.76818)" />
+      <use
+         id="use86"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(0.93348016,-0.34499343,0.34499343,0.93348016,42.425827,259.52654)" />
+      <use
+         id="use87"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(1.3118231,0.3962146,-0.3962146,1.3118231,7.2555314,199.4654)" />
+      <use
+         id="use88"
+         inkscape:spray-origin="#path5"
+         xlink:href="#path5"
+         transform="matrix(-0.51321145,-0.005962,0.005962,-0.51321145,207.50038,21.724698)" />
+      <use
+         id="use89"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(1.2863906,-0.13405126,0.13405126,1.2863906,133.35889,149.28715)" />
+      <use
+         id="use90"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(-1.3319711,0.66092218,-0.66092218,-1.3319711,192.95425,-71.503443)" />
+      <use
+         id="use91"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(0.66574648,0.14132487,-0.14132487,0.66574648,156.98248,122.31307)" />
+      <use
+         id="use92"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(-0.71900665,1.0537659,-1.0537659,-0.71900665,192.04956,14.881823)" />
+      <use
+         id="use93"
+         inkscape:spray-origin="#ellipse29"
+         xlink:href="#ellipse29"
+         transform="matrix(-0.54564373,-0.74346121,0.74346121,-0.54564373,280.38176,150.79774)" />
+      <use
+         id="use94"
+         inkscape:spray-origin="#path3"
+         xlink:href="#path3"
+         transform="matrix(0.40777636,0.45116762,-0.45116762,0.40777636,138.52698,152.87588)" />
+      <use
+         id="use95"
+         inkscape:spray-origin="#ellipse30"
+         xlink:href="#ellipse30"
+         transform="matrix(-0.42768663,1.4358383,-1.4358383,-0.42768663,123.95559,84.122896)" />
+    </g>
+  </g>
+</svg>
