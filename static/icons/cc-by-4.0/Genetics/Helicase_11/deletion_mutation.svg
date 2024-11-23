@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="73.613686mm"
+   height="31.112991mm"
+   viewBox="0 0 73.613686 31.112991"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-14.914817"
+       originy="-54.062011"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+    <inkscape:page
+       x="0"
+       y="0"
+       width="73.613686"
+       height="31.112991"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker29"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path29" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="none">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-14.914816,-54.062012)">
+    <g
+       id="g29">
+      <path
+         style="fill:#006680;stroke:#000000;stroke-width:0.56456;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow);paint-order:stroke fill markers"
+         d="M 15.197098,62.000976 H 85.000001"
+         id="path17" />
+      <rect
+         style="font-variation-settings:normal;fill:#55d400;fill-opacity:1;fill-rule:evenodd;stroke:#225500;stroke-width:0.360693;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect17"
+         width="10.639307"
+         height="5.9893074"
+         x="19.005346"
+         y="59.005348"
+         ry="0" />
+      <rect
+         style="font-variation-settings:normal;fill:#ff8080;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect18"
+         width="5"
+         height="5.9999995"
+         x="30"
+         y="59"
+         ry="0" />
+      <rect
+         style="font-variation-settings:normal;fill:#80e5ff;fill-opacity:1;fill-rule:evenodd;stroke:#00ccff;stroke-width:0.35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect19"
+         width="10"
+         height="6"
+         x="35.349998"
+         y="59"
+         ry="1.296997e-07" />
+      <rect
+         style="font-variation-settings:normal;fill:#ff80b2;fill-opacity:1;fill-rule:evenodd;stroke:#ff0066;stroke-width:0.35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect20"
+         width="5"
+         height="5.9999995"
+         x="74.784554"
+         y="59.000977"
+         ry="0" />
+      <path
+         style="fill:#006680;stroke:#000000;stroke-width:0.56456;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow);paint-order:stroke fill markers"
+         d="M 15.197098,82.000976 H 85.000001"
+         id="path20" />
+      <rect
+         style="font-variation-settings:normal;fill:#55d400;fill-opacity:1;fill-rule:evenodd;stroke:#225500;stroke-width:0.363514;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect21"
+         width="10.811486"
+         height="5.986486"
+         x="19.006758"
+         y="79.00676"
+         ry="0" />
+      <rect
+         style="font-variation-settings:normal;fill:#80e5ff;fill-opacity:1;fill-rule:evenodd;stroke:#00ccff;stroke-width:0.35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect23"
+         width="10"
+         height="6"
+         x="30"
+         y="79" />
+      <rect
+         style="font-variation-settings:normal;fill:#ff80b2;fill-opacity:1;fill-rule:evenodd;stroke:#ff0066;stroke-width:0.35;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect24"
+         width="5"
+         height="5.9999995"
+         x="75"
+         y="79" />
+      <path
+         style="fill:#333333;stroke:#1a1a1a;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.25, 1;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker29);paint-order:stroke fill markers"
+         d="M 30,65 V 77.000001"
+         id="path24"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-size:3px;font-family:'Kunstler Script';-inkscape-font-specification:'Kunstler Script';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ff80b2;stroke:none;stroke-width:0.349999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         x="20"
+         y="56"
+         id="text27"><tspan
+           sodipodi:role="line"
+           id="tspan27"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3px;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT';fill:#000000;stroke:none;stroke-width:0.35"
+           x="20"
+           y="56">Wild</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3px;font-family:'Kunstler Script';-inkscape-font-specification:'Kunstler Script';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ff80b2;stroke:none;stroke-width:0.349999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         x="18.941666"
+         y="76"
+         id="text28"><tspan
+           sodipodi:role="line"
+           id="tspan28"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3px;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT';fill:#000000;stroke:none;stroke-width:0.35"
+           x="18.941666"
+           y="76">Mutation</tspan></text>
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#333333;fill-opacity:1;stroke:#1a1a1a;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.25, 1;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+         d="M 35.000001,64.999999 30,79 v 0"
+         id="path28" />
+    </g>
+  </g>
+</svg>
