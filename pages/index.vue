@@ -33,10 +33,13 @@
             v-model="searchQuery"
             :dark-mode="darkMode"
             :clipboard="clipboard"
+            :category="category"
             :categories="categories"
             :clipboard-allowed="clipboardAllowed"
-            :category="category"
+            :license="license"
+            :licenses="licenses"
             @category="categorySelected"
+            @license="licenseSelected"
             @toggleDark="toggleDarkMode"
             @toggleClipboard="toggleClipboard"
           />
@@ -215,7 +218,13 @@ export default {
         ? categoryCounts[category] + 1
         : 1
     }
-    return { icons, categories, categoryCounts, authors }
+
+    const licenses = [
+      'All_licenses',
+      ...[...new Set(icons.map((icon) => icon.license).filter(Boolean))].sort(),
+    ]
+
+    return { icons, categories, categoryCounts, authors, licenses }
   },
   data() {
     return {
@@ -287,6 +296,7 @@ export default {
       name: '',
       searchQuery: null,
       category: 'All_icons',
+      license: 'All_licenses',
       loading: false,
       size: 24,
       enough: false,
@@ -324,16 +334,24 @@ export default {
         showSurvey: this.banneropen,
       }
     },
+    licensedIcons() {
+      if (this.license !== 'All_licenses') {
+        return this.categorizedIcons.filter(
+          (item) => item.license === this.license
+        )
+      }
+      return this.categorizedIcons
+    },
     filteredIcons() {
       if (this.searchQuery) {
-        return this.categorizedIcons.filter((item) => {
+        return this.licensedIcons.filter((item) => {
           return this.searchQuery
             .toLowerCase()
             .split(' ')
             .every((v) => item.name.toLowerCase().includes(v))
         })
       } else {
-        return this.categorizedIcons
+        return this.licensedIcons
       }
     },
     paginatedIcons() {
@@ -409,6 +427,10 @@ export default {
     },
     categorySelected(val) {
       this.category = val
+      this.size = 24
+    },
+    licenseSelected(val) {
+      this.license = val
       this.size = 24
     },
     toggleBanner() {
