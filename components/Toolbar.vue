@@ -69,7 +69,7 @@
               />
               <select-license
                 :licenses="licenses"
-                :selected-license="license"
+                :selected-licenses="license"
                 @license="licenseSelected"
               />
               <div id="clipboardDownload">
@@ -208,7 +208,12 @@ export default {
         return []
       },
     },
-    license: { type: String, default: 'All_licenses' },
+    license: {
+      type: Array,
+      default() {
+        return []
+      },
+    },
     licenses: {
       type: Array,
       default() {

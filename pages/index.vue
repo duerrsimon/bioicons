@@ -296,7 +296,7 @@ export default {
       name: '',
       searchQuery: null,
       category: 'All_icons',
-      license: 'All_licenses',
+      license: [],
       loading: false,
       size: 24,
       enough: false,
@@ -335,9 +335,9 @@ export default {
       }
     },
     licensedIcons() {
-      if (this.license !== 'All_licenses') {
-        return this.categorizedIcons.filter(
-          (item) => item.license === this.license
+      if (this.license.length > 0) {
+        return this.categorizedIcons.filter((item) =>
+          this.license.includes(item.license)
         )
       }
       return this.categorizedIcons

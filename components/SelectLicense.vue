@@ -14,14 +14,12 @@
           type="button"
           class="relative w-full bg-white dark:bg-gray-900 dark:text-gray-200 rounded pl-3 pr-10 py-2 text-left cursor-pointer focus:outline-none focus:text-green-500 sm:text-sm"
           aria-haspopup="listbox"
-          aria-expanded="true"
+          :aria-expanded="open.toString()"
           aria-labelledby="license-listbox-label"
-          @click="showSelect(!selected)"
+          @click="open = !open"
         >
           <span class="flex items-center">
-            <span class="ml-3 block whitespace-no-wrap">
-              {{ formatLicense(selectedLicense) }}</span
-            >
+            <span class="ml-3 block whitespace-no-wrap">{{ buttonLabel }}</span>
           </span>
           <span
             class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none"
@@ -43,26 +41,29 @@
           </span>
         </button>
         <ul
-          v-show="selected"
+          v-show="open"
           class="absolute mt-1 w-full bg-white dark:bg-gray-800 shadow-lg max-h-56 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm"
           style="min-width: 14rem"
           tabindex="-1"
           role="listbox"
           aria-labelledby="license-listbox-label"
-          :aria-activedescendant="
-            'license-listbox-option-' + selectedLicenseIndex
-          "
+          aria-multiselectable="true"
         >
           <li
-            v-for="(lic, i) in licenses"
-            :id="'license-listbox-option-' + i"
+            v-for="lic in licenses"
             :key="lic"
-            :class="{ 'font-bold': selectedLicense == lic }"
-            class="cursor-pointer text-gray-700 dark:text-gray-100 hover:text-white hover:bg-green-500 cursor-default select-none relative py-2 pl-3 pr-9"
+            class="cursor-pointer text-gray-700 dark:text-gray-100 hover:text-white hover:bg-green-500 select-none relative py-2 pl-3 pr-9"
+            :class="{ 'font-bold': isSelected(lic) }"
             role="option"
-            @click="select(lic, i)"
+            :aria-selected="isSelected(lic).toString()"
+            @click="toggle(lic)"
           >
             <div class="flex items-center">
+              <input
+                type="checkbox"
+                :checked="isSelected(lic)"
+                class="mr-2 pointer-events-none"
+              />
               <span class="ml-3 block whitespace-no-wrap">
                 {{ formatLicense(lic) }}
               </span>
@@ -77,7 +78,12 @@
 <script>
 export default {
   props: {
-    selectedLicense: { type: String, default: 'All_licenses' },
+    selectedLicenses: {
+      type: Array,
+      default() {
+        return []
+      },
+    },
     licenses: {
       type: Array,
       default() {
@@ -87,14 +93,18 @@ export default {
   },
   data() {
     return {
-      selected: false,
-      selectedLicenseIndex: 0,
+      open: false,
     }
   },
-  methods: {
-    showSelect(value) {
-      this.selected = value
+  computed: {
+    buttonLabel() {
+      if (this.selectedLicenses.length === 0) return 'All licenses'
+      if (this.selectedLicenses.length === 1)
+        return this.formatLicense(this.selectedLicenses[0])
+      return `${this.selectedLicenses.length} licenses`
     },
+  },
+  methods: {
     formatLicense(value) {
       if (value === 'All_licenses') {
         return 'All licenses'
@@ -108,10 +118,23 @@ export default {
       if (byMatch) return `CC BY ${byMatch[1].toUpperCase()}`
       return value
     },
-    select(lic, i) {
-      this.selectedLicenseIndex = i
-      this.$emit('license', lic)
-      this.selected = false
+    isSelected(lic) {
+      if (lic === 'All_licenses') return this.selectedLicenses.length === 0
+      return this.selectedLicenses.includes(lic)
+    },
+    toggle(lic) {
+      if (lic === 'All_licenses') {
+        this.$emit('license', [])
+        return
+      }
+      const current = [...this.selectedLicenses]
+      const idx = current.indexOf(lic)
+      if (idx === -1) {
+        current.push(lic)
+      } else {
+        current.splice(idx, 1)
+      }
+      this.$emit('license', current)
     },
   },
 }
