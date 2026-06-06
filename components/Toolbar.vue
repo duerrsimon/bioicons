@@ -67,6 +67,11 @@
                 :selected-cat="category"
                 @category="categorySelected"
               />
+              <select-license
+                :licenses="licenses"
+                :selected-license="license"
+                @license="licenseSelected"
+              />
               <div id="clipboardDownload">
                 <div
                   v-if="clipboardAllowed"
@@ -189,14 +194,22 @@
 
 <script>
 import SelectCategories from '../components/SelectCategories.vue'
+import SelectLicense from '../components/SelectLicense.vue'
 
 export default {
-  components: { SelectCategories },
+  components: { SelectCategories, SelectLicense },
   props: {
     darkMode: { type: Boolean, default: false },
     value: { type: String, default: '' },
     category: { type: String, default: 'All_icons' },
     categories: {
+      type: Array,
+      default() {
+        return []
+      },
+    },
+    license: { type: String, default: 'All_licenses' },
+    licenses: {
       type: Array,
       default() {
         return []
@@ -256,6 +269,9 @@ export default {
     },
     categorySelected(cat) {
       this.$emit('category', cat)
+    },
+    licenseSelected(lic) {
+      this.$emit('license', lic)
     },
   },
 }
