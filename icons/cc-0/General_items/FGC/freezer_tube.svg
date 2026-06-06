@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.57 51.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9f6f8;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        stroke: #58595b;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-4 {
+        stroke-width: .2px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: .1px;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #e5f4f8;
+        stroke: #99c3e8;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-4" d="M13.04,50.17c-1.2.5-3.4,1.24-6.25,1.24-1.32,0-3.65-.16-6.25-1.24V9.83h12.5v40.34Z"/>
+  <g>
+    <path class="cls-3" d="M12.2,31.02v13.56c0,.55-.23,1.08-.64,1.46l-3.77,3.49c-.57.53-1.44.53-2.01,0l-3.84-3.5c-.41-.38-.65-.91-.65-1.47v-13.54"/>
+    <ellipse class="cls-3" cx="6.75" cy="31.02" rx="5.45" ry="1.05"/>
+  </g>
+  <path class="cls-2" d="M11.56,46.03l-3.77,3.49c-.57.53-1.44.53-2.01,0l-3.84-3.5c-.41-.38-.65-.91-.65-1.47V10.45h10.91v34.13c0,.55-.23,1.08-.64,1.46Z"/>
+  <g>
+    <path class="cls-1" d="M13.47,9.83c0,.6-2.99,1.08-6.68,1.08S.1,10.43.1,9.83"/>
+    <polyline class="cls-1" points=".1 9.83 .1 1.19 13.47 1.19 13.47 9.83"/>
+    <line class="cls-2" x1="1.18" y1="1.78" x2="1.18" y2="10.45"/>
+    <line class="cls-2" x1="1.86" y1="1.92" x2="1.86" y2="10.44"/>
+    <line class="cls-2" x1="2.86" y1="2.12" x2="2.86" y2="10.64"/>
+    <line class="cls-2" x1="4.07" y1="2.13" x2="4.07" y2="10.78"/>
+    <line class="cls-2" x1="6.79" y1="2.31" x2="6.79" y2="10.83"/>
+    <path class="cls-1" d="M13.47,1.19c0,.6-2.99,1.09-6.68,1.09S.1,1.79.1,1.19,3.1.1,6.79.1s6.68.49,6.68,1.09Z"/>
+    <line class="cls-2" x1=".69" y1="1.58" x2=".69" y2="10.24"/>
+    <line class="cls-2" x1="5.41" y1="2.24" x2="5.41" y2="10.91"/>
+    <line class="cls-2" x1=".38" y1="1.5" x2=".38" y2="10.17"/>
+    <line class="cls-2" x1="12.38" y1="1.76" x2="12.38" y2="10.42"/>
+    <line class="cls-2" x1="11.7" y1="1.9" x2="11.7" y2="10.42"/>
+    <line class="cls-2" x1="10.7" y1="2.1" x2="10.7" y2="10.62"/>
+    <line class="cls-2" x1="9.5" y1="2.11" x2="9.5" y2="10.76"/>
+    <line class="cls-2" x1="12.87" y1="1.55" x2="12.87" y2="10.22"/>
+    <line class="cls-2" x1="8.15" y1="2.22" x2="8.15" y2="10.88"/>
+    <line class="cls-2" x1="13.19" y1="1.48" x2="13.19" y2="10.14"/>
+  </g>
+</svg>
