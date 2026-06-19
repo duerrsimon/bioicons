@@ -8,7 +8,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
-    "lint": "yarn lint:js"
+    "lint": "yarn lint:js",
+    "optimize:svg": "svgo --config svgo.config.mjs"
   },
   "dependencies": {
     "@forked-prs/nuxt-infinite-scroll-module": "^1.0.2",
@@ -33,6 +34,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.7.0",
     "postcss": "^8.2.8",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "svgo": "^3.2.0"
   }
 }
