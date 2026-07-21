@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 385.7 355.21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6fd3f2;
+      }
+
+      .cls-2 {
+        stroke: #fff568;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 38px;
+      }
+
+      .cls-6 {
+        fill: #231f20;
+        font-family: Arial-BoldMT, Arial;
+        font-size: 26px;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        stroke: #ff7b89;
+      }
+
+      .cls-4 {
+        stroke: #ff9d5b;
+      }
+
+      .cls-7 {
+        fill: #ff9d5b;
+      }
+
+      .cls-8 {
+        fill: #ff7b89;
+      }
+
+      .cls-9 {
+        fill: #fff568;
+      }
+
+      .cls-5 {
+        stroke: #6fd3f2;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-3" d="M44.71,177.61c0-65.52,53.93-119.85,124.52-129.89"/>
+    <polygon class="cls-8" points="157.81 0 192.85 46.05 166.33 97.48 166.01 97.51 157.49 .03 157.81 0"/>
+  </g>
+  <g>
+    <path class="cls-5" d="M192.85,309.16c-72.76,0-133.27-46.58-145.77-108"/>
+    <polygon class="cls-1" points="0 214.35 44.71 177.61 97.09 202.18 97.13 202.5 .04 214.66 0 214.35"/>
+  </g>
+  <g>
+    <path class="cls-2" d="M340.99,177.61c0,65.52-53.93,119.85-124.52,129.89"/>
+    <polygon class="cls-9" points="227.89 355.21 192.85 309.16 219.37 257.73 219.69 257.71 228.2 355.19 227.89 355.21"/>
+  </g>
+  <g>
+    <path class="cls-4" d="M192.85,46.05c72.76,0,133.27,46.58,145.77,108"/>
+    <polygon class="cls-7" points="385.7 140.87 340.99 177.61 288.61 153.03 288.57 152.71 385.66 140.55 385.7 140.87"/>
+  </g>
+  <text class="cls-6" transform="translate(59.03 115.78)"><tspan x="0" y="0">M</tspan></text>
+  <text class="cls-6" transform="translate(272.49 86.44)"><tspan x="0" y="0">G1</tspan></text>
+  <text class="cls-6" transform="translate(307.57 257.26)"><tspan x="0" y="0">S</tspan></text>
+  <text class="cls-6" transform="translate(86.34 291)"><tspan x="0" y="0">G2</tspan></text>
+</svg>
