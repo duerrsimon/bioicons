@@ -697,9 +697,26 @@ function initFromURL() {
   }
 }
 
+// Same "N icons" counter as the bioicons.com start page; silently skipped
+// where the icon index is not available (local dev, other hosts).
+function loadIconCount() {
+  fetch('/icons/icons.json')
+    .then((r) => (r.ok ? r.json() : null))
+    .then((icons) => {
+      if (!Array.isArray(icons) || !icons.length) return;
+      $('icon-count-n').textContent = icons.length;
+      $('icon-count').hidden = false;
+    })
+    .catch(() => {});
+}
+
 setupControls();
 setupViewer();
 setupExport();
 updateLegend();
 initFromURL();
+if (!document.body.classList.contains('embed')) {
+  if ('requestIdleCallback' in window) requestIdleCallback(loadIconCount, { timeout: 3000 });
+  else setTimeout(loadIconCount, 1500);
+}
 window.addEventListener('resize', () => { if (state.scene && !$('preview').hidden) schedulePreview(); });
