@@ -180,7 +180,7 @@
           </a>
           <div class="w-3 h-3"></div>
           <a
-            href="https://bioicons.com/pdb2vector"
+            href="https://bioicons.com/pdb2vector/"
             class="block"
           >
             <div

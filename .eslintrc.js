@@ -13,6 +13,8 @@ module.exports = {
     'plugin:nuxt/recommended',
   ],
   plugins: [],
+  // PDB2Vector is a self-contained static app with its own style
+  ignorePatterns: ['static/pdb2vector/'],
   // add your custom rules here
   rules: {},
 }
